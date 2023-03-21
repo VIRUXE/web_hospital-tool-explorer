@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>File Explorer</title>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="breadcrumbs"></div>
+		<!-- Just in case the user has JavaScript disabled, or there is an error loading the file structure -->
+		<div id="file-list">Ocorreu um erro ao carregar a lista de ficheiros. Verifique a consola e se a estrutura de ficheiros está correta.</div>
+		<div id="image-modal">
+			<div id="modal-container">
+				<img id="modal-image" src="" alt="Image preview" />
+				<div id="modal-caption"></div>
+			</div>
+			<span id="close-modal">&times;</span>
+		</div>
+		<button id="back-button">Retroceder</button>
+		<script src="file_structure.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
