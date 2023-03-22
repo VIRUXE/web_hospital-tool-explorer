@@ -146,3 +146,19 @@ function closeModal() {
 document.getElementById('close-modal').onclick = () => {
     closeModal();
 };
+
+// A way to reset the local storage might be useful if the user changes the root path of the images
+let clickCounter = 0;
+document.addEventListener('click', () => {
+    clickCounter++;
+
+    if (clickCounter === 3) {
+        localStorage.removeItem('medImagesRootPath');
+        location.reload();
+    } else {
+        // Reset click counter after 1 second to prevent accidental localStorage clearing
+        setTimeout(() => {
+            clickCounter = 0;
+        }, 1000);
+    }
+});
