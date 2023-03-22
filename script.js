@@ -27,9 +27,9 @@ if (!rootPath) {
 
 function getFileStructureFromPath(folderPath) {
     let folder = file_structure;
-    for (const pathPart of folderPath) {
+    for (const pathPart of folderPath)
         folder = folder?.[pathPart];
-    }
+
     return folder;
 }
 
@@ -61,9 +61,7 @@ function displayItems(folderPath = []) {
             legend.classList.add('legend');
             fileElement.appendChild(legend);
 
-            fileElement.onclick = () => {
-                openImageModal(`${rootPath}/${folderPath.join('/')}/${imageName}`, displayName);
-            };
+            fileElement.onclick = () => { openImageModal(`${rootPath}/${folderPath.join('/')}/${imageName}`, displayName); };
             fileList.appendChild(fileElement);
         }
     }
@@ -76,9 +74,7 @@ function displayItems(folderPath = []) {
         // Display a Title if it exists, otherwise use the folder name, converted to Title Case
         itemElement.innerHTML = folder[itemName].title || itemName.replace(/_/g, ' ').replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
         itemElement.classList.add('folder');
-        itemElement.onclick = () => {
-            displayItems([...folderPath, itemName]);
-        };
+        itemElement.onclick = () => { displayItems([...folderPath, itemName]); };
         fileList.appendChild(itemElement);
     }
 }
@@ -97,7 +93,7 @@ function displayBreadcrumbs(folderPath) {
         const folderTitle = getFileStructureFromPath(path)?.title || name; // Display the folder title if it exists, otherwise use the folder name
 
         pathElement.innerHTML = folderTitle;
-        pathElement.onclick = () => { displayItems(path); };
+        pathElement.onclick   = () => { displayItems(path); };
 
         // Add an arrow between breadcrumbs, except for the last one
         if (idx < pathElements.length - 1) pathElement.innerHTML += ' → ';
@@ -109,9 +105,7 @@ function displayBreadcrumbs(folderPath) {
 
     if (pathElements.length > 1) {
         backButton.style.display = 'block';
-        backButton.onclick = () => {
-            displayItems(pathElements[pathElements.length - 2].path);
-        };
+        backButton.onclick = () => { displayItems(pathElements[pathElements.length - 2].path); };
     } else {
         backButton.style.display = 'none';
     }
@@ -142,10 +136,6 @@ function closeModal() {
         document.getElementById('image-modal').style.display = 'none';
     }, 300);
 }
-
-document.getElementById('close-modal').onclick = () => {
-    closeModal();
-};
 
 // A way to reset the local storage might be useful if the user changes the root path of the images
 let clickCounter = 0;
