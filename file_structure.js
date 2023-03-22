@@ -1,31 +1,32 @@
 const file_structure = {
 	Informacoes: {
-		title: "Informa\u00e7\u00f5es",
-		"DESCONTAMINA\u00c7\u00c3O": {
-			title: "Descontamina\u00e7\u00e3o",
+		title: "Informacoes",
+		DESCONTAMINAÇÃO: {
+			title: "DESCONTAMINAÇÃO",
 			files: {
-				"Filtros Bomba Leite.jpg": "Filtros para Bomba de Leite",
-				"Kit Fisiatria.jpg"      : "Kit de Fisiatria",
-				"Sonda Temperatura.jpg"  : "Sonda de Temperatura",
+				"Filtros Bomba Leite.jpg": "Filtros Bomba Leite",
+				"Kit Fisiatria.jpg": "Kit Fisiatria",
+				"Sonda Temperatura.jpg": "Sonda Temperatura",
 			},
 		},
 	},
 	MaterialAmbulatorio: {
-		title: "Material Ambulatório",
+		title: "Material Ambulatorio",
 		files: {
 			"MICRO MOTOR.JPG": "Micro Motor",
 		},
 		ANESTESIA: {
-			title: "Anestesia",
+			title: "ANESTESIA",
 			files: {
-				"Mascaras Faciais.JPG": "Máscaras Faciais",
+				"Mascaras Faciais.JPG": "Mascaras Faciais",
 				"Sonda Temperatura Amb..jpg": "Sonda Temperatura Amb.",
-				"Tabuleiro Cateter Central Amb. (2 un).jpg": "Tabuleiro Cateter Central Amb. (2 un)",
+				"Tabuleiro Cateter Central Amb. (2 un).jpg":
+					"Tabuleiro Cateter Central Amb. (2 Un)",
 				"Tabuleiro Raqui.jpg": "Tabuleiro Raqui",
 			},
 		},
 		CABOS: {
-			title: "Cabos",
+			title: "CABOS",
 			files: {
 				"Cabo Oftalmologia Amb..jpg": "Cabo Oftalmologia Amb.",
 				"Cabo Versapoint Amb..jpg": "Cabo Versapoint Amb.",
@@ -33,31 +34,32 @@ const file_structure = {
 			},
 		},
 		"CIRURGIA GERAL": {
-			title: "Cirurgia Geral",
+			title: "CIRURGIA GERAL",
 			"CAIXA CIR. VASCULAR": {
-				title: "Caixa Cir. Vascular",
+				title: "CAIXA CIR. VASCULAR",
 				files: {
-					"Cx Cirg. Vascular Amb. 25 pecas.jpg": "Cx Cirg. Vascular Amb. 25 peças",
+					"Cx Cirg. Vascular Amb. 25 pecas.jpg":
+						"Cx Cirg. Vascular Amb. 25 Pecas",
 				},
 			},
 			"CAIXA LAPAROTOMIA": {
-				title: "Caixa Laparotomia",
+				title: "CAIXA LAPAROTOMIA",
 				files: {
 					"Cx Laparotomia Amb..jpg": "Cx Laparotomia Amb.",
-					"Cx nova Amb..jpg": "Cx nova Amb.",
-					"Laparotomia Amb. 60 p\u00e7s.jpg": "Laparotomia Amb. 60 pçs",
+					"Cx nova Amb..jpg": "Cx Nova Amb.",
+					"Laparotomia Amb. 60 pçs.jpg": "Laparotomia Amb. 60 Pçs",
 				},
 			},
 			"FININHO 7 CX": {
-				title: "Fininho 7 Cx",
+				title: "FININHO 7 CX",
 				files: {
-					"CX. FININHO  37 P\u00e7.jpg": "CX. FININHO  37 Pç",
+					"CX. FININHO  37 Pç.jpg": "Cx. Fininho  37 Pç",
 				},
 			},
 			LAPAROSCOPIA: {
-				title: "Laparoscopia",
+				title: "LAPAROSCOPIA",
 				files: {
-					"Tab. Laparoscopia 6p\u00e7.jpg": "Tab. Laparoscopia 6pç",
+					"Tab. Laparoscopia 6pç.jpg": "Tab. Laparoscopia 6Pç",
 				},
 			},
 			"Material Solto": {
@@ -67,985 +69,1506 @@ const file_structure = {
 				},
 			},
 			"PARTES MOLES 8 CX": {
-				title: "Partes Moles 8 Cx",
+				title: "PARTES MOLES 8 CX",
 				files: {
 					"Cx Partes Moles.JPG": "Cx Partes Moles",
 				},
 			},
 			"PEQ. CIRURGIA 6 CX": {
-				title: "Peq. Cirurgia 6 Cx",
+				title: "PEQ. CIRURGIA 6 CX",
 				files: {
 					"Cx Peq. Cirg..JPG": "Cx Peq. Cirg.",
 				},
 			},
-		},		
+		},
 		"CIRURGIA PLASTICA": {
-			title: "Cirurgia Pl\u00e1stica",
-			files: [
-				"BASE METALICA 3 UNIDADES.jpg",
-				"DERM\u00c1TOMO ANTIGO + LAMINAS.jpg",
-				"DERM\u00c1TOMO EL\u00c9CTRICO.jpg",
-				"EXPANSOR DE PELE.jpg",
-				"Kit Plastica Amb. (10p\u00e7).jpg",
-				"QUADRADO ALUMINIO.jpg",
-			],
+			title: "CIRURGIA PLASTICA",
+			files: {
+				"BASE METALICA 3 UNIDADES.jpg": "Base Metalica 3 Unidades",
+				"DERMÁTOMO ANTIGO + LAMINAS.jpg": "Dermátomo Antigo + Laminas",
+				"DERMÁTOMO ELÉCTRICO.jpg": "Dermátomo Eléctrico",
+				"EXPANSOR DE PELE.jpg": "Expansor De Pele",
+				"Kit Plastica Amb. (10pç).jpg": "Kit Plastica Amb. (10Pç)",
+				"QUADRADO ALUMINIO.jpg": "Quadrado Aluminio",
+			},
 		},
 		GINECOLOGIA: {
-			files: ["Cabo Versapoint Amb..jpg"],
+			title: "GINECOLOGIA",
+			files: {
+				"Cabo Versapoint Amb..jpg": "Cabo Versapoint Amb.",
+			},
 		},
 		OFTALMOLOGIA: {
-			files: ["Pe\u00e7as Dr Gabriel.jpg"],
+			title: "OFTALMOLOGIA",
+			files: {
+				"Peças Dr Gabriel.jpg": "Peças Dr Gabriel",
+			},
 			"Cabos Oftalmologia": {
-				files: [
-					"Cabo Ofalmologia Amarelo.jpg",
-					"Cabo Oftalmologia Amb..jpg",
-					"Cabo Oftalmologia Vermelho.jpg",
-				],
+				title: "Cabos Oftalmologia",
+				files: {
+					"Cabo Ofalmologia Amarelo.jpg": "Cabo Ofalmologia Amarelo",
+					"Cabo Oftalmologia Amb..jpg": "Cabo Oftalmologia Amb.",
+					"Cabo Oftalmologia Vermelho.jpg": "Cabo Oftalmologia Vermelho",
+				},
 			},
 			CATARATA: {
-				files: [
-					"Catarata.JPG",
-					"Disposi\u00e7ao na cx com agulha e chave.jpg",
-					"Disposi\u00e7ao na cx.jpg",
-				],
-				"FOTOS PE\u00c7AS": {
-					files: [
-						"DIBX3314.JPG",
-						"NFQA0327.JPG",
-						"Pin\u00e7a.JPG",
-						"WGIK4750.JPG",
-						"WXMO0652.JPG",
-					],
+				title: "CATARATA",
+				files: {
+					"Catarata.JPG": "Catarata",
+					"Disposiçao na cx com agulha e chave.jpg":
+						"Disposiçao Na Cx Com Agulha E Chave",
+					"Disposiçao na cx.jpg": "Disposiçao Na Cx",
+				},
+				"FOTOS PEÇAS": {
+					title: "FOTOS PEÇAS",
+					files: {
+						"DIBX3314.JPG": "Dibx3314",
+						"NFQA0327.JPG": "Nfqa0327",
+						"Pinça.JPG": "Pinça",
+						"WGIK4750.JPG": "Wgik4750",
+						"WXMO0652.JPG": "Wxmo0652",
+					},
 				},
 			},
 			"CATARATA COMPLICADA": {
-				files: ["Catarata complicada.JPG"],
+				title: "CATARATA COMPLICADA",
+				files: {
+					"Catarata complicada.JPG": "Catarata Complicada",
+				},
 			},
 			"CHALAZIO E PEQ. CIRURGIA": {
-				files: [
-					"Chalazio n\u00ba4 (Laranja-branco quadrados).jpg",
-					"Chal\u00e1zio verde-preto.jpg",
-					"Cx Chal\u00e1zio 5 azul-preta.JPG",
-					"Cx Chal\u00e1zio 6 laranja-preto.jpg",
-					"Cx Peq. Cirurgia  1 vermelha-preta.JPG",
-					"Cx Peq. Cirurgia  2 amarela-preta.JPG",
-					"Cx Peq. Cirurgia 3 rosa-preta.jpg",
-				],
+				title: "CHALAZIO E PEQ. CIRURGIA",
+				files: {
+					"Chalazio nº4 (Laranja-branco quadrados).jpg":
+						"Chalazio Nº4 (Laranja-Branco Quadrados)",
+					"Chalázio verde-preto.jpg": "Chalázio Verde-Preto",
+					"Cx Chalázio 5 azul-preta.JPG": "Cx Chalázio 5 Azul-Preta",
+					"Cx Chalázio 6 laranja-preto.jpg": "Cx Chalázio 6 Laranja-Preto",
+					"Cx Peq. Cirurgia  1 vermelha-preta.JPG":
+						"Cx Peq. Cirurgia  1 Vermelha-Preta",
+					"Cx Peq. Cirurgia  2 amarela-preta.JPG":
+						"Cx Peq. Cirurgia  2 Amarela-Preta",
+					"Cx Peq. Cirurgia 3 rosa-preta.jpg": "Cx Peq. Cirurgia 3 Rosa-Preta",
+				},
 			},
-			"ENUCLEA\u00c7\u00c3O": {
-				files: ["Cx. Enuclea\u00e7ao.jpg"],
+			ENUCLEAÇÃO: {
+				title: "ENUCLEAÇÃO",
+				files: {
+					"Cx. Enucleaçao.jpg": "Cx. Enucleaçao",
+				},
 			},
 			GLAUCOMA: {
-				files: [
-					"Glaucoma n\u00ba1 (Preto e branco Riscas).jpg",
-					"Glaucoma n\u00ba2 (verde laranja azul).jpg",
-					"Glaucoma n\u00ba3 (Preto e branco Quadrados).jpg",
-				],
+				title: "GLAUCOMA",
+				files: {
+					"Glaucoma nº1 (Preto e branco Riscas).jpg":
+						"Glaucoma Nº1 (Preto E Branco Riscas)",
+					"Glaucoma nº2 (verde laranja azul).jpg":
+						"Glaucoma Nº2 (Verde Laranja Azul)",
+					"Glaucoma nº3 (Preto e branco Quadrados).jpg":
+						"Glaucoma Nº3 (Preto E Branco Quadrados)",
+				},
 			},
 			"Material solto": {
-				files: [
-					"Afastador palpebral.jpg",
-					"Aplicador Lente (2 un).jpg",
-					"Cabo Crioterapia.jpg",
-					"Cabo Ofalmologia Amarelo.jpg",
-					"Cabo Oftalmologia Vermelho.jpg",
-					"Capsulo Rexis (anda em cx).jpg",
-					"Choper (Anda em cx).jpg",
-					"Cx Lentes.jpg",
-					"Cx medidor.jpg",
-					"Medidor tensao ocular.jpg",
-					"Oftalmologia Amb.jpg",
-					"Pin\u00e7a disse\u00e7ao.jpg",
-					"Pin\u00e7a Oft.jpg",
-					"Porta Agulhas.jpg",
-					"Punhos Oftalmologia.jpg",
-				],
+				title: "Material solto",
+				files: {
+					"Afastador palpebral.jpg": "Afastador Palpebral",
+					"Aplicador Lente (2 un).jpg": "Aplicador Lente (2 Un)",
+					"Cabo Crioterapia.jpg": "Cabo Crioterapia",
+					"Cabo Ofalmologia Amarelo.jpg": "Cabo Ofalmologia Amarelo",
+					"Cabo Oftalmologia Vermelho.jpg": "Cabo Oftalmologia Vermelho",
+					"Capsulo Rexis (anda em cx).jpg": "Capsulo Rexis (Anda Em Cx)",
+					"Choper (Anda em cx).jpg": "Choper (Anda Em Cx)",
+					"Cx Lentes.jpg": "Cx Lentes",
+					"Cx medidor.jpg": "Cx Medidor",
+					"Medidor tensao ocular.jpg": "Medidor Tensao Ocular",
+					"Oftalmologia Amb.jpg": "Oftalmologia Amb",
+					"Pinça disseçao.jpg": "Pinça Disseçao",
+					"Pinça Oft.jpg": "Pinça Oft",
+					"Porta Agulhas.jpg": "Porta Agulhas",
+					"Punhos Oftalmologia.jpg": "Punhos Oftalmologia",
+				},
 			},
 			"OFT vermelho-amarelo-verde": {
-				files: [
-					"CX OFT vermelho-amarelo-verde.jpg",
-					"OFT vermelho-amarelo-verde.jpg",
-					"vermelho-amarelo-verde.jpg",
-				],
+				title: "OFT vermelho-amarelo-verde",
+				files: {
+					"CX OFT vermelho-amarelo-verde.jpg": "Cx Oft Vermelho-Amarelo-Verde",
+					"OFT vermelho-amarelo-verde.jpg": "Oft Vermelho-Amarelo-Verde",
+					"vermelho-amarelo-verde.jpg": "Vermelho-Amarelo-Verde",
+				},
 			},
-			"Pter\u00edgio": {
-				files: [
-					"Disposi\u00e7\u00e3o do material na caixa.jpg",
-					"Pterigio n\u00ba1 (Laranja).jpg",
-					"Pterigio n\u00ba2 (Lil\u00e1s).jpg",
-					"Pterigio n\u00ba3 (verde e preto).jpg",
-					"Pterigio n\u00ba4 (Rosa).jpg",
-				],
+			Pterígio: {
+				title: "Pterígio",
+				files: {
+					"Disposição do material na caixa.jpg":
+						"Disposição Do Material Na Caixa",
+					"Pterigio nº1 (Laranja).jpg": "Pterigio Nº1 (Laranja)",
+					"Pterigio nº2 (Lilás).jpg": "Pterigio Nº2 (Lilás)",
+					"Pterigio nº3 (verde e preto).jpg": "Pterigio Nº3 (Verde E Preto)",
+					"Pterigio nº4 (Rosa).jpg": "Pterigio Nº4 (Rosa)",
+				},
 			},
 			VITRECTOMIA: {
-				files: [
-					"Cabo vitrectomia com chave e agulhas.jpg",
-					"Cx Vitrectomia 2 vermelho-preto.jpg",
-					"Vitrectomia 3 (azul-claro).jpg",
-				],
+				title: "VITRECTOMIA",
+				files: {
+					"Cabo vitrectomia com chave e agulhas.jpg":
+						"Cabo Vitrectomia Com Chave E Agulhas",
+					"Cx Vitrectomia 2 vermelho-preto.jpg":
+						"Cx Vitrectomia 2 Vermelho-Preto",
+					"Vitrectomia 3 (azul-claro).jpg": "Vitrectomia 3 (Azul-Claro)",
+				},
 			},
 		},
 		ORL: {
+			title: "ORL",
 			"AVA 4cx": {
-				files: ["AVA n\u00ba1.JPG", "AVA n\u00ba4.jpg"],
+				title: "AVA 4cx",
+				files: {
+					"AVA nº1.JPG": "Ava Nº1",
+					"AVA nº4.jpg": "Ava Nº4",
+				},
 			},
 			DACRIO: {
-				files: ["723f9df7-9910-4970-9e95-da2ee374f8d9.jpg"],
+				title: "DACRIO",
+				files: {
+					"723f9df7-9910-4970-9e95-da2ee374f8d9.jpg":
+						"723F9Df7-9910-4970-9E95-Da2Ee374F8D9",
+				},
 			},
 			MIRINGOTOMIA: {
-				files: ["Meringotomia 1.JPG"],
+				title: "MIRINGOTOMIA",
+				files: {
+					"Meringotomia 1.JPG": "Meringotomia 1",
+				},
 			},
 		},
 		ORTOPEDIA: {
-			files: ["Motor Ambulat\u00f3rio.jpg"],
+			title: "ORTOPEDIA",
+			files: {
+				"Motor Ambulatório.jpg": "Motor Ambulatório",
+			},
 			"ARTROSCOPIA 4 cx": {
+				title: "ARTROSCOPIA 4 cx",
 				"ARTROSCOPIA 1": {
-					files: ["Artroscopia 1.JPG"],
+					title: "ARTROSCOPIA 1",
+					files: {
+						"Artroscopia 1.JPG": "Artroscopia 1",
+					},
 				},
 				"ARTROSCOPIA 2": {
-					files: ["Artroscopia n\u00ba2 (sem capsula).jpg"],
+					title: "ARTROSCOPIA 2",
+					files: {
+						"Artroscopia nº2 (sem capsula).jpg":
+							"Artroscopia Nº2 (Sem Capsula)",
+					},
 				},
 				"ARTROSCOPIA 3 E 4": {
-					files: ["ARTROSCOPIA AMBULATORIO 3 E 4.jpg"],
+					title: "ARTROSCOPIA 3 E 4",
+					files: {
+						"ARTROSCOPIA AMBULATORIO 3 E 4.jpg":
+							"Artroscopia Ambulatorio 3 E 4",
+					},
 				},
 			},
 			JOANETES: {
-				files: ["Cx Joanetes mini invasiva.JPG"],
+				title: "JOANETES",
+				files: {
+					"Cx Joanetes mini invasiva.JPG": "Cx Joanetes Mini Invasiva",
+				},
 			},
 			"Material Solto": {
-				files: [
-					"Afastdor Hohmann.jpg",
-					"Alicate B.A..jpg",
-					"Anusc\u00f3pio B.A..jpg",
-					"Corta arame B.A..jpg",
-					"Osteotomo B.A..jpg",
-					"Pin\u00e7a Goiva B.A..jpg",
-				],
+				title: "Material Solto",
+				files: {
+					"Afastdor Hohmann.jpg": "Afastdor Hohmann",
+					"Alicate B.A..jpg": "Alicate B.A.",
+					"Anuscópio B.A..jpg": "Anuscópio B.A.",
+					"Corta arame B.A..jpg": "Corta Arame B.A.",
+					"Osteotomo B.A..jpg": "Osteotomo B.A.",
+					"Pinça Goiva B.A..jpg": "Pinça Goiva B.A.",
+				},
 			},
 			"PARAFUSOS HERBET": {
-				files: ["Cx 1.JPG", "Cx 2.JPG"],
+				title: "PARAFUSOS HERBET",
+				files: {
+					"Cx 1.JPG": "Cx 1",
+					"Cx 2.JPG": "Cx 2",
+				},
 			},
 		},
 	},
 	MaterialBlocoCentral: {
 		title: "Material Bloco Central",
 		ANESTESIA: {
-			files: [
-				"Cabo Temperatura Anestesia.jpg",
-				"Cabo Temperatura.jpg",
-				"Cateter Central B.O..jpg",
-				"Sonda Temperatura B.O..jpg",
-				"Sonda Temperatura Esofagica.jpg",
-			],
+			title: "ANESTESIA",
+			files: {
+				"Cabo Temperatura Anestesia.jpg": "Cabo Temperatura Anestesia",
+				"Cabo Temperatura.jpg": "Cabo Temperatura",
+				"Cateter Central B.O..jpg": "Cateter Central B.O.",
+				"Sonda Temperatura B.O..jpg": "Sonda Temperatura B.O.",
+				"Sonda Temperatura Esofagica.jpg": "Sonda Temperatura Esofagica",
+			},
 		},
 		CABOS: {
-			files: [
-				"CABO BIPOLAR UROLOGIA.JPG",
-				"Cabo bisturi B.O..jpg",
-				"Cabo Monopolar LES (ORL).jpg",
-				"CABO MONOPOLAR UROLOGIA.jpg",
-				"Cabo Temperatura 2 Anestesia.jpg",
-				"Cabo Temperatura Anestesia.jpg",
-				"Cabo Ultracision Azul.jpg",
-				"Sonda Temperatura Esofagica.jpg",
-			],
+			title: "CABOS",
+			files: {
+				"CABO BIPOLAR UROLOGIA.JPG": "Cabo Bipolar Urologia",
+				"Cabo bisturi B.O..jpg": "Cabo Bisturi B.O.",
+				"Cabo Monopolar LES (ORL).jpg": "Cabo Monopolar Les (Orl)",
+				"CABO MONOPOLAR UROLOGIA.jpg": "Cabo Monopolar Urologia",
+				"Cabo Temperatura 2 Anestesia.jpg": "Cabo Temperatura 2 Anestesia",
+				"Cabo Temperatura Anestesia.jpg": "Cabo Temperatura Anestesia",
+				"Cabo Ultracision Azul.jpg": "Cabo Ultracision Azul",
+				"Sonda Temperatura Esofagica.jpg": "Sonda Temperatura Esofagica",
+			},
 		},
 		"CIRURGIA GERAL": {
-			files: ["Kit Amputa\u00e7\u00e3o.jpg"],
+			title: "CIRURGIA GERAL",
+			files: {
+				"Kit Amputação.jpg": "Kit Amputação",
+			},
 			AFASTADORES: {
-				files: ["Afastador Goldfinger.jpg"],
-				"AFASTADOR BOOK WALTER": {
-					files: ["Afastador Pe\u00e7as.jpg", "CX AFASTADOR BOOK WALTER.jpg"],
+				title: "AFASTADORES",
+				files: {
+					"Afastador Goldfinger.jpg": "Afastador Goldfinger",
 				},
-				"Afastador valva em cora\u00e7ao": {
-					files: [
-						"Afastador cesto.jpg",
-						"Afastador valva em cora\u00e7ao (Bexiga).jpg",
-					],
+				"AFASTADOR BOOK WALTER": {
+					title: "AFASTADOR BOOK WALTER",
+					files: {
+						"Afastador Peças.jpg": "Afastador Peças",
+						"CX AFASTADOR BOOK WALTER.jpg": "Cx Afastador Book Walter",
+					},
+				},
+				"Afastador valva em coraçao": {
+					title: "Afastador valva em coraçao",
+					files: {
+						"Afastador cesto.jpg": "Afastador Cesto",
+						"Afastador valva em coraçao (Bexiga).jpg":
+							"Afastador Valva Em Coraçao (Bexiga)",
+					},
 				},
 			},
 			"CIRURGIA ABDOMINAL 6cx": {
-				files: ["Cx Abdominal 66 p\u00e7.jpg"],
+				title: "CIRURGIA ABDOMINAL 6cx",
+				files: {
+					"Cx Abdominal 66 pç.jpg": "Cx Abdominal 66 Pç",
+				},
 			},
 			"CIRURGIA VASCULAR 1cx": {
-				files: ["Cx Vascular.png"],
+				title: "CIRURGIA VASCULAR 1cx",
+				files: {
+					"Cx Vascular.png": "Cx Vascular",
+				},
 			},
 			COLEDOSCOPIO: {
-				files: ["TOLF5233.JPG"],
+				title: "COLEDOSCOPIO",
+				files: {
+					"TOLF5233.JPG": "Tolf5233",
+				},
 			},
 			"CX.MAMA 4cx": {
-				files: [
-					"Cx Mama n\u00ba 1,2 e 3.png",
-					"CX MAMA N\u00ba 4 cesto de rede.jpg",
-				],
+				title: "CX.MAMA 4cx",
+				files: {
+					"Cx Mama nº 1,2 e 3.png": "Cx Mama Nº 1,2 E 3",
+					"CX MAMA Nº 4 cesto de rede.jpg": "Cx Mama Nº 4 Cesto De Rede",
+				},
 			},
 			"FIMOSE 2cx": {
-				files: ["Cx Fimose.JPG"],
+				title: "FIMOSE 2cx",
+				files: {
+					"Cx Fimose.JPG": "Cx Fimose",
+				},
 			},
 			"FININHO 3cx": {
-				files: ["Cx Fininho 39 p\u00e7.JPG"],
+				title: "FININHO 3cx",
+				files: {
+					"Cx Fininho 39 pç.JPG": "Cx Fininho 39 Pç",
+				},
 			},
 			"MAT. SOLTO CIR": {
-				title: "Material Solto Cirurgia Geral",
-				files: [
-					"Afastador Goldfinger.jpg",
-					"Agulha Veress Obesos.jpg",
-					"ALLIS.JPG",
-					"Aplicador Clip Lap. (Horizon).jpg",
-					"Aplicador Clip Mama (Horizon).jpg",
-					"Aplicador clips mama (Aesculap).jpg",
-					"Cabo Ultracision Azul.jpg",
-					"Exploradores col\u00e9doco.jpg",
-					"Mini Gosset.jpg",
-					"Pin\u00e7a de calculos 1.jpg",
-					"Pin\u00e7a de calculos 2.jpg",
-					"PIN\u00c7A LIGASURE (2 UN).jpg",
-					"Porta agulhas Esquerdo.jpg",
-					"Porta Agulhas Lap..jpg",
-					"Porta Agulhas Laparoscopia.jpg",
-					"Porta agulhas.jpg",
-					"SATINSKY.JPG",
-				],
+				title: "MAT. SOLTO CIR",
+				files: {
+					"Afastador Goldfinger.jpg": "Afastador Goldfinger",
+					"Agulha Veress Obesos.jpg": "Agulha Veress Obesos",
+					"ALLIS.JPG": "Allis",
+					"Aplicador Clip Lap. (Horizon).jpg": "Aplicador Clip Lap. (Horizon)",
+					"Aplicador Clip Mama (Horizon).jpg": "Aplicador Clip Mama (Horizon)",
+					"Aplicador clips mama (Aesculap).jpg":
+						"Aplicador Clips Mama (Aesculap)",
+					"Cabo Ultracision Azul.jpg": "Cabo Ultracision Azul",
+					"Exploradores colédoco.jpg": "Exploradores Colédoco",
+					"Mini Gosset.jpg": "Mini Gosset",
+					"Pinça de calculos 1.jpg": "Pinça De Calculos 1",
+					"Pinça de calculos 2.jpg": "Pinça De Calculos 2",
+					"PINÇA LIGASURE (2 UN).jpg": "Pinça Ligasure (2 Un)",
+					"Porta agulhas Esquerdo.jpg": "Porta Agulhas Esquerdo",
+					"Porta Agulhas Lap..jpg": "Porta Agulhas Lap.",
+					"Porta Agulhas Laparoscopia.jpg": "Porta Agulhas Laparoscopia",
+					"Porta agulhas.jpg": "Porta Agulhas",
+					"SATINSKY.JPG": "Satinsky",
+				},
 			},
-			"PARTES MOLES CIR 12cx   (cx.n\u00ba13 tem 2 allis grandes)": {
-				files: ["Cx Partes Moles Cir 30p.JPG"],
+			"PARTES MOLES CIR 12cx   (cx.nº13 tem 2 allis grandes)": {
+				title: "PARTES MOLES CIR 12cx   (cx.nº13 tem 2 allis grandes)",
+				files: {
+					"Cx Partes Moles Cir 30p.JPG": "Cx Partes Moles Cir 30P",
+				},
 			},
 			"TAB. VESICULA LAPAROSCOPICA  5cx": {
-				files: [
-					"cx 1.jpg",
-					"Material vesicula lap. 8 p\u00e7.JPG",
-					"Tabuleiro vesicula lap 8 p\u00e7.JPG",
-				],
+				title: "TAB. VESICULA LAPAROSCOPICA  5cx",
+				files: {
+					"cx 1.jpg": "Cx 1",
+					"Material vesicula lap. 8 pç.JPG": "Material Vesicula Lap. 8 Pç",
+					"Tabuleiro vesicula lap 8 pç.JPG": "Tabuleiro Vesicula Lap 8 Pç",
+				},
 			},
 			"TABULEIRO LONGO": {
-				files: ["Tabuleiro Mat. Longo 11p\u00e7.jpg"],
+				title: "TABULEIRO LONGO",
+				files: {
+					"Tabuleiro Mat. Longo 11pç.jpg": "Tabuleiro Mat. Longo 11Pç",
+				},
 			},
 			"TIROIDE 4cx": {
-				files: [
-					"Cx Tiroide  n\u00ba 1,2,3 (37 p\u00e7).JPG",
-					"Cx Tiroide n\u00ba4 (37 p\u00e7).JPG",
-				],
+				title: "TIROIDE 4cx",
+				files: {
+					"Cx Tiroide  nº 1,2,3 (37 pç).JPG": "Cx Tiroide  Nº 1,2,3 (37 Pç)",
+					"Cx Tiroide nº4 (37 pç).JPG": "Cx Tiroide Nº4 (37 Pç)",
+				},
 			},
 			"TORAX 1cx": {
-				files: ["Cx Torax 12 pc retirada uma rugina de costelas.JPG"],
+				title: "TORAX 1cx",
+				files: {
+					"Cx Torax 12 pc retirada uma rugina de costelas.JPG":
+						"Cx Torax 12 Pc Retirada Uma Rugina De Costelas",
+				},
 			},
 		},
 		"CIRURGIA PLASTICA": {
-			files: [
-				"BASE METALICA 3 UNIDADES.jpg",
-				"DERMATOMO ELECTRICO.jpg",
-				"DERM\u00c1TOMO ANTIGO + LAMINAS.jpg",
-				"PLACA ALUMINIO (Solta).jpg",
-			],
+			title: "CIRURGIA PLASTICA",
+			files: {
+				"BASE METALICA 3 UNIDADES.jpg": "Base Metalica 3 Unidades",
+				"DERMATOMO ELECTRICO.jpg": "Dermatomo Electrico",
+				"DERMÁTOMO ANTIGO + LAMINAS.jpg": "Dermátomo Antigo + Laminas",
+				"PLACA ALUMINIO (Solta).jpg": "Placa Aluminio (Solta)",
+			},
 			"Expansor de pele": {
-				files: ["EXPANSOR DE PELE montado.jpg", "Expansor de pele.jpg"],
+				title: "Expansor de pele",
+				files: {
+					"EXPANSOR DE PELE montado.jpg": "Expansor De Pele Montado",
+					"Expansor de pele.jpg": "Expansor De Pele",
+				},
 			},
 		},
 		GINECOLOGIA: {
-			files: ["Mat. Histerectomia Laparoscopia.jpg"],
+			title: "GINECOLOGIA",
+			files: {
+				"Mat. Histerectomia Laparoscopia.jpg":
+					"Mat. Histerectomia Laparoscopia",
+			},
 			"COVAC 1cx": {
-				files: ["UQZU8101.JPG"],
+				title: "COVAC 1cx",
+				files: {
+					"UQZU8101.JPG": "Uqzu8101",
+				},
 			},
 			"CURETAGEM 2cx": {
-				files: ["Curetagem 39 e 40.JPG"],
+				title: "CURETAGEM 2cx",
+				files: {
+					"Curetagem 39 e 40.JPG": "Curetagem 39 E 40",
+				},
 			},
 			"HISTERECTOMIA  4 cx": {
-				files: ["CX HISTERECTOMIA.JPG", "MAT.SOLTO.JPG"],
+				title: "HISTERECTOMIA  4 cx",
+				files: {
+					"CX HISTERECTOMIA.JPG": "Cx Histerectomia",
+					"MAT.SOLTO.JPG": "Mat.Solto",
+				},
 			},
 			"HISTEROSCOPIO 3cx": {
-				files: ["Histeroscopia 4 p\u00e7.jpg"],
+				title: "HISTEROSCOPIO 3cx",
+				files: {
+					"Histeroscopia 4 pç.jpg": "Histeroscopia 4 Pç",
+				},
 			},
-			"LAQUEA\u00c7\u00c3O LAPAROSPCOPIA. 3cx": {
-				files: [
-					"LAQUEA\u00c7\u00c3O 1.JPG",
-					"LAQUEA\u00c7\u00c3O 2.JPG",
-					"LAQUEA\u00c7\u00c3O HISTERECTOMIA.jpg",
-				],
+			"LAQUEAÇÃO LAPAROSPCOPIA. 3cx": {
+				title: "LAQUEAÇÃO LAPAROSPCOPIA. 3cx",
+				files: {
+					"LAQUEAÇÃO 1.JPG": "Laqueação 1",
+					"LAQUEAÇÃO 2.JPG": "Laqueação 2",
+					"LAQUEAÇÃO HISTERECTOMIA.jpg": "Laqueação Histerectomia",
+				},
 			},
 			"MANIPULADOR UTERINO 2cx": {
-				files: ["VUOO1515.JPG", "WASP6597.JPG"],
+				title: "MANIPULADOR UTERINO 2cx",
+				files: {
+					"VUOO1515.JPG": "Vuoo1515",
+					"WASP6597.JPG": "Wasp6597",
+				},
 			},
 			"MAT. SOLTO": {
-				files: [
-					"Corpo estranho-biopsia.JPG",
-					"Especulo ginecologia.jpg",
-					"Jacar\u00e9.JPG",
-					"Pin\u00e7a biopsia concha 3 uni..jpg",
-					"Pin\u00e7a corpo estranho-biopsia 3 uni..jpg",
-					"Pin\u00e7a Jacar\u00e9 Ginec. 3 uni.jpg",
-					"Tesoura Histeroscopia 3 uni..jpg",
-				],
+				title: "MAT. SOLTO",
+				files: {
+					"Corpo estranho-biopsia.JPG": "Corpo Estranho-Biopsia",
+					"Especulo ginecologia.jpg": "Especulo Ginecologia",
+					"Jacaré.JPG": "Jacaré",
+					"Pinça biopsia concha 3 uni..jpg": "Pinça Biopsia Concha 3 Uni.",
+					"Pinça corpo estranho-biopsia 3 uni..jpg":
+						"Pinça Corpo Estranho-Biopsia 3 Uni.",
+					"Pinça Jacaré Ginec. 3 uni.jpg": "Pinça Jacaré Ginec. 3 Uni",
+					"Tesoura Histeroscopia 3 uni..jpg": "Tesoura Histeroscopia 3 Uni.",
+				},
 			},
 			"RESSETOSCOPIA 2cx": {
-				files: ["Cx ressetoscopio.jpg", "Pe\u00e7as ressetoscopio 7un.jpg"],
+				title: "RESSETOSCOPIA 2cx",
+				files: {
+					"Cx ressetoscopio.jpg": "Cx Ressetoscopio",
+					"Peças ressetoscopio 7un.jpg": "Peças Ressetoscopio 7Un",
+				},
 			},
 		},
 		OBSTETRICIA: {
+			title: "OBSTETRICIA",
 			"CESARIANA 6 cx": {
-				files: ["CESARIANA.JPG"],
+				title: "CESARIANA 6 cx",
+				files: {
+					"CESARIANA.JPG": "Cesariana",
+				},
 			},
 			"CURETAGEM 2cx": {
-				files: ["CX N 37.JPG", "CX N 38.JPG"],
+				title: "CURETAGEM 2cx",
+				files: {
+					"CX N 37.JPG": "Cx N 37",
+					"CX N 38.JPG": "Cx N 38",
+				},
 			},
 		},
 		OFTALMOLOGIA: {
-			files: ["CATARATA.JPG"],
+			title: "OFTALMOLOGIA",
+			files: {
+				"CATARATA.JPG": "Catarata",
+			},
 		},
 		ORTOPEDIA: {
-			files: ["Fixador Pelvico C-Clamp.jpg"],
+			title: "ORTOPEDIA",
+			files: {
+				"Fixador Pelvico C-Clamp.jpg": "Fixador Pelvico C-Clamp",
+			},
 			"A--REPOSICAO DE MATERIAL-INFORMACOES": {
-				files: ["Peq Frag. n\u00ba2.jpg"],
+				title: "A--REPOSICAO DE MATERIAL-INFORMACOES",
+				files: {
+					"Peq Frag. nº2.jpg": "Peq Frag. Nº2",
+				},
 				"Axsos Femur": {
-					files: ["Parafusos Femur 5.0.jpg", "Placas Femur.jpg"],
+					title: "Axsos Femur",
+					files: {
+						"Parafusos Femur 5.0.jpg": "Parafusos Femur 5.0",
+						"Placas Femur.jpg": "Placas Femur",
+					},
 				},
 				"Axsos Tibia": {
+					title: "Axsos Tibia",
 					"Parafusos 4.0": {
-						files: ["Parafusos 4.0.jpg"],
+						title: "Parafusos 4.0",
+						files: {
+							"Parafusos 4.0.jpg": "Parafusos 4.0",
+						},
 					},
 					"Placas Distal Anterolateral": {
-						files: ["3-10-2022.jpg"],
+						title: "Placas Distal Anterolateral",
+						files: {
+							"3-10-2022.jpg": "3-10-2022",
+						},
 					},
 					"Placas Distal Medial": {
-						files: ["3-10-2022.jpg"],
+						title: "Placas Distal Medial",
+						files: {
+							"3-10-2022.jpg": "3-10-2022",
+						},
 					},
 					"Placas Proximal Lateral": {
-						files: ["3-10-2022.jpg"],
+						title: "Placas Proximal Lateral",
+						files: {
+							"3-10-2022.jpg": "3-10-2022",
+						},
 					},
 				},
 				"Radio distal Variax II": {
-					files: ["2.4.jpg", "2.7.jpg", "PLACAS.jpg"],
+					title: "Radio distal Variax II",
+					files: {
+						"2.4.jpg": "2.4",
+						"2.7.jpg": "2.7",
+						"PLACAS.jpg": "Placas",
+					},
 				},
 			},
 			AFASTADORES: {
-				files: ["Afastadores Trident.jpg", "Afastadores.jpg"],
+				title: "AFASTADORES",
+				files: {
+					"Afastadores Trident.jpg": "Afastadores Trident",
+					"Afastadores.jpg": "Afastadores",
+				},
 			},
 			ARTROSCOPIA: {
-				files: ["Artroscopia Pequenas Articula\u00e7oes.jpg"],
+				title: "ARTROSCOPIA",
+				files: {
+					"Artroscopia Pequenas Articulaçoes.jpg":
+						"Artroscopia Pequenas Articulaçoes",
+				},
 				"ARTROSCOPIA 2 CX": {
-					files: [
-						"Cx n\u00ba 1 Artroscopia.jpg",
-						"Cx n\u00ba 2 Artroscopia.jpg",
-						"Pin\u00e7as Artroscopia n\u00ba 2.jpg",
-					],
+					title: "ARTROSCOPIA 2 CX",
+					files: {
+						"Cx nº 1 Artroscopia.jpg": "Cx Nº 1 Artroscopia",
+						"Cx nº 2 Artroscopia.jpg": "Cx Nº 2 Artroscopia",
+						"Pinças Artroscopia nº 2.jpg": "Pinças Artroscopia Nº 2",
+					},
 				},
 				"ARTROSCOPIA OMBRO": {
-					files: ["Artroscopia Omb. (2).JPG", "Artroscopia Omb..JPG"],
+					title: "ARTROSCOPIA OMBRO",
+					files: {
+						"Artroscopia Omb. (2).JPG": "Artroscopia Omb. (2)",
+						"Artroscopia Omb..JPG": "Artroscopia Omb.",
+					},
 				},
 			},
 			"BASES ORTOPEDIA": {
+				title: "BASES ORTOPEDIA",
 				"BASE A.O": {
-					files: ["Base A.O..jpg", "Tab. Inferior.jpg", "Tab. Superior.jpg"],
+					title: "BASE A.O",
+					files: {
+						"Base A.O..jpg": "Base A.O.",
+						"Tab. Inferior.jpg": "Tab. Inferior",
+						"Tab. Superior.jpg": "Tab. Superior",
+					},
 				},
 				"BASE DO JOELHO": {
-					files: ["Base do Joelho.JPG"],
+					title: "BASE DO JOELHO",
+					files: {
+						"Base do Joelho.JPG": "Base Do Joelho",
+					},
 				},
 				"BASE ENCAVILHAMENTO AZUL": {
-					files: ["MOIX2246.JPG", "NVDA8920.JPG"],
+					title: "BASE ENCAVILHAMENTO AZUL",
+					files: {
+						"MOIX2246.JPG": "Moix2246",
+						"NVDA8920.JPG": "Nvda8920",
+					},
 				},
 				"BASE IQL": {
-					files: ["BASE IQL.JPG", "MEDIDOR IQL.JPG"],
+					title: "BASE IQL",
+					files: {
+						"BASE IQL.JPG": "Base Iql",
+						"MEDIDOR IQL.JPG": "Medidor Iql",
+					},
 				},
 				"BASE OMBRO": {
-					files: ["Base Ombro.jpg", "Cx Base Ombro.jpg"],
+					title: "BASE OMBRO",
+					files: {
+						"Base Ombro.jpg": "Base Ombro",
+						"Cx Base Ombro.jpg": "Cx Base Ombro",
+					},
 				},
 				"BASE OSTEOSSINTESE 2cx": {
-					files: ["AMARELA.JPG", "LARANJA.JPG"],
+					title: "BASE OSTEOSSINTESE 2cx",
+					files: {
+						"AMARELA.JPG": "Amarela",
+						"LARANJA.JPG": "Laranja",
+					},
 				},
 				"BASE RECURSO": {
-					files: ["d5fa1ab3-9b54-4ba2-87f6-2cf465e2dd60.jpg"],
+					title: "BASE RECURSO",
+					files: {
+						"d5fa1ab3-9b54-4ba2-87f6-2cf465e2dd60.jpg":
+							"D5Fa1Ab3-9B54-4Ba2-87F6-2Cf465E2Dd60",
+					},
 				},
 				"BASES DA ANCA": {
-					files: ["Base Anca n\u00ba 1,2 e 3.jpg"],
+					title: "BASES DA ANCA",
+					files: {
+						"Base Anca nº 1,2 e 3.jpg": "Base Anca Nº 1,2 E 3",
+					},
 				},
 			},
 			"CAIXA ENCAVILHAMENTO A.O": {
-				files: ["Encavilhamento A.O..JPG"],
+				title: "CAIXA ENCAVILHAMENTO A.O",
+				files: {
+					"Encavilhamento A.O..JPG": "Encavilhamento A.O.",
+				},
 			},
 			COLUNA: {
-				files: ["Cortador Barras Depuey.jpg"],
-				"CESTO KERRISON\u00b4S": {
-					files: ["Kerrinson\u00b4s.jpg"],
+				title: "COLUNA",
+				files: {
+					"Cortador Barras Depuey.jpg": "Cortador Barras Depuey",
+				},
+				"CESTO KERRISON´S": {
+					title: "CESTO KERRISON´S",
+					files: {
+						"Kerrinson´s.jpg": "Kerrinson´S",
+					},
 				},
 				"COLUNA CERVICAL": {
-					files: [
-						"Afastador Cervical (casper).jpg",
-						"AFASTADORES RETRATORES CERVICAL.jpg",
-						"BASE COLUNA CERVICAL.jpg",
-						"CAGE CERVICAL CERVIOS.jpg",
-					],
+					title: "COLUNA CERVICAL",
+					files: {
+						"Afastador Cervical (casper).jpg": "Afastador Cervical (Casper)",
+						"AFASTADORES RETRATORES CERVICAL.jpg":
+							"Afastadores Retratores Cervical",
+						"BASE COLUNA CERVICAL.jpg": "Base Coluna Cervical",
+						"CAGE CERVICAL CERVIOS.jpg": "Cage Cervical Cervios",
+					},
 					"INSTRUMENTAL  SKYLINE": {
-						files: [
-							"Skyline Tab. Inferior.jpg",
-							"Skyline Tab. interm\u00e9dio.jpg",
-							"Skyline Tab. Superior.jpg",
-						],
+						title: "INSTRUMENTAL  SKYLINE",
+						files: {
+							"Skyline Tab. Inferior.jpg": "Skyline Tab. Inferior",
+							"Skyline Tab. intermédio.jpg": "Skyline Tab. Intermédio",
+							"Skyline Tab. Superior.jpg": "Skyline Tab. Superior",
+						},
 					},
 				},
 				"COLUNA LOMBAR": {
-					files: [
-						"Afastador Coluna Lombar (Cesto).JPG",
-						"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg",
-						"PARTES MOLES COLUNA LOMBAR 24 pe\u00e7as.jpg",
-					],
-					"COLUNA LOMBAR (Discectomia ANTIGA)": {
-						files: [
-							"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg",
-							"PARTES MOLES COLUNA LOMBAR 24 pe\u00e7as.jpg",
-						],
+					title: "COLUNA LOMBAR",
+					files: {
+						"Afastador Coluna Lombar (Cesto).JPG":
+							"Afastador Coluna Lombar (Cesto)",
+						"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg":
+							"Coluna Lombar Antiga (Discectomia)",
+						"PARTES MOLES COLUNA LOMBAR 24 peças.jpg":
+							"Partes Moles Coluna Lombar 24 Peças",
 					},
-					"COLUNA LOMBAR (Discectomia NOVA) 33p\u00e7": {
-						files: ["DISCECTOMIA NOVA.jpg"],
+					"COLUNA LOMBAR (Discectomia ANTIGA)": {
+						title: "COLUNA LOMBAR (Discectomia ANTIGA)",
+						files: {
+							"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg":
+								"Coluna Lombar Antiga (Discectomia)",
+							"PARTES MOLES COLUNA LOMBAR 24 peças.jpg":
+								"Partes Moles Coluna Lombar 24 Peças",
+						},
+					},
+					"COLUNA LOMBAR (Discectomia NOVA) 33pç": {
+						title: "COLUNA LOMBAR (Discectomia NOVA) 33pç",
+						files: {
+							"DISCECTOMIA NOVA.jpg": "Discectomia Nova",
+						},
 					},
 					"INST. JOHNSON EXPEDIUM VITAL 4 CX": {
-						files: [
-							"Chaves Identicas.jpg",
-							"Cross link  (\u00e1 entrada).jpg",
-							"CX n\u00ba 1 Solto.jpg",
-							"CX n\u00ba 1.jpg",
-							"CX n\u00ba 2 Chave.jpg",
-							"CX n\u00ba 2.jpg",
-							"CX n\u00ba 3 Implantes.jpg",
-							"CX n\u00ba 3 Parafusos.jpg",
-							"CX n\u00ba 4 Cross Link.jpg",
-							"Expedium Colocar Cx 2.jpg",
-						],
+						title: "INST. JOHNSON EXPEDIUM VITAL 4 CX",
+						files: {
+							"Chaves Identicas.jpg": "Chaves Identicas",
+							"Cross link  (á entrada).jpg": "Cross Link  (Á Entrada)",
+							"CX nº 1 Solto.jpg": "Cx Nº 1 Solto",
+							"CX nº 1.jpg": "Cx Nº 1",
+							"CX nº 2 Chave.jpg": "Cx Nº 2 Chave",
+							"CX nº 2.jpg": "Cx Nº 2",
+							"CX nº 3 Implantes.jpg": "Cx Nº 3 Implantes",
+							"CX nº 3 Parafusos.jpg": "Cx Nº 3 Parafusos",
+							"CX nº 4 Cross Link.jpg": "Cx Nº 4 Cross Link",
+							"Expedium Colocar Cx 2.jpg": "Expedium Colocar Cx 2",
+						},
 						"COLUNA LOMBAR": {
-							files: [
-								"Afastador Coluna Lombar (Cesto).JPG",
-								"Afastador Gelpi (Soltos).JPG",
-								"PIN\u00c7AS DE DISCO (3 Un).jpg",
-							],
+							title: "COLUNA LOMBAR",
+							files: {
+								"Afastador Coluna Lombar (Cesto).JPG":
+									"Afastador Coluna Lombar (Cesto)",
+								"Afastador Gelpi (Soltos).JPG": "Afastador Gelpi (Soltos)",
+								"PINÇAS DE DISCO (3 Un).jpg": "Pinças De Disco (3 Un)",
+							},
 							"BASE DE APOIO COLUNA INSTRUMENTADA": {
-								files: ["Base apoio coluna instrumentada.JPG"],
+								title: "BASE DE APOIO COLUNA INSTRUMENTADA",
+								files: {
+									"Base apoio coluna instrumentada.JPG":
+										"Base Apoio Coluna Instrumentada",
+								},
 							},
 							"COLUNA ANTIGA": {
-								files: [
-									"CX COLUNA ANTIGA FITA VER. E AMARELA (ACTUAL).jpg",
-									"CX COLUNA ANTIGA.JPG",
-								],
+								title: "COLUNA ANTIGA",
+								files: {
+									"CX COLUNA ANTIGA FITA VER. E AMARELA (ACTUAL).jpg":
+										"Cx Coluna Antiga Fita Ver. E Amarela (Actual)",
+									"CX COLUNA ANTIGA.JPG": "Cx Coluna Antiga",
+								},
 							},
 							"COLUNA LOMBAR (Discectomia ANTIGA)": {
-								files: [
-									"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg",
-									"PARTES MOLES COLUNA LOMBAR 24 pe\u00e7as.jpg",
-								],
+								title: "COLUNA LOMBAR (Discectomia ANTIGA)",
+								files: {
+									"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg":
+										"Coluna Lombar Antiga (Discectomia)",
+									"PARTES MOLES COLUNA LOMBAR 24 peças.jpg":
+										"Partes Moles Coluna Lombar 24 Peças",
+								},
 							},
-							"COLUNA LOMBAR (Discectomia NOVA) 33p\u00e7": {
-								files: ["DISCECTOMIA NOVA.jpg"],
+							"COLUNA LOMBAR (Discectomia NOVA) 33pç": {
+								title: "COLUNA LOMBAR (Discectomia NOVA) 33pç",
+								files: {
+									"DISCECTOMIA NOVA.jpg": "Discectomia Nova",
+								},
 							},
 						},
 					},
 					"INST. JOHNSON VIPER 2 (6CX)": {
-						files: [
-							"CX 1 INF..jpg",
-							"CX 1 SUP..jpg",
-							"CX 2 INF..jpg",
-							"CX 2 SUP..jpg",
-							"CX 3 Viper II Inf.jpg",
-							"CX 3 Viper II Sup..jpg",
-							"CX 4 INF.jpg",
-							"CX 4 SUP..jpg",
-							"CX 5 Apoio Viper (EXTRA).jpg",
-							"CX 6 (EXTRA).jpg",
-						],
+						title: "INST. JOHNSON VIPER 2 (6CX)",
+						files: {
+							"CX 1 INF..jpg": "Cx 1 Inf.",
+							"CX 1 SUP..jpg": "Cx 1 Sup.",
+							"CX 2 INF..jpg": "Cx 2 Inf.",
+							"CX 2 SUP..jpg": "Cx 2 Sup.",
+							"CX 3 Viper II Inf.jpg": "Cx 3 Viper Ii Inf",
+							"CX 3 Viper II Sup..jpg": "Cx 3 Viper Ii Sup.",
+							"CX 4 INF.jpg": "Cx 4 Inf",
+							"CX 4 SUP..jpg": "Cx 4 Sup.",
+							"CX 5 Apoio Viper (EXTRA).jpg": "Cx 5 Apoio Viper (Extra)",
+							"CX 6 (EXTRA).jpg": "Cx 6 (Extra)",
+						},
 					},
 					"INST. MBA FIREBIRD (8 CX)": {
-						files: [
-							"CX 1.jpg",
-							"CX 2.jpg",
-							"CX 3.jpg",
-							"CX 4.jpg",
-							"CX 5.jpg",
-							"CX 6.jpg",
-							"CX 7.jpg",
-							"CX 8.jpg",
-						],
+						title: "INST. MBA FIREBIRD (8 CX)",
+						files: {
+							"CX 1.jpg": "Cx 1",
+							"CX 2.jpg": "Cx 2",
+							"CX 3.jpg": "Cx 3",
+							"CX 4.jpg": "Cx 4",
+							"CX 5.jpg": "Cx 5",
+							"CX 6.jpg": "Cx 6",
+							"CX 7.jpg": "Cx 7",
+							"CX 8.jpg": "Cx 8",
+						},
 					},
 				},
 			},
-			"CX. CIRURGIA DA M\u00c3O": {
-				files: ["Cirurgia da m\u00e3o 20 p\u00e7.jpg"],
+			"CX. CIRURGIA DA MÃO": {
+				title: "CX. CIRURGIA DA MÃO",
+				files: {
+					"Cirurgia da mão 20 pç.jpg": "Cirurgia Da Mão 20 Pç",
+				},
 			},
 			"CX. PEQ CIR ORTOPEDIA (amarela laranja)": {
-				files: ["CX. PEQ. CIRURGIA ORT.(amarela-laranja).JPG"],
+				title: "CX. PEQ CIR ORTOPEDIA (amarela laranja)",
+				files: {
+					"CX. PEQ. CIRURGIA ORT.(amarela-laranja).JPG":
+						"Cx. Peq. Cirurgia Ort.(Amarela-Laranja)",
+				},
 			},
 			"DALL MILES (Cerclage)": {
-				files: ["CERCLAGE.JPG"],
+				title: "DALL MILES (Cerclage)",
+				files: {
+					"CERCLAGE.JPG": "Cerclage",
+				},
 			},
 			HOFFMMANNS: {
-				files: [
-					"Cesto Barras Hoffmann.jpg",
-					"Cesto CHAVES HOFFMANN.JPG",
-					"Cesto Rotulas Hoffmann.jpg",
-					"Mini Hoffmann Soltos.jpg",
-					"Mini Orthofix.jpg",
-				],
+				title: "HOFFMMANNS",
+				files: {
+					"Cesto Barras Hoffmann.jpg": "Cesto Barras Hoffmann",
+					"Cesto CHAVES HOFFMANN.JPG": "Cesto Chaves Hoffmann",
+					"Cesto Rotulas Hoffmann.jpg": "Cesto Rotulas Hoffmann",
+					"Mini Hoffmann Soltos.jpg": "Mini Hoffmann Soltos",
+					"Mini Orthofix.jpg": "Mini Orthofix",
+				},
 				"CAIXA HOFFMANN COMPLETA": {
-					files: [
-						"Broca 3.5 Colocar no tab. interm\u00e9dio.jpg",
-						"Cx Hoffmann.jpg",
-						"Tabuleiro Inferior+ pe\u00e7as extra.jpg",
-						"Tabuleiro inferior.jpg",
-						"Tabuleiro intermedio.jpg",
-						"Tabuleiro Superior.jpg",
-					],
+					title: "CAIXA HOFFMANN COMPLETA",
+					files: {
+						"Broca 3.5 Colocar no tab. intermédio.jpg":
+							"Broca 3.5 Colocar No Tab. Intermédio",
+						"Cx Hoffmann.jpg": "Cx Hoffmann",
+						"Tabuleiro Inferior+ peças extra.jpg":
+							"Tabuleiro Inferior+ Peças Extra",
+						"Tabuleiro inferior.jpg": "Tabuleiro Inferior",
+						"Tabuleiro intermedio.jpg": "Tabuleiro Intermedio",
+						"Tabuleiro Superior.jpg": "Tabuleiro Superior",
+					},
 				},
 			},
 			"INSTRUMENTAIS ORTOPEDIA": {
+				title: "INSTRUMENTAIS ORTOPEDIA",
 				BIARTICULAR: {
-					files: [
-						"Bi-articular (nova).jpg",
-						"Tab. Inferior (antiga).JPG",
-						"Tab. superior (antiga).JPG",
-					],
+					title: "BIARTICULAR",
+					files: {
+						"Bi-articular (nova).jpg": "Bi-Articular (Nova)",
+						"Tab. Inferior (antiga).JPG": "Tab. Inferior (Antiga)",
+						"Tab. superior (antiga).JPG": "Tab. Superior (Antiga)",
+					},
 				},
 				GAMMA: {
+					title: "GAMMA",
 					"GAMMA 2CX": {
-						files: ["Cx Alta.JPG", "Cx Baixa.JPG", "Tabuleiro Cx Alta.JPG"],
+						title: "GAMMA 2CX",
+						files: {
+							"Cx Alta.JPG": "Cx Alta",
+							"Cx Baixa.JPG": "Cx Baixa",
+							"Tabuleiro Cx Alta.JPG": "Tabuleiro Cx Alta",
+						},
 					},
 					"GAMMA ORIENTADOR DISTAL": {
-						files: ["Cx Orientador Distal Gamma.JPG", "Gamma Longo.jpg"],
+						title: "GAMMA ORIENTADOR DISTAL",
+						files: {
+							"Cx Orientador Distal Gamma.JPG": "Cx Orientador Distal Gamma",
+							"Gamma Longo.jpg": "Gamma Longo",
+						},
 					},
 				},
 				"INST. PT ANCA 3 un": {
-					"ACET\u00c1BULO": {
-						files: [
-							"Tabuleiro acetabulo n\u00ba 1 e 2.jpg",
-							"Tabuleiro acetabulo n\u00ba3.jpg",
-						],
+					title: "INST. PT ANCA 3 un",
+					ACETÁBULO: {
+						title: "ACETÁBULO",
+						files: {
+							"Tabuleiro acetabulo nº 1 e 2.jpg":
+								"Tabuleiro Acetabulo Nº 1 E 2",
+							"Tabuleiro acetabulo nº3.jpg": "Tabuleiro Acetabulo Nº3",
+						},
 					},
 					"HASTE FEMORAL": {
-						files: ["Haste femoral.jpg"],
+						title: "HASTE FEMORAL",
+						files: {
+							"Haste femoral.jpg": "Haste Femoral",
+						},
 					},
 				},
 				"INST. PT JOELHO Jonhson SYGMA 3 un": {
-					files: [
-						"CX 1.jpg",
-						"CX 2 a).jpg",
-						"CX 2 b) (Pe\u00e7as).jpg",
-						"Cx 2 c) cx met\u00e1lica.jpg",
-						"CX 3.jpg",
-						"CX 4.jpg",
-						"CX 5 (Pe\u00e7as).jpg",
-						"CX 5.jpg",
-						"CX 6.jpg",
-						"CX 7 (Pe\u00e7as).jpg",
-						"CX 7.jpg",
-					],
+					title: "INST. PT JOELHO Jonhson SYGMA 3 un",
+					files: {
+						"CX 1.jpg": "Cx 1",
+						"CX 2 a).jpg": "Cx 2 A)",
+						"CX 2 b) (Peças).jpg": "Cx 2 B) (Peças)",
+						"Cx 2 c) cx metálica.jpg": "Cx 2 C) Cx Metálica",
+						"CX 3.jpg": "Cx 3",
+						"CX 4.jpg": "Cx 4",
+						"CX 5 (Peças).jpg": "Cx 5 (Peças)",
+						"CX 5.jpg": "Cx 5",
+						"CX 6.jpg": "Cx 6",
+						"CX 7 (Peças).jpg": "Cx 7 (Peças)",
+						"CX 7.jpg": "Cx 7",
+					},
 				},
 				"INSTRUMENTAL AXSOS FEMUR": {
-					files: [
-						"Parafusos Axsos Femur.jpg",
-						"Tabuleiro inferior.JPG",
-						"Tabuleiro intermedio.JPG",
-						"Tabuleiro superior.JPG",
-					],
+					title: "INSTRUMENTAL AXSOS FEMUR",
+					files: {
+						"Parafusos Axsos Femur.jpg": "Parafusos Axsos Femur",
+						"Tabuleiro inferior.JPG": "Tabuleiro Inferior",
+						"Tabuleiro intermedio.JPG": "Tabuleiro Intermedio",
+						"Tabuleiro superior.JPG": "Tabuleiro Superior",
+					},
 				},
 				"INSTRUMENTAL AXSOS TIBIA E HUMERO": {
-					files: ["Tabuleiro 1.JPG", "Tabuleiro 2.JPG", "Tabuleiro 3.JPG"],
+					title: "INSTRUMENTAL AXSOS TIBIA E HUMERO",
+					files: {
+						"Tabuleiro 1.JPG": "Tabuleiro 1",
+						"Tabuleiro 2.JPG": "Tabuleiro 2",
+						"Tabuleiro 3.JPG": "Tabuleiro 3",
+					},
 				},
 				"OMEGA 3": {
-					files: ["OMEGA CX 1.jpg", "OMEGA CX 2.jpg"],
+					title: "OMEGA 3",
+					files: {
+						"OMEGA CX 1.jpg": "Omega Cx 1",
+						"OMEGA CX 2.jpg": "Omega Cx 2",
+					},
 				},
 				"PARAFUSOS CANULADOS": {
-					files: ["Parafusos Canulados 5.0.jpg"],
+					title: "PARAFUSOS CANULADOS",
+					files: {
+						"Parafusos Canulados 5.0.jpg": "Parafusos Canulados 5.0",
+					},
 					"PARAFUSOS CANULADOS 3.5": {
-						files: [
-							"PARAFUSOS CANULADOS 3.5.jpg",
-							"TAB. 1.jpg",
-							"TAB. 2.jpg",
-							"TAB. PARAFUSOS 3.5.jpg",
-						],
+						title: "PARAFUSOS CANULADOS 3.5",
+						files: {
+							"PARAFUSOS CANULADOS 3.5.jpg": "Parafusos Canulados 3.5",
+							"TAB. 1.jpg": "Tab. 1",
+							"TAB. 2.jpg": "Tab. 2",
+							"TAB. PARAFUSOS 3.5.jpg": "Tab. Parafusos 3.5",
+						},
 					},
 					"PARAFUSOS CANULADOS 4.0": {
-						files: [
-							"CX Parafusos Canulados 4.0.jpg",
-							"Parafusos Canulados 4.0.jpg",
-						],
+						title: "PARAFUSOS CANULADOS 4.0",
+						files: {
+							"CX Parafusos Canulados 4.0.jpg": "Cx Parafusos Canulados 4.0",
+							"Parafusos Canulados 4.0.jpg": "Parafusos Canulados 4.0",
+						},
 					},
 					"PARAFUSOS CANULADOS 6.5-8": {
-						files: [
-							"INSTRUMENTOS TABULEIRO INFERIOR.jpg",
-							"INTRUMENTOS TABULEIRO SUPERIOR.jpg",
-							"PARAFUSOS 6.5-8.jpg",
-							"TABULEIRO INFERIOR.jpg",
-							"TABULEIRO SUPERIOR.jpg",
-						],
+						title: "PARAFUSOS CANULADOS 6.5-8",
+						files: {
+							"INSTRUMENTOS TABULEIRO INFERIOR.jpg":
+								"Instrumentos Tabuleiro Inferior",
+							"INTRUMENTOS TABULEIRO SUPERIOR.jpg":
+								"Intrumentos Tabuleiro Superior",
+							"PARAFUSOS 6.5-8.jpg": "Parafusos 6.5-8",
+							"TABULEIRO INFERIOR.jpg": "Tabuleiro Inferior",
+							"TABULEIRO SUPERIOR.jpg": "Tabuleiro Superior",
+						},
 					},
 					"PARAFUSOS CANULADOS 7.3": {
-						files: [
-							"CAIXA COMPLETA.jpg",
-							"TABULEIRO INFERIOR 1.jpg",
-							"TABULEIRO INFERIOR 2.jpg",
-							"TABULEIRO SUPERIOR.jpg",
-						],
+						title: "PARAFUSOS CANULADOS 7.3",
+						files: {
+							"CAIXA COMPLETA.jpg": "Caixa Completa",
+							"TABULEIRO INFERIOR 1.jpg": "Tabuleiro Inferior 1",
+							"TABULEIRO INFERIOR 2.jpg": "Tabuleiro Inferior 2",
+							"TABULEIRO SUPERIOR.jpg": "Tabuleiro Superior",
+						},
 					},
 				},
 				"PARAFUSOS HERBERT BONECARE": {
-					files: ["Tab 1.jpg", "Tab 2.jpg", "Tab 3.jpg"],
+					title: "PARAFUSOS HERBERT BONECARE",
+					files: {
+						"Tab 1.jpg": "Tab 1",
+						"Tab 2.jpg": "Tab 2",
+						"Tab 3.jpg": "Tab 3",
+					},
 				},
 				"PEQ. FRAGMENTOS A.O": {
-					files: ["Peq. Fragmentos A.O..JPG"],
+					title: "PEQ. FRAGMENTOS A.O",
+					files: {
+						"Peq. Fragmentos A.O..JPG": "Peq. Fragmentos A.O.",
+					},
 				},
 				"PEQUENOS FRAGMENTOS STRYKER": {
-					files: ["Reposicao Parafusos.jpg"],
-					"Pequenos fragmentos n\u00ba1": {
-						files: [
-							"Cx Peq. Fragmentos Stryker a).JPG",
-							"Cx Peq. Fragmentos Stryker.JPG",
-						],
+					title: "PEQUENOS FRAGMENTOS STRYKER",
+					files: {
+						"Reposicao Parafusos.jpg": "Reposicao Parafusos",
 					},
-					"Pequenos fragmentos n\u00ba2": {
-						files: [
-							"Cx Peq. Fragmentos n\u00ba 2.jpg",
-							"Pe\u00e7as Peq. Fragmentos n\u00ba2.jpg",
-						],
+					"Pequenos fragmentos nº1": {
+						title: "Pequenos fragmentos nº1",
+						files: {
+							"Cx Peq. Fragmentos Stryker a).JPG":
+								"Cx Peq. Fragmentos Stryker A)",
+							"Cx Peq. Fragmentos Stryker.JPG": "Cx Peq. Fragmentos Stryker",
+						},
+					},
+					"Pequenos fragmentos nº2": {
+						title: "Pequenos fragmentos nº2",
+						files: {
+							"Cx Peq. Fragmentos nº 2.jpg": "Cx Peq. Fragmentos Nº 2",
+							"Peças Peq. Fragmentos nº2.jpg": "Peças Peq. Fragmentos Nº2",
+						},
 					},
 				},
 				"REVISAO PROTESE ANCA (Artur Salgado)": {
-					files: [
-						"Reamers Flexiveis Artur Salgado.jpg",
-						"Tabuleiro 1.JPG",
-						"Tabuleiro 2.JPG",
-						"Tabuleiro 3.JPG",
-						"Tabuleiro 4.JPG",
-					],
+					title: "REVISAO PROTESE ANCA (Artur Salgado)",
+					files: {
+						"Reamers Flexiveis Artur Salgado.jpg":
+							"Reamers Flexiveis Artur Salgado",
+						"Tabuleiro 1.JPG": "Tabuleiro 1",
+						"Tabuleiro 2.JPG": "Tabuleiro 2",
+						"Tabuleiro 3.JPG": "Tabuleiro 3",
+						"Tabuleiro 4.JPG": "Tabuleiro 4",
+					},
 				},
 				"T2 FEMUR": {
-					files: ["Tabuleiro 1.JPG", "Tabuleiro 2.JPG", "Tabuleiro 3.JPG"],
+					title: "T2 FEMUR",
+					files: {
+						"Tabuleiro 1.JPG": "Tabuleiro 1",
+						"Tabuleiro 2.JPG": "Tabuleiro 2",
+						"Tabuleiro 3.JPG": "Tabuleiro 3",
+					},
 				},
 				"T2 HUMERAL": {
-					files: ["Tab. 1.jpg", "Tab. 2.jpg", "Tab. 3.jpg"],
+					title: "T2 HUMERAL",
+					files: {
+						"Tab. 1.jpg": "Tab. 1",
+						"Tab. 2.jpg": "Tab. 2",
+						"Tab. 3.jpg": "Tab. 3",
+					},
 				},
 				"T2 HUMERAL Proximal": {
-					files: ["T2 Humeral Proximal.jpg"],
+					title: "T2 HUMERAL Proximal",
+					files: {
+						"T2 Humeral Proximal.jpg": "T2 Humeral Proximal",
+					},
 				},
 				"T2 Pediatrico": {
-					files: ["T2 Pediatrico.jpg"],
+					title: "T2 Pediatrico",
+					files: {
+						"T2 Pediatrico.jpg": "T2 Pediatrico",
+					},
 				},
 				"T2 SCN": {
-					files: ["SCN.jpg"],
+					title: "T2 SCN",
+					files: {
+						"SCN.jpg": "Scn",
+					},
 				},
 				"T2 TIBIA": {
-					files: ["Tabuleiro 1.jpg", "Tabuleiro 2.JPG", "Tabuleiro 3.JPG"],
+					title: "T2 TIBIA",
+					files: {
+						"Tabuleiro 1.jpg": "Tabuleiro 1",
+						"Tabuleiro 2.JPG": "Tabuleiro 2",
+						"Tabuleiro 3.JPG": "Tabuleiro 3",
+					},
 				},
 				"VARIAX II COTOVELO": {
-					files: ["Variax I Cotovelo.jpg"],
+					title: "VARIAX II COTOVELO",
+					files: {
+						"Variax I Cotovelo.jpg": "Variax I Cotovelo",
+					},
 					"Variax II Core": {
-						files: [
-							"Variax II Cotovelo Core Sup..jpg",
-							"Variax II Cotovelo-Core inferior.jpg",
-							"Variax II Cotovelo-Core Parafusos.jpg",
-							"Variax II Cotovelo-Core.jpg",
-						],
+						title: "Variax II Core",
+						files: {
+							"Variax II Cotovelo Core Sup..jpg":
+								"Variax Ii Cotovelo Core Sup.",
+							"Variax II Cotovelo-Core inferior.jpg":
+								"Variax Ii Cotovelo-Core Inferior",
+							"Variax II Cotovelo-Core Parafusos.jpg":
+								"Variax Ii Cotovelo-Core Parafusos",
+							"Variax II Cotovelo-Core.jpg": "Variax Ii Cotovelo-Core",
+						},
 					},
 					"Variax II ELBOW": {
-						files: [
-							"Variax II Cotovelo Placas Inf.jpg",
-							"Variax II Cotovelo Placas.jpg",
-							"Variax II Cotovelo superior.jpg",
-							"Variax II Cotovelo.jpg",
-						],
+						title: "Variax II ELBOW",
+						files: {
+							"Variax II Cotovelo Placas Inf.jpg":
+								"Variax Ii Cotovelo Placas Inf",
+							"Variax II Cotovelo Placas.jpg": "Variax Ii Cotovelo Placas",
+							"Variax II Cotovelo superior.jpg": "Variax Ii Cotovelo Superior",
+							"Variax II Cotovelo.jpg": "Variax Ii Cotovelo",
+						},
 					},
 				},
-				"VARIAX II P\u00c9": {
-					files: [
-						"Tab Inferior Instrumental P\u00e9.jpg",
-						"Tab. Inst P\u00e9 Inferior.jpg",
-						"Tab. Inst. P\u00e9 inferior.jpg",
-						"Tab. Inst. P\u00e9 Superior.jpg",
-						"Tab. Parafusos P\u00e9 Cx 2.jpg",
-						"Tab. Placas Cx 2.jpg",
-						"Total Placas P\u00e9 CX 2.jpg",
-					],
+				"VARIAX II PÉ": {
+					title: "VARIAX II PÉ",
+					files: {
+						"Tab Inferior Instrumental Pé.jpg": "Tab Inferior Instrumental Pé",
+						"Tab. Inst Pé Inferior.jpg": "Tab. Inst Pé Inferior",
+						"Tab. Inst. Pé inferior.jpg": "Tab. Inst. Pé Inferior",
+						"Tab. Inst. Pé Superior.jpg": "Tab. Inst. Pé Superior",
+						"Tab. Parafusos Pé Cx 2.jpg": "Tab. Parafusos Pé Cx 2",
+						"Tab. Placas Cx 2.jpg": "Tab. Placas Cx 2",
+						"Total Placas Pé CX 2.jpg": "Total Placas Pé Cx 2",
+					},
 				},
-				"VARIAX II R\u00e1dio Distal": {
-					files: [
-						"Pe\u00e7as novas variax II (recente).jpg",
-						"PE\u00c7AS NOVAS VARIAX II.jpg",
-						"Variax II Radio distal b).jpg",
-						"Variax II R\u00e1dio Distal a).jpg",
-						"Variax II R\u00e1dio Distal Consumiveis.jpg",
-						"VariaxII Radio Distal (Pe\u00e7as Soltas).jpg",
-					],
+				"VARIAX II Rádio Distal": {
+					title: "VARIAX II Rádio Distal",
+					files: {
+						"Peças novas variax II (recente).jpg":
+							"Peças Novas Variax Ii (Recente)",
+						"PEÇAS NOVAS VARIAX II.jpg": "Peças Novas Variax Ii",
+						"Variax II Radio distal b).jpg": "Variax Ii Radio Distal B)",
+						"Variax II Rádio Distal a).jpg": "Variax Ii Rádio Distal A)",
+						"Variax II Rádio Distal Consumiveis.jpg":
+							"Variax Ii Rádio Distal Consumiveis",
+						"VariaxII Radio Distal (Peças Soltas).jpg":
+							"Variaxii Radio Distal (Peças Soltas)",
+					},
 				},
-				"VARIAX M\u00c3O": {
-					files: [
-						"Variax Mao Base.jpg",
-						"Variax Mao instrumentos.jpg",
-						"Variax Mao Parafusos.jpg",
-						"Variax Mao placas.jpg",
-					],
+				"VARIAX MÃO": {
+					title: "VARIAX MÃO",
+					files: {
+						"Variax Mao Base.jpg": "Variax Mao Base",
+						"Variax Mao instrumentos.jpg": "Variax Mao Instrumentos",
+						"Variax Mao Parafusos.jpg": "Variax Mao Parafusos",
+						"Variax Mao placas.jpg": "Variax Mao Placas",
+					},
 				},
 			},
 			"KIT PROTESE PARCIAL ANCA": {
-				files: [
-					"Cesto Kit n\u00ba2.jpg",
-					"Kit Protese Parcial Anca 1.JPG",
-					"Kit Protese Parcial Anca 2.jpg",
-				],
+				title: "KIT PROTESE PARCIAL ANCA",
+				files: {
+					"Cesto Kit nº2.jpg": "Cesto Kit Nº2",
+					"Kit Protese Parcial Anca 1.JPG": "Kit Protese Parcial Anca 1",
+					"Kit Protese Parcial Anca 2.jpg": "Kit Protese Parcial Anca 2",
+				},
 			},
 			"KIT_s JOELHO 4cx": {
-				files: ["Kit Joelho 9 p\u00e7.jpg"],
+				title: "KIT_s JOELHO 4cx",
+				files: {
+					"Kit Joelho 9 pç.jpg": "Kit Joelho 9 Pç",
+				},
 			},
 			"MATERIAL SOLTO (VARIOS ORT)": {
-				files: [
-					"Afastadores.jpg",
-					"Alicate corte.jpg",
-					"Alicate.jpg",
-					"Brocas (separadas).jpg",
-					"Compasso cervical.jpg",
-					"Distrator de tornozelo.jpg",
-					"Espatula Cimento.jpg",
-					"Fresas Femur PPA.jpg",
-					"Impactor Grampos.jpg",
-					"IMPACTOR OSSO (separados).jpg",
-					"Martelo.JPG",
-					"Medidor Solto.jpg",
-					"Mini compressor.jpg",
-					"Mini distractor.jpg",
-					"Seringa Cimento (3 un).jpg",
-					"Sutura menisco (Fica no servi\u00e7o).jpg",
-					"Tabuleiro Impactor Grampos.jpg",
-					"Torcedor Fio de arame.jpg",
-				],
+				title: "MATERIAL SOLTO (VARIOS ORT)",
+				files: {
+					"Afastadores.jpg": "Afastadores",
+					"Alicate corte.jpg": "Alicate Corte",
+					"Alicate.jpg": "Alicate",
+					"Brocas (separadas).jpg": "Brocas (Separadas)",
+					"Compasso cervical.jpg": "Compasso Cervical",
+					"Distrator de tornozelo.jpg": "Distrator De Tornozelo",
+					"Espatula Cimento.jpg": "Espatula Cimento",
+					"Fresas Femur PPA.jpg": "Fresas Femur Ppa",
+					"Impactor Grampos.jpg": "Impactor Grampos",
+					"IMPACTOR OSSO (separados).jpg": "Impactor Osso (Separados)",
+					"Martelo.JPG": "Martelo",
+					"Medidor Solto.jpg": "Medidor Solto",
+					"Mini compressor.jpg": "Mini Compressor",
+					"Mini distractor.jpg": "Mini Distractor",
+					"Seringa Cimento (3 un).jpg": "Seringa Cimento (3 Un)",
+					"Sutura menisco (Fica no serviço).jpg":
+						"Sutura Menisco (Fica No Serviço)",
+					"Tabuleiro Impactor Grampos.jpg": "Tabuleiro Impactor Grampos",
+					"Torcedor Fio de arame.jpg": "Torcedor Fio De Arame",
+				},
 				Chaves: {
-					files: [
-						"Chave AO 4.5.jpg",
-						"Chave Articulada (Cardan).jpg",
-						"Variax I Cotovelo.jpg",
-					],
+					title: "Chaves",
+					files: {
+						"Chave AO 4.5.jpg": "Chave Ao 4.5",
+						"Chave Articulada (Cardan).jpg": "Chave Articulada (Cardan)",
+						"Variax I Cotovelo.jpg": "Variax I Cotovelo",
+					},
 				},
 				Osteotomos: {
-					files: [
-						"Cesto Osteotomos 4 un azuis.jpg",
-						"Osteotemos Goivos 4 uni.jpg",
-						"Osteotomo.jpg",
-						"OSTEOTOMOS GOIVOS (3 Un) metalicos.jpg",
-						"Osteotomos goivos 3 uni Preto.jpg",
-						"TAB. OSTEOTOMOS 10 uni.JPG",
-					],
-					"Osteotomo L\u00e2minas Intermutaveis": {
-						files: [
-							"Osteotomo l\u00e2minas com chave.jpg",
-							"Osteotomo l\u00e2minas intermutaveis.jpg",
-						],
+					title: "Osteotomos",
+					files: {
+						"Cesto Osteotomos 4 un azuis.jpg": "Cesto Osteotomos 4 Un Azuis",
+						"Osteotemos Goivos 4 uni.jpg": "Osteotemos Goivos 4 Uni",
+						"Osteotomo.jpg": "Osteotomo",
+						"OSTEOTOMOS GOIVOS (3 Un) metalicos.jpg":
+							"Osteotomos Goivos (3 Un) Metalicos",
+						"Osteotomos goivos 3 uni Preto.jpg":
+							"Osteotomos Goivos 3 Uni Preto",
+						"TAB. OSTEOTOMOS 10 uni.JPG": "Tab. Osteotomos 10 Uni",
+					},
+					"Osteotomo Lâminas Intermutaveis": {
+						title: "Osteotomo Lâminas Intermutaveis",
+						files: {
+							"Osteotomo lâminas com chave.jpg": "Osteotomo Lâminas Com Chave",
+							"Osteotomo lâminas intermutaveis.jpg":
+								"Osteotomo Lâminas Intermutaveis",
+						},
 					},
 				},
 				Placas: {
-					files: [
-						"Placa reconstru\u00e7ao.jpg",
-						"Placas Adi\u00e7ao Tibia.jpg",
-						"Placas Femur.jpg",
-					],
+					title: "Placas",
+					files: {
+						"Placa reconstruçao.jpg": "Placa Reconstruçao",
+						"Placas Adiçao Tibia.jpg": "Placas Adiçao Tibia",
+						"Placas Femur.jpg": "Placas Femur",
+					},
 				},
 				"Varios motor": {
-					files: ["Encaixe Hudson.jpg", "Porta fios.jpg"],
+					title: "Varios motor",
+					files: {
+						"Encaixe Hudson.jpg": "Encaixe Hudson",
+						"Porta fios.jpg": "Porta Fios",
+					},
 				},
 			},
 			"MOTORES ORT": {
-				files: [
-					"Micro Motor Ort (1un) stryker.JPG",
-					"Motor DeSoutter (1un).jpg",
-					"Motor Stryker Precision.jpg",
-					"Motor Traumatologia (1un).jpg",
-					"Motor Tubo de Pressao (2 un).jpg",
-					"Porta fios.jpg",
-				],
+				title: "MOTORES ORT",
+				files: {
+					"Micro Motor Ort (1un) stryker.JPG": "Micro Motor Ort (1Un) Stryker",
+					"Motor DeSoutter (1un).jpg": "Motor Desoutter (1Un)",
+					"Motor Stryker Precision.jpg": "Motor Stryker Precision",
+					"Motor Traumatologia (1un).jpg": "Motor Traumatologia (1Un)",
+					"Motor Tubo de Pressao (2 un).jpg": "Motor Tubo De Pressao (2 Un)",
+					"Porta fios.jpg": "Porta Fios",
+				},
 				"Motor Stryker Sistem 6 (2un)": {
-					files: [
-						"Motor stryker System6 n 2 passou a caixa.jpg",
-						"System 6 n\u00ba1 (sem serra).jpg",
-					],
+					title: "Motor Stryker Sistem 6 (2un)",
+					files: {
+						"Motor stryker System6 n 2 passou a caixa.jpg":
+							"Motor Stryker System6 N 2 Passou A Caixa",
+						"System 6 nº1 (sem serra).jpg": "System 6 Nº1 (Sem Serra)",
+					},
 				},
 				"Motor Stryker Sistem 8 (Emprestado)": {
-					files: [
-						"Motor na Cx.jpg",
-						"Motor Stryker.jpg",
-						"Tab. Motor Stryker.jpg",
-					],
+					title: "Motor Stryker Sistem 8 (Emprestado)",
+					files: {
+						"Motor na Cx.jpg": "Motor Na Cx",
+						"Motor Stryker.jpg": "Motor Stryker",
+						"Tab. Motor Stryker.jpg": "Tab. Motor Stryker",
+					},
 				},
 				"MOTORES SYNTHES (8un)": {
-					files: [
-						"JACOB.JPG",
-						"Motor TRS Completo (6un).jpg",
-						"SERRA GRANDE.JPG",
-						"SERRA PEQUENA.JPG",
-						"SynthesTRS Monobloco (2un).jpg",
-					],
+					title: "MOTORES SYNTHES (8un)",
+					files: {
+						"JACOB.JPG": "Jacob",
+						"Motor TRS Completo (6un).jpg": "Motor Trs Completo (6Un)",
+						"SERRA GRANDE.JPG": "Serra Grande",
+						"SERRA PEQUENA.JPG": "Serra Pequena",
+						"SynthesTRS Monobloco (2un).jpg": "Synthestrs Monobloco (2Un)",
+					},
 				},
 			},
 			"PARTES MOLES ORT 7cx": {
-				files: ["CX PARTES MOLES.JPG"],
+				title: "PARTES MOLES ORT 7cx",
+				files: {
+					"CX PARTES MOLES.JPG": "Cx Partes Moles",
+				},
 			},
 			"PINOS FIXADOR CRANIANO": {
-				files: ["3 PINOS FIXADOR CRANEANO.jpg", "PINOS FIXADOR CRANIANO.jpg"],
+				title: "PINOS FIXADOR CRANIANO",
+				files: {
+					"3 PINOS FIXADOR CRANEANO.jpg": "3 Pinos Fixador Craneano",
+					"PINOS FIXADOR CRANIANO.jpg": "Pinos Fixador Craniano",
+				},
 			},
 			RIMMERS: {
-				files: [
-					"Reamers Flexiveis (fita riscas verde).jpg",
-					"Reamers Flexiveis Artur Salgado (pertence \u00e1 revisao protese anca).jpg",
-					"Reamers Flexiveis Stryker.jpg",
-					"Reamers r\u00edgidos.JPG",
-				],
+				title: "RIMMERS",
+				files: {
+					"Reamers Flexiveis (fita riscas verde).jpg":
+						"Reamers Flexiveis (Fita Riscas Verde)",
+					"Reamers Flexiveis Artur Salgado (pertence á revisao protese anca).jpg":
+						"Reamers Flexiveis Artur Salgado (Pertence Á Revisao Protese Anca)",
+					"Reamers Flexiveis Stryker.jpg": "Reamers Flexiveis Stryker",
+					"Reamers rígidos.JPG": "Reamers Rígidos",
+				},
 			},
 			"TUNEL CARPICO": {
-				files: ["Cx Tunel carpico.jpg"],
+				title: "TUNEL CARPICO",
+				files: {
+					"Cx Tunel carpico.jpg": "Cx Tunel Carpico",
+				},
 			},
 		},
 		OTORRINO: {
-			files: ["Suporte ORL ouvido.jpg", "Suporte ORL.jpg"],
+			title: "OTORRINO",
+			files: {
+				"Suporte ORL ouvido.jpg": "Suporte Orl Ouvido",
+				"Suporte ORL.jpg": "Suporte Orl",
+			},
 			AVA: {
-				files: [
-					"Cx n\u00ba 50.jpg",
-					"n\u00ba 48.jpg",
-					"n\u00ba 49.JPG",
-					"n\u00ba 53.JPG",
-				],
+				title: "AVA",
+				files: {
+					"Cx nº 50.jpg": "Cx Nº 50",
+					"nº 48.jpg": "Nº 48",
+					"nº 49.JPG": "Nº 49",
+					"nº 53.JPG": "Nº 53",
+				},
 			},
 			Cabos: {
-				files: [
-					"Cabo bipolar 2.jpg",
-					"Cabo bipolar.jpg",
-					"Cabo Monopolar LES.jpg",
-				],
+				title: "Cabos",
+				files: {
+					"Cabo bipolar 2.jpg": "Cabo Bipolar 2",
+					"Cabo bipolar.jpg": "Cabo Bipolar",
+					"Cabo Monopolar LES.jpg": "Cabo Monopolar Les",
+				},
 			},
 			"CALDWELL LUC": {
-				files: ["CALDWELL LUC.jpg"],
+				title: "CALDWELL LUC",
+				files: {
+					"CALDWELL LUC.jpg": "Caldwell Luc",
+				},
 			},
 			"CORTADOR CARTILAGEM": {
-				files: ["Cortador cartilagem ORL.JPG"],
+				title: "CORTADOR CARTILAGEM",
+				files: {
+					"Cortador cartilagem ORL.JPG": "Cortador Cartilagem Orl",
+				},
 			},
-			"DCR (D\u00c1CRIO)": {
-				files: ["Dacrio Antiga.jpg", "DCR ( DACRIO).jpg"],
+			"DCR (DÁCRIO)": {
+				title: "DCR (DÁCRIO)",
+				files: {
+					"Dacrio Antiga.jpg": "Dacrio Antiga",
+					"DCR ( DACRIO).jpg": "Dcr ( Dacrio)",
+				},
 			},
 			ENDONASAL: {
-				files: [
-					"ENDONASAL + SEPTO.JPG",
-					"ENDONASAL ANTIGA.jpg",
-					"ENDONASAL PEDIATRICA.jpg",
-					"Endonasal Recurso.jpg",
-				],
+				title: "ENDONASAL",
+				files: {
+					"ENDONASAL + SEPTO.JPG": "Endonasal + Septo",
+					"ENDONASAL ANTIGA.jpg": "Endonasal Antiga",
+					"ENDONASAL PEDIATRICA.jpg": "Endonasal Pediatrica",
+					"Endonasal Recurso.jpg": "Endonasal Recurso",
+				},
 			},
 			"ESFENOIDE E FRONTAL": {
-				files: ["ESFENOIDE E FRONTAL.jpg"],
+				title: "ESFENOIDE E FRONTAL",
+				files: {
+					"ESFENOIDE E FRONTAL.jpg": "Esfenoide E Frontal",
+				},
 			},
 			"ESTAPEDECTOMIA ( risca lilas)": {
-				files: ["89A.JPG", "89B.JPG"],
+				title: "ESTAPEDECTOMIA ( risca lilas)",
+				files: {
+					"89A.JPG": "89A",
+					"89B.JPG": "89B",
+				},
 			},
 			"LARINGOSCOPIA NOVA (LES)": {
-				files: ["LES Nova.jpg", "Pin\u00e7as LES.jpg", "Tab. LES Nova.jpg"],
+				title: "LARINGOSCOPIA NOVA (LES)",
+				files: {
+					"LES Nova.jpg": "Les Nova",
+					"Pinças LES.jpg": "Pinças Les",
+					"Tab. LES Nova.jpg": "Tab. Les Nova",
+				},
 			},
 			"LARINGOSCOPIA VELHA (LES)": {
-				files: ["LES Antiga.jpg"],
+				title: "LARINGOSCOPIA VELHA (LES)",
+				files: {
+					"LES Antiga.jpg": "Les Antiga",
+				},
 			},
 			MASTOIDE: {
-				files: ["91A.JPG"],
+				title: "MASTOIDE",
+				files: {
+					"91A.JPG": "91A",
+				},
 			},
 			MIRINGOTOMIA: {
-				files: ["Miringotomia.jpg"],
+				title: "MIRINGOTOMIA",
+				files: {
+					"Miringotomia.jpg": "Miringotomia",
+				},
 			},
 			"RINOPLASTIA ANTIGA": {
-				files: ["Rinoplastia.JPG"],
+				title: "RINOPLASTIA ANTIGA",
+				files: {
+					"Rinoplastia.JPG": "Rinoplastia",
+				},
 			},
 			"SEPTO 4 Cx": {
-				files: ["Septo 1.jpg", "Septo 2.jpg", "Septo 3.jpg", "Septo 4.jpg"],
+				title: "SEPTO 4 Cx",
+				files: {
+					"Septo 1.jpg": "Septo 1",
+					"Septo 2.jpg": "Septo 2",
+					"Septo 3.jpg": "Septo 3",
+					"Septo 4.jpg": "Septo 4",
+				},
 				"Fotos Antigas": {
-					files: [
-						"Septo 1 ( amarela).JPG",
-						"septo 3 ( 92B).JPG",
-						"septo 4 ( antiga 60 ).JPG",
-					],
+					title: "Fotos Antigas",
+					files: {
+						"Septo 1 ( amarela).JPG": "Septo 1 ( Amarela)",
+						"septo 3 ( 92B).JPG": "Septo 3 ( 92B)",
+						"septo 4 ( antiga 60 ).JPG": "Septo 4 ( Antiga 60 )",
+					},
 				},
 			},
 			SINUSITE: {
-				files: ["Sinusite.jpg"],
+				title: "SINUSITE",
+				files: {
+					"Sinusite.jpg": "Sinusite",
+				},
 			},
 			TIMPANOPLASTIA: {
-				files: ["Timpanoplastia 90 A (risca amarela).jpg"],
+				title: "TIMPANOPLASTIA",
+				files: {
+					"Timpanoplastia 90 A (risca amarela).jpg":
+						"Timpanoplastia 90 A (Risca Amarela)",
+				},
 				"Timpanoplastia 90-B (risca verde)": {
-					files: [
-						"Micro pin\u00e7as 90-B.jpg",
-						"Timpanoplastia 90-B(risca verde).jpg",
-					],
+					title: "Timpanoplastia 90-B (risca verde)",
+					files: {
+						"Micro pinças 90-B.jpg": "Micro Pinças 90-B",
+						"Timpanoplastia 90-B(risca verde).jpg":
+							"Timpanoplastia 90-B(Risca Verde)",
+					},
 				},
 			},
 			TRAQUEOSTOMIA: {
-				files: ["Traqueostomia.JPG"],
+				title: "TRAQUEOSTOMIA",
+				files: {
+					"Traqueostomia.JPG": "Traqueostomia",
+				},
 			},
-			"\u00d3TICAS": {
-				files: ["Cx oticas.JPG", "Oticas 0 e 30.JPG"],
+			ÓTICAS: {
+				title: "ÓTICAS",
+				files: {
+					"Cx oticas.JPG": "Cx Oticas",
+					"Oticas 0 e 30.JPG": "Oticas 0 E 30",
+				},
 			},
 		},
 		UROLOGIA: {
+			title: "UROLOGIA",
 			Beniques: {
-				files: ["Beniques 1.jpg", "Beniques 2.jpg"],
+				title: "Beniques",
+				files: {
+					"Beniques 1.jpg": "Beniques 1",
+					"Beniques 2.jpg": "Beniques 2",
+				},
 			},
 			BIPOLAR: {
-				files: ["HFSP0758.JPG"],
+				title: "BIPOLAR",
+				files: {
+					"HFSP0758.JPG": "Hfsp0758",
+				},
 			},
 			CABOS: {
-				files: ["CABO BIPOLAR UROLOGIA.JPG", "CABO MONOPOLAR UROLOGIA.jpg"],
+				title: "CABOS",
+				files: {
+					"CABO BIPOLAR UROLOGIA.JPG": "Cabo Bipolar Urologia",
+					"CABO MONOPOLAR UROLOGIA.jpg": "Cabo Monopolar Urologia",
+				},
 			},
 			"CISTOSCOPIOS 5un": {
-				files: [
-					"CISTOSCOPIO n\u00ba5 (antigo).jpg",
-					"CISTOSCOPIO SOLTO.JPG",
-					"Cistosc\u00f3pio  n\u00ba1 e n\u00ba2 (7 pe\u00e7as).jpg",
-					"Cistosc\u00f3pio n\u00ba 3 e n\u00ba 4 (6 pe\u00e7as).jpg",
-				],
+				title: "CISTOSCOPIOS 5un",
+				files: {
+					"CISTOSCOPIO nº5 (antigo).jpg": "Cistoscopio Nº5 (Antigo)",
+					"CISTOSCOPIO SOLTO.JPG": "Cistoscopio Solto",
+					"Cistoscópio  nº1 e nº2 (7 peças).jpg":
+						"Cistoscópio  Nº1 E Nº2 (7 Peças)",
+					"Cistoscópio nº 3 e nº 4 (6 peças).jpg":
+						"Cistoscópio Nº 3 E Nº 4 (6 Peças)",
+				},
 			},
 			"KIT INCONT. URINARIA 5 un": {
-				files: ["HJPA1899.JPG"],
+				title: "KIT INCONT. URINARIA 5 un",
+				files: {
+					"HJPA1899.JPG": "Hjpa1899",
+				},
 			},
-			"KIT PIN\u00c7A Mc DOUGLAS 2un": {
-				files: ["Kit Mc Douglas 1.jpg", "Kit Mc Douglas 2.jpg"],
+			"KIT PINÇA Mc DOUGLAS 2un": {
+				title: "KIT PINÇA Mc DOUGLAS 2un",
+				files: {
+					"Kit Mc Douglas 1.jpg": "Kit Mc Douglas 1",
+					"Kit Mc Douglas 2.jpg": "Kit Mc Douglas 2",
+				},
 			},
 			LAPAROTOMIA: {
-				files: ["CX Laparotomia.JPG"],
+				title: "LAPAROTOMIA",
+				files: {
+					"CX Laparotomia.JPG": "Cx Laparotomia",
+				},
 			},
 			LITOTRITOR: {
-				files: [
-					"litotritor 1.jpg",
-					"litotritor 2.jpg",
-					"Ponteiras litotritor.jpg",
-				],
+				title: "LITOTRITOR",
+				files: {
+					"litotritor 1.jpg": "Litotritor 1",
+					"litotritor 2.jpg": "Litotritor 2",
+					"Ponteiras litotritor.jpg": "Ponteiras Litotritor",
+				},
 			},
 			"MATERIAL SOLTO": {
-				files: [
-					"KIT URULOGIA 3 un.jpg",
-					"OTICA Acmi.JPG",
-					"Pin\u00e7a corpos estranhos B.O..jpg",
-					"Pin\u00e7a curta corpos estranhos 3 un.jpg",
-					"Porta agulhas Esquerdo.jpg",
-				],
+				title: "MATERIAL SOLTO",
+				files: {
+					"KIT URULOGIA 3 un.jpg": "Kit Urulogia 3 Un",
+					"OTICA Acmi.JPG": "Otica Acmi",
+					"Pinça corpos estranhos B.O..jpg": "Pinça Corpos Estranhos B.O.",
+					"Pinça curta corpos estranhos 3 un.jpg":
+						"Pinça Curta Corpos Estranhos 3 Un",
+					"Porta agulhas Esquerdo.jpg": "Porta Agulhas Esquerdo",
+				},
 			},
 			"MONOPOLAR 2cx": {
-				files: ["FUED2853.JPG", "HDEO2924.JPG"],
+				title: "MONOPOLAR 2cx",
+				files: {
+					"FUED2853.JPG": "Fued2853",
+					"HDEO2924.JPG": "Hdeo2924",
+				},
 			},
 			"NEFROSCOPIO 1 un": {
-				files: ["NEFROSCOPIO.JPG"],
+				title: "NEFROSCOPIO 1 un",
+				files: {
+					"NEFROSCOPIO.JPG": "Nefroscopio",
+				},
 			},
-			"RESSETOSCOPIA\u00b4s 5 un": {
-				files: [
-					"Ressetosc\u00f3pio n\u00ba 1 ( 8 pe\u00e7as+ansa).jpg",
-					"Ressetosc\u00f3pio n\u00ba2 e n\u00ba3 (8 pe\u00e7as+ansa) (antigo).JPG",
-					"Ressetosc\u00f3pio n\u00ba4 e n\u00ba5 (6 pe\u00e7as+ansa).JPG",
-				],
+			"RESSETOSCOPIA´s 5 un": {
+				title: "RESSETOSCOPIA´s 5 un",
+				files: {
+					"Ressetoscópio nº 1 ( 8 peças+ansa).jpg":
+						"Ressetoscópio Nº 1 ( 8 Peças+Ansa)",
+					"Ressetoscópio nº2 e nº3 (8 peças+ansa) (antigo).JPG":
+						"Ressetoscópio Nº2 E Nº3 (8 Peças+Ansa) (Antigo)",
+					"Ressetoscópio nº4 e nº5 (6 peças+ansa).JPG":
+						"Ressetoscópio Nº4 E Nº5 (6 Peças+Ansa)",
+				},
 			},
 			"URETERORRENOSCOPIO 3 un": {
-				files: [
-					"Cx Ureterorenoscopio novo.jpg",
-					"Ureterorenoscopio novo (7 pe\u00e7as).jpg",
-					"URETERORRENOSCOPIO (antigo) 2cx.JPG",
-				],
+				title: "URETERORRENOSCOPIO 3 un",
+				files: {
+					"Cx Ureterorenoscopio novo.jpg": "Cx Ureterorenoscopio Novo",
+					"Ureterorenoscopio novo (7 peças).jpg":
+						"Ureterorenoscopio Novo (7 Peças)",
+					"URETERORRENOSCOPIO (antigo) 2cx.JPG":
+						"Ureterorrenoscopio (Antigo) 2Cx",
+				},
 			},
 			"URETROTOMO 7 un": {
-				"Uretrotomo novo n\u00ba1 a n\u00ba4 (8 pe\u00e7as) (4 un)": {
-					files: ["Cx Uretrotomo novo.jpg", "Uretrotomo novo.jpg"],
+				title: "URETROTOMO 7 un",
+				"Uretrotomo novo nº1 a nº4 (8 peças) (4 un)": {
+					title: "Uretrotomo novo nº1 a nº4 (8 peças) (4 un)",
+					files: {
+						"Cx Uretrotomo novo.jpg": "Cx Uretrotomo Novo",
+						"Uretrotomo novo.jpg": "Uretrotomo Novo",
+					},
 				},
 				"Uretrotomo solto 3 un": {
-					files: ["URETROTOMO.JPG"],
+					title: "Uretrotomo solto 3 un",
+					files: {
+						"URETROTOMO.JPG": "Uretrotomo",
+					},
 				},
 			},
 		},
@@ -1053,916 +1576,1209 @@ const file_structure = {
 	MaterialExterno: {
 		title: "Material Externo",
 		ARTHREX: {
-			files: [
-				"Arthrex Biceps.jpg",
-				"ARTHREX ENXERTO.jpg",
-				"Arthrex Tornozelo.jpg",
-				"Sutura Menisco.jpg",
-			],
+			title: "ARTHREX",
+			files: {
+				"Arthrex Biceps.jpg": "Arthrex Biceps",
+				"ARTHREX ENXERTO.jpg": "Arthrex Enxerto",
+				"Arthrex Tornozelo.jpg": "Arthrex Tornozelo",
+				"Sutura Menisco.jpg": "Sutura Menisco",
+			},
 			LIGAMENTOPLASTIA: {
-				files: [
-					"CX 1 Ligamentoplastia LCA.jpg",
-					"CX 2 COMPLETO.jpg",
-					"CX 2 LIGAMENTOPLASTIA.jpg",
-					"Cx 3 LIGAMENTOPLASTIA.jpg",
-					"Cx Ligamentoplastia PCL.jpg",
-				],
+				title: "LIGAMENTOPLASTIA",
+				files: {
+					"CX 1 Ligamentoplastia LCA.jpg": "Cx 1 Ligamentoplastia Lca",
+					"CX 2 COMPLETO.jpg": "Cx 2 Completo",
+					"CX 2 LIGAMENTOPLASTIA.jpg": "Cx 2 Ligamentoplastia",
+					"Cx 3 LIGAMENTOPLASTIA.jpg": "Cx 3 Ligamentoplastia",
+					"Cx Ligamentoplastia PCL.jpg": "Cx Ligamentoplastia Pcl",
+				},
 			},
 			"OMBRO LATARJET": {
-				files: ["CX LATARJET.jpg", "Tab. Inferior.jpg", "Tab. Superior.jpg"],
+				title: "OMBRO LATARJET",
+				files: {
+					"CX LATARJET.jpg": "Cx Latarjet",
+					"Tab. Inferior.jpg": "Tab. Inferior",
+					"Tab. Superior.jpg": "Tab. Superior",
+				},
 			},
 			"PARAFUSOS COMPRESSAO 3.0": {
-				files: ["CX PARAF. COMP. 3.0.jpg", "PARAFUSOS COMPRESSAO 3.0.jpg"],
+				title: "PARAFUSOS COMPRESSAO 3.0",
+				files: {
+					"CX PARAF. COMP. 3.0.jpg": "Cx Paraf. Comp. 3.0",
+					"PARAFUSOS COMPRESSAO 3.0.jpg": "Parafusos Compressao 3.0",
+				},
 			},
-			"PLACAS ADI\u00c7AO": {
-				files: ["CX n\u00ba 1.jpg", "CX n\u00ba 2.jpg"],
+			"PLACAS ADIÇAO": {
+				title: "PLACAS ADIÇAO",
+				files: {
+					"CX nº 1.jpg": "Cx Nº 1",
+					"CX nº 2.jpg": "Cx Nº 2",
+				},
 			},
 		},
 		"ARTUR SALGADO": {
+			title: "ARTUR SALGADO",
 			"Artrodese Joelho": {
-				files: [
-					"cx 1.jpg",
-					"cx 2.jpg",
-					"cx 3.jpg",
-					"cx 4.jpg",
-					"cx 5.jpg",
-					"cx 6.jpg",
-					"Fio Guia.jpg",
-					"Reamers cx 7.jpg",
-				],
+				title: "Artrodese Joelho",
+				files: {
+					"cx 1.jpg": "Cx 1",
+					"cx 2.jpg": "Cx 2",
+					"cx 3.jpg": "Cx 3",
+					"cx 4.jpg": "Cx 4",
+					"cx 5.jpg": "Cx 5",
+					"cx 6.jpg": "Cx 6",
+					"Fio Guia.jpg": "Fio Guia",
+					"Reamers cx 7.jpg": "Reamers Cx 7",
+				},
 			},
 			"Revisao PTA Biarticular": {
-				files: [
-					"Cx Dupla Mobilidade.jpg",
-					"Cx n3 extrator haste (1).jpg",
-					"Cx n3 Reamers Rigidos.jpg",
-					"CX n\u00ba 2 Extra\u00e7\u00e3o  Acetabular.jpg",
-					"Cx n\u00ba 4 osteotomos.jpg",
-					"Cx n\u00ba4 osteotomos.jpg",
-				],
+				title: "Revisao PTA Biarticular",
+				files: {
+					"Cx Dupla Mobilidade.jpg": "Cx Dupla Mobilidade",
+					"Cx n3 extrator haste (1).jpg": "Cx N3 Extrator Haste (1)",
+					"Cx n3 Reamers Rigidos.jpg": "Cx N3 Reamers Rigidos",
+					"CX nº 2 Extração  Acetabular.jpg": "Cx Nº 2 Extração  Acetabular",
+					"Cx nº 4 osteotomos.jpg": "Cx Nº 4 Osteotomos",
+					"Cx nº4 osteotomos.jpg": "Cx Nº4 Osteotomos",
+				},
 			},
 		},
 		"BONE CARE": {
-			files: ["MEDARTIS-BONECARE.jpg"],
+			title: "BONE CARE",
+			files: {
+				"MEDARTIS-BONECARE.jpg": "Medartis-Bonecare",
+			},
 			"ROTULA JOELHO BONE CARE": {
-				files: ["SXEV4382.JPG", "XOHK6451.JPG"],
+				title: "ROTULA JOELHO BONE CARE",
+				files: {
+					"SXEV4382.JPG": "Sxev4382",
+					"XOHK6451.JPG": "Xohk6451",
+				},
 			},
 		},
 		"FH ORTHO (bone care)": {
+			title: "FH ORTHO (bone care)",
 			"OMBRO ARROW": {
-				files: [
-					"EHFC4996.JPG",
-					"IEGN4412.JPG",
-					"LXKC3607.JPG",
-					"OAKY6742.JPG",
-					"QQUX3889.JPG",
-				],
+				title: "OMBRO ARROW",
+				files: {
+					"EHFC4996.JPG": "Ehfc4996",
+					"IEGN4412.JPG": "Iegn4412",
+					"LXKC3607.JPG": "Lxkc3607",
+					"OAKY6742.JPG": "Oaky6742",
+					"QQUX3889.JPG": "Qqux3889",
+				},
 			},
 		},
-		"FOTOS DAS CX  \u00c1 ENTRADA": {
+		"FOTOS DAS CX  Á ENTRADA": {
+			title: "FOTOS DAS CX  Á ENTRADA",
 			"LIMA Acetabular 4 CX": {
-				files: [
-					"EXTRA\u00c7AO ACETABULAR.jpg",
-					"TAB. 9055.33.000.jpg",
-					"TAB. 9055.50.000.jpg",
-					"TAB. 9057.33.000 INFERIOR.jpg",
-					"TAB. 9057.33.000 SUPERIOR.jpg",
-				],
+				title: "LIMA Acetabular 4 CX",
+				files: {
+					"EXTRAÇAO ACETABULAR.jpg": "Extraçao Acetabular",
+					"TAB. 9055.33.000.jpg": "Tab. 9055.33.000",
+					"TAB. 9055.50.000.jpg": "Tab. 9055.50.000",
+					"TAB. 9057.33.000 INFERIOR.jpg": "Tab. 9057.33.000 Inferior",
+					"TAB. 9057.33.000 SUPERIOR.jpg": "Tab. 9057.33.000 Superior",
+				},
 			},
 			"MEDCOMTECH PUNHO": {
-				files: [
-					"CX ARTROSCOPIA PUNHO.jpg",
-					"IMG_20211122_143524.jpg",
-					"INST. ULNA.jpg",
-					"KIT TRACAO.jpg",
-				],
+				title: "MEDCOMTECH PUNHO",
+				files: {
+					"CX ARTROSCOPIA PUNHO.jpg": "Cx Artroscopia Punho",
+					"IMG_20211122_143524.jpg": "Img_20211122_143524",
+					"INST. ULNA.jpg": "Inst. Ulna",
+					"KIT TRACAO.jpg": "Kit Tracao",
+				},
 			},
 			SMITH_NEPEW: {
-				files: [
-					"COMPONENTES CX1 (1).jpg",
-					"CX 2 COMPONENTES.jpg",
-					"CX 2.jpg",
-					"CX1.jpg",
-					"CX2  (1).jpg",
-					"CX2  (2).jpg",
-					"CX3.jpg",
-				],
+				title: "SMITH_NEPEW",
+				files: {
+					"COMPONENTES CX1 (1).jpg": "Componentes Cx1 (1)",
+					"CX 2 COMPONENTES.jpg": "Cx 2 Componentes",
+					"CX 2.jpg": "Cx 2",
+					"CX1.jpg": "Cx1",
+					"CX2  (1).jpg": "Cx2  (1)",
+					"CX2  (2).jpg": "Cx2  (2)",
+					"CX3.jpg": "Cx3",
+				},
 			},
 			STRYKER: {
+				title: "STRYKER",
 				"AXOS 3 TIBIA": {
-					files: [
-						"IMG_20211124_191144.jpg",
-						"IMG_20211124_191203.jpg",
-						"IMG_20211124_191438.jpg",
-						"IMG_20211124_191530.jpg",
-					],
+					title: "AXOS 3 TIBIA",
+					files: {
+						"IMG_20211124_191144.jpg": "Img_20211124_191144",
+						"IMG_20211124_191203.jpg": "Img_20211124_191203",
+						"IMG_20211124_191438.jpg": "Img_20211124_191438",
+						"IMG_20211124_191530.jpg": "Img_20211124_191530",
+					},
 				},
 			},
 			"ZIMMER BIOMET": {
+				title: "ZIMMER BIOMET",
 				"PUK OXFORD 24-11": {
-					files: [
-						"IMG_20211124_184250.jpg",
-						"IMG_20211124_184345.jpg",
-						"IMG_20211124_184355.jpg",
-						"IMG_20211124_184436.jpg",
-						"IMG_20211124_184506.jpg",
-						"IMG_20211124_184518.jpg",
-						"IMG_20211124_184558.jpg",
-						"IMG_20211124_184717.jpg",
-					],
+					title: "PUK OXFORD 24-11",
+					files: {
+						"IMG_20211124_184250.jpg": "Img_20211124_184250",
+						"IMG_20211124_184345.jpg": "Img_20211124_184345",
+						"IMG_20211124_184355.jpg": "Img_20211124_184355",
+						"IMG_20211124_184436.jpg": "Img_20211124_184436",
+						"IMG_20211124_184506.jpg": "Img_20211124_184506",
+						"IMG_20211124_184518.jpg": "Img_20211124_184518",
+						"IMG_20211124_184558.jpg": "Img_20211124_184558",
+						"IMG_20211124_184717.jpg": "Img_20211124_184717",
+					},
 				},
 			},
 		},
 		"JONHSON-SYNTHES-DEPUY": {
-			files: ["AFASTADOR CERVICAL.JPG"],
+			title: "JONHSON-SYNTHES-DEPUY",
+			files: {
+				"AFASTADOR CERVICAL.JPG": "Afastador Cervical",
+			},
 			"Artrodese Hallux": {
-				files: ["Cx 1.jpg", "Cx 2.jpg", "Cx 3.jpg"],
+				title: "Artrodese Hallux",
+				files: {
+					"Cx 1.jpg": "Cx 1",
+					"Cx 2.jpg": "Cx 2",
+					"Cx 3.jpg": "Cx 3",
+				},
 			},
 			"COLUNA EXPEDIUM (3 CX)": {
-				files: [
-					"Chave da cx 2.jpg",
-					"CX 1 com 2 Tab..jpg",
-					"CX 2 com 2 Tab..jpg",
-					"Cx 3 com 2 Tab..jpg",
-				],
+				title: "COLUNA EXPEDIUM (3 CX)",
+				files: {
+					"Chave da cx 2.jpg": "Chave Da Cx 2",
+					"CX 1 com 2 Tab..jpg": "Cx 1 Com 2 Tab.",
+					"CX 2 com 2 Tab..jpg": "Cx 2 Com 2 Tab.",
+					"Cx 3 com 2 Tab..jpg": "Cx 3 Com 2 Tab.",
+				},
 			},
 			"COLUNA JONHSON": {
-				files: [
-					"Afastador retractor.jpg",
-					"Chave da cx 2.jpg",
-					"Cx de apoio microdiscectomia.jpg",
-					"Cx Instrumental 3 tabuleiros.jpg",
-					"Cx Parafusos.jpg",
-					"CXUY1549.JPG",
-					"FJUO4702.JPG",
-					"FWRP8357.JPG",
-					"JPGV4248.JPG",
-					"KPCA5268.JPG",
-					"TQAA1802.JPG",
-					"UHZH6762.JPG",
-					"XOBE7655.JPG",
-				],
+				title: "COLUNA JONHSON",
+				files: {
+					"Afastador retractor.jpg": "Afastador Retractor",
+					"Chave da cx 2.jpg": "Chave Da Cx 2",
+					"Cx de apoio microdiscectomia.jpg": "Cx De Apoio Microdiscectomia",
+					"Cx Instrumental 3 tabuleiros.jpg": "Cx Instrumental 3 Tabuleiros",
+					"Cx Parafusos.jpg": "Cx Parafusos",
+					"CXUY1549.JPG": "Cxuy1549",
+					"FJUO4702.JPG": "Fjuo4702",
+					"FWRP8357.JPG": "Fwrp8357",
+					"JPGV4248.JPG": "Jpgv4248",
+					"KPCA5268.JPG": "Kpca5268",
+					"TQAA1802.JPG": "Tqaa1802",
+					"UHZH6762.JPG": "Uhzh6762",
+					"XOBE7655.JPG": "Xobe7655",
+				},
 			},
 			"Coluna Synapse Cervical 3 Cx": {
-				files: ["CX n\u00ba 1.jpg", "CX n\u00ba 2.jpg", "CX n\u00ba 3.jpg"],
+				title: "Coluna Synapse Cervical 3 Cx",
+				files: {
+					"CX nº 1.jpg": "Cx Nº 1",
+					"CX nº 2.jpg": "Cx Nº 2",
+					"CX nº 3.jpg": "Cx Nº 3",
+				},
 			},
 			"COLUNA SYNTHES 3CX": {
-				files: ["CFCL8005.JPG", "FWJI8691.JPG", "HJNV0881.JPG", "IDNW1526.JPG"],
+				title: "COLUNA SYNTHES 3CX",
+				files: {
+					"CFCL8005.JPG": "Cfcl8005",
+					"FWJI8691.JPG": "Fwji8691",
+					"HJNV0881.JPG": "Hjnv0881",
+					"IDNW1526.JPG": "Idnw1526",
+				},
 			},
 			"COLUNA VIPER  2 (6CX)": {
-				files: [
-					"CX 3 INF..jpg",
-					"CX 3 SUP..jpg",
-					"Cx n\u00ba 1 Viper II.jpg",
-					"Cx n\u00ba 2  Viper II.jpg",
-					"Cx n\u00ba 3 Viper II.jpg",
-					"CX n\u00ba 4  Apoio Viper.jpg",
-					"Cx n\u00ba 5 Parafusos Monoaxiais.jpg",
-					"Cx n\u00ba 6 Viper X-Tab.jpg",
-				],
+				title: "COLUNA VIPER  2 (6CX)",
+				files: {
+					"CX 3 INF..jpg": "Cx 3 Inf.",
+					"CX 3 SUP..jpg": "Cx 3 Sup.",
+					"Cx nº 1 Viper II.jpg": "Cx Nº 1 Viper Ii",
+					"Cx nº 2  Viper II.jpg": "Cx Nº 2  Viper Ii",
+					"Cx nº 3 Viper II.jpg": "Cx Nº 3 Viper Ii",
+					"CX nº 4  Apoio Viper.jpg": "Cx Nº 4  Apoio Viper",
+					"Cx nº 5 Parafusos Monoaxiais.jpg": "Cx Nº 5 Parafusos Monoaxiais",
+					"Cx nº 6 Viper X-Tab.jpg": "Cx Nº 6 Viper X-Tab",
+				},
 			},
-			"EXTRAC\u00c3O MONARCH": {
-				files: ["EXTRA\u00c7AO MONARCH 2.jpg", "EXTRA\u00c7AO MONARCH.jpg"],
+			"EXTRACÃO MONARCH": {
+				title: "EXTRACÃO MONARCH",
+				files: {
+					"EXTRAÇAO MONARCH 2.jpg": "Extraçao Monarch 2",
+					"EXTRAÇAO MONARCH.jpg": "Extraçao Monarch",
+				},
 			},
 			"FIXADOR SYNTHES (STENOFIX)": {
-				files: ["Stenofix.jpg"],
+				title: "FIXADOR SYNTHES (STENOFIX)",
+				files: {
+					"Stenofix.jpg": "Stenofix",
+				},
 			},
 			"REVISAO PTA": {
-				files: [
-					"AFASTADOR CHARNLEY.jpg",
-					"CESTO AFASTADORES VARIOS.jpg",
-					"CORAIL PRIMARIA 1.jpg",
-					"CX ACETABULO 1 PRIMARIA.jpg",
-					"CX ACETABULO 2.jpg",
-					"CX EXTRATOR ACETABULAR.jpg",
-					"CX EXTRATOR HASTE FEMURAL.jpg",
-					"CX PARAFUSOS.jpg",
-					"FRESAS ACETABULARES 1.jpg",
-					"FRESAS ACETABULARES 2.jpg",
-					"INST. FEMUR 1.jpg",
-					"INST. FEMUR 2.jpg",
-					"INST. GERAL 1.jpg",
-					"INST. GERAL 2.jpg",
-					"INST. GERAL 3.jpg",
-					"INST. GERAL 4.jpg",
-					"REAMERS FEMUR 1.jpg",
-					"REAMERS FEMUR 2.jpg",
-					"REFOR\u00c7O ACETABULAR 1.jpg",
-					"REFOR\u00c7O ACETABULAR 2.jpg",
-				],
+				title: "REVISAO PTA",
+				files: {
+					"AFASTADOR CHARNLEY.jpg": "Afastador Charnley",
+					"CESTO AFASTADORES VARIOS.jpg": "Cesto Afastadores Varios",
+					"CORAIL PRIMARIA 1.jpg": "Corail Primaria 1",
+					"CX ACETABULO 1 PRIMARIA.jpg": "Cx Acetabulo 1 Primaria",
+					"CX ACETABULO 2.jpg": "Cx Acetabulo 2",
+					"CX EXTRATOR ACETABULAR.jpg": "Cx Extrator Acetabular",
+					"CX EXTRATOR HASTE FEMURAL.jpg": "Cx Extrator Haste Femural",
+					"CX PARAFUSOS.jpg": "Cx Parafusos",
+					"FRESAS ACETABULARES 1.jpg": "Fresas Acetabulares 1",
+					"FRESAS ACETABULARES 2.jpg": "Fresas Acetabulares 2",
+					"INST. FEMUR 1.jpg": "Inst. Femur 1",
+					"INST. FEMUR 2.jpg": "Inst. Femur 2",
+					"INST. GERAL 1.jpg": "Inst. Geral 1",
+					"INST. GERAL 2.jpg": "Inst. Geral 2",
+					"INST. GERAL 3.jpg": "Inst. Geral 3",
+					"INST. GERAL 4.jpg": "Inst. Geral 4",
+					"REAMERS FEMUR 1.jpg": "Reamers Femur 1",
+					"REAMERS FEMUR 2.jpg": "Reamers Femur 2",
+					"REFORÇO ACETABULAR 1.jpg": "Reforço Acetabular 1",
+					"REFORÇO ACETABULAR 2.jpg": "Reforço Acetabular 2",
+				},
 			},
 			"REVISAO PTJ": {
+				title: "REVISAO PTJ",
 				"PTJ Revisao  ATTUNE Depuy 23 cx": {
-					files: [
-						"Cx 1 Inst. Geral Femur.jpg",
-						"Cx 10 Montagem.jpg",
-						"Cx 11 Inst. Geral Tibia.jpg",
-						"Cx 12 Charneira Tibia.jpg",
-						"Cx 13 Inst. Offset Tibia.jpg",
-						"Cx 14 Provas RP tibia 3-4.jpg",
-						"Cx 15 provas RP Tibia 5-6.jpg",
-						"Cx 16 Provas RP Tibia 7-8.jpg",
-						"Cx 17 Provas FB Tibia 3-4.jpg",
-						"Cx 18 Provas FB Tibia 5-6.jpg",
-						"Cx 19 Provas FB Tibia 7-8.jpg",
-						"Cx 2 Inst. Geral Femur.jpg",
-						"Cx 20 Provas LPS Tibia XXS-XS.jpg",
-						"Cx 21 Provas LPS Tibia S-M.jpg",
-						"Cx 22 Provas LPS Tibia Large.jpg",
-						"Cx 23 Rotula.jpg",
-						"Cx 3 Inst. Geral Femur.jpg",
-						"Cx 4 Femur.jpg",
-						"Cx 5 Inst. Offset Femur.jpg",
-						"Cx 6 Provas Femur 3-8.jpg",
-						"Cx 7 Instrumental Geral.jpg",
-						"Cx 8 Reamers.jpg",
-						"Cx 9 Hastes.jpg",
-					],
+					title: "PTJ Revisao  ATTUNE Depuy 23 cx",
+					files: {
+						"Cx 1 Inst. Geral Femur.jpg": "Cx 1 Inst. Geral Femur",
+						"Cx 10 Montagem.jpg": "Cx 10 Montagem",
+						"Cx 11 Inst. Geral Tibia.jpg": "Cx 11 Inst. Geral Tibia",
+						"Cx 12 Charneira Tibia.jpg": "Cx 12 Charneira Tibia",
+						"Cx 13 Inst. Offset Tibia.jpg": "Cx 13 Inst. Offset Tibia",
+						"Cx 14 Provas RP tibia 3-4.jpg": "Cx 14 Provas Rp Tibia 3-4",
+						"Cx 15 provas RP Tibia 5-6.jpg": "Cx 15 Provas Rp Tibia 5-6",
+						"Cx 16 Provas RP Tibia 7-8.jpg": "Cx 16 Provas Rp Tibia 7-8",
+						"Cx 17 Provas FB Tibia 3-4.jpg": "Cx 17 Provas Fb Tibia 3-4",
+						"Cx 18 Provas FB Tibia 5-6.jpg": "Cx 18 Provas Fb Tibia 5-6",
+						"Cx 19 Provas FB Tibia 7-8.jpg": "Cx 19 Provas Fb Tibia 7-8",
+						"Cx 2 Inst. Geral Femur.jpg": "Cx 2 Inst. Geral Femur",
+						"Cx 20 Provas LPS Tibia XXS-XS.jpg":
+							"Cx 20 Provas Lps Tibia Xxs-Xs",
+						"Cx 21 Provas LPS Tibia S-M.jpg": "Cx 21 Provas Lps Tibia S-M",
+						"Cx 22 Provas LPS Tibia Large.jpg": "Cx 22 Provas Lps Tibia Large",
+						"Cx 23 Rotula.jpg": "Cx 23 Rotula",
+						"Cx 3 Inst. Geral Femur.jpg": "Cx 3 Inst. Geral Femur",
+						"Cx 4 Femur.jpg": "Cx 4 Femur",
+						"Cx 5 Inst. Offset Femur.jpg": "Cx 5 Inst. Offset Femur",
+						"Cx 6 Provas Femur 3-8.jpg": "Cx 6 Provas Femur 3-8",
+						"Cx 7 Instrumental Geral.jpg": "Cx 7 Instrumental Geral",
+						"Cx 8 Reamers.jpg": "Cx 8 Reamers",
+						"Cx 9 Hastes.jpg": "Cx 9 Hastes",
+					},
 				},
 				"PTJ Revisao SIGMA TC3": {
-					files: [
-						"Cx 1 Femur.jpg",
-						"Cx 2 Femur.jpg",
-						"Cx 3 Reamers.jpg",
-						"Cx 4 Haste.jpg",
-						"Cx 5 Cal\u00e7os.jpg",
-						"Cx 6 Rotula.jpg",
-						"Cx n\u00ba1 Tibia.jpg",
-						"CX n\u00ba10 Espa\u00e7adores.jpg",
-						"CX n\u00ba11 Inst Geral.jpg",
-						"Cx n\u00ba15 femur.jpg",
-						"Cx n\u00ba16 Femur.jpg",
-						"Cx n\u00ba17 femur.jpg",
-						"Cx n\u00ba18 Provas femur.jpg",
-						"Cx n\u00ba2 Tibia.jpg",
-						"Cx n\u00ba20 Provas haste.jpg",
-						"CX n\u00ba21 Cal\u00e7os.jpg",
-						"Cx n\u00ba22 apoio.jpg",
-						"CX n\u00ba24 Rotula.jpg",
-						"Cx n\u00ba25 Apoio extratores.jpg",
-						"Cx n\u00ba3 Tibia.jpg",
-						"Cx n\u00ba4 Provas Tibia.jpg",
-						"Cx n\u00ba5 Provas Tibia.jpg",
-						"Cx n\u00ba6 Provas Tibia.jpg",
-						"Cx n\u00ba7 Provas Tibia.jpg",
-						"Cx n\u00ba8 Provas Tibia.jpg",
-						"Cx n\u00ba9 Provas Tibia.jpg",
-					],
+					title: "PTJ Revisao SIGMA TC3",
+					files: {
+						"Cx 1 Femur.jpg": "Cx 1 Femur",
+						"Cx 2 Femur.jpg": "Cx 2 Femur",
+						"Cx 3 Reamers.jpg": "Cx 3 Reamers",
+						"Cx 4 Haste.jpg": "Cx 4 Haste",
+						"Cx 5 Calços.jpg": "Cx 5 Calços",
+						"Cx 6 Rotula.jpg": "Cx 6 Rotula",
+						"Cx nº1 Tibia.jpg": "Cx Nº1 Tibia",
+						"CX nº10 Espaçadores.jpg": "Cx Nº10 Espaçadores",
+						"CX nº11 Inst Geral.jpg": "Cx Nº11 Inst Geral",
+						"Cx nº15 femur.jpg": "Cx Nº15 Femur",
+						"Cx nº16 Femur.jpg": "Cx Nº16 Femur",
+						"Cx nº17 femur.jpg": "Cx Nº17 Femur",
+						"Cx nº18 Provas femur.jpg": "Cx Nº18 Provas Femur",
+						"Cx nº2 Tibia.jpg": "Cx Nº2 Tibia",
+						"Cx nº20 Provas haste.jpg": "Cx Nº20 Provas Haste",
+						"CX nº21 Calços.jpg": "Cx Nº21 Calços",
+						"Cx nº22 apoio.jpg": "Cx Nº22 Apoio",
+						"CX nº24 Rotula.jpg": "Cx Nº24 Rotula",
+						"Cx nº25 Apoio extratores.jpg": "Cx Nº25 Apoio Extratores",
+						"Cx nº3 Tibia.jpg": "Cx Nº3 Tibia",
+						"Cx nº4 Provas Tibia.jpg": "Cx Nº4 Provas Tibia",
+						"Cx nº5 Provas Tibia.jpg": "Cx Nº5 Provas Tibia",
+						"Cx nº6 Provas Tibia.jpg": "Cx Nº6 Provas Tibia",
+						"Cx nº7 Provas Tibia.jpg": "Cx Nº7 Provas Tibia",
+						"Cx nº8 Provas Tibia.jpg": "Cx Nº8 Provas Tibia",
+						"Cx nº9 Provas Tibia.jpg": "Cx Nº9 Provas Tibia",
+					},
 				},
 			},
 			"Sistema Pelvis": {
-				files: [
-					"Cx n\u00ba 1.jpg",
-					"Cx n\u00ba 2.jpg",
-					"Cx n\u00ba 3.jpg",
-					"Cx n\u00ba 4.jpg",
-					"Cx n\u00ba 5 Afastadores.jpg",
-				],
+				title: "Sistema Pelvis",
+				files: {
+					"Cx nº 1.jpg": "Cx Nº 1",
+					"Cx nº 2.jpg": "Cx Nº 2",
+					"Cx nº 3.jpg": "Cx Nº 3",
+					"Cx nº 4.jpg": "Cx Nº 4",
+					"Cx nº 5 Afastadores.jpg": "Cx Nº 5 Afastadores",
+				},
 			},
 		},
 		LIMA: {
-			files: ["Motor Conmed Lima.jpg"],
+			title: "LIMA",
+			files: {
+				"Motor Conmed Lima.jpg": "Motor Conmed Lima",
+			},
 			"Protese Joelho (PUK) Physica ZUC": {
-				files: [
-					"Cx 4 Motor.jpg",
-					"Puk Physica ZUC 1.jpg",
-					"Puk Physica ZUC 2.jpg",
-					"Puk Physica ZUC 3.jpg",
-				],
+				title: "Protese Joelho (PUK) Physica ZUC",
+				files: {
+					"Cx 4 Motor.jpg": "Cx 4 Motor",
+					"Puk Physica ZUC 1.jpg": "Puk Physica Zuc 1",
+					"Puk Physica ZUC 2.jpg": "Puk Physica Zuc 2",
+					"Puk Physica ZUC 3.jpg": "Puk Physica Zuc 3",
+				},
 			},
 			"Protese Joelho (PUK) Zimmer-Lima": {
-				files: ["Cx 1.jpg", "Cx 2.jpg", "Cx 3.jpg", "Cx 4 Motor.jpg"],
+				title: "Protese Joelho (PUK) Zimmer-Lima",
+				files: {
+					"Cx 1.jpg": "Cx 1",
+					"Cx 2.jpg": "Cx 2",
+					"Cx 3.jpg": "Cx 3",
+					"Cx 4 Motor.jpg": "Cx 4 Motor",
+				},
 			},
 			"PROTESE OMBRO": {
-				files: [
-					"Cx n\u00ba 1 Set Geral.jpg",
-					"Cx n\u00ba 2 Hemi Protese.jpg",
-					"Cx n\u00ba 3 Invertida.jpg",
-					"Cx n\u00ba 4 Glenoide.jpg",
-					"Cx n\u00ba 5 Glenoide 40-44 mm.jpg",
-					"Cx n\u00ba 6 Revisao.jpg",
-					"Cx n\u00ba 7 Cesto afastadores.jpg",
-					"Cx n\u00ba 9 Tab. Inf..jpg",
-					"Cx n\u00ba 9 Tab. Sup..jpg",
-					"Cx n\u00ba8 Tab Sup. Cementless.jpg",
-					"Cx n\u00ba8 Tab. Inf. Cementless.jpg",
-				],
+				title: "PROTESE OMBRO",
+				files: {
+					"Cx nº 1 Set Geral.jpg": "Cx Nº 1 Set Geral",
+					"Cx nº 2 Hemi Protese.jpg": "Cx Nº 2 Hemi Protese",
+					"Cx nº 3 Invertida.jpg": "Cx Nº 3 Invertida",
+					"Cx nº 4 Glenoide.jpg": "Cx Nº 4 Glenoide",
+					"Cx nº 5 Glenoide 40-44 mm.jpg": "Cx Nº 5 Glenoide 40-44 Mm",
+					"Cx nº 6 Revisao.jpg": "Cx Nº 6 Revisao",
+					"Cx nº 7 Cesto afastadores.jpg": "Cx Nº 7 Cesto Afastadores",
+					"Cx nº 9 Tab. Inf..jpg": "Cx Nº 9 Tab. Inf.",
+					"Cx nº 9 Tab. Sup..jpg": "Cx Nº 9 Tab. Sup.",
+					"Cx nº8 Tab Sup. Cementless.jpg": "Cx Nº8 Tab Sup. Cementless",
+					"Cx nº8 Tab. Inf. Cementless.jpg": "Cx Nº8 Tab. Inf. Cementless",
+				},
 			},
 			"PROTESE OMBRO SMR (NOVA)": {
-				"CX n\u00ba 1 ANATOMICA": {
-					files: ["Anatomica inf.jpg", "Anatomica sup n\u00ba1.jpg"],
+				title: "PROTESE OMBRO SMR (NOVA)",
+				"CX nº 1 ANATOMICA": {
+					title: "CX nº 1 ANATOMICA",
+					files: {
+						"Anatomica inf.jpg": "Anatomica Inf",
+						"Anatomica sup nº1.jpg": "Anatomica Sup Nº1",
+					},
 				},
-				"CX n\u00ba 2 INVERTIDA": {
-					files: ["Invertida Inf.jpg", "Invertida n\u00ba2.jpg"],
+				"CX nº 2 INVERTIDA": {
+					title: "CX nº 2 INVERTIDA",
+					files: {
+						"Invertida Inf.jpg": "Invertida Inf",
+						"Invertida nº2.jpg": "Invertida Nº2",
+					},
 				},
-				"CX n\u00ba 3 GLENOIDE": {
-					files: ["Glenoide inferior.jpg", "Glenoide Sup n\u00ba3.jpg"],
+				"CX nº 3 GLENOIDE": {
+					title: "CX nº 3 GLENOIDE",
+					files: {
+						"Glenoide inferior.jpg": "Glenoide Inferior",
+						"Glenoide Sup nº3.jpg": "Glenoide Sup Nº3",
+					},
 				},
-				"CX n\u00ba 4 HASTE": {
-					files: ["Haste cx  n\u00ba4.jpg"],
+				"CX nº 4 HASTE": {
+					title: "CX nº 4 HASTE",
+					files: {
+						"Haste cx  nº4.jpg": "Haste Cx  Nº4",
+					},
 				},
-				"CX n\u00ba 5 CABE\u00c7AS 40,44": {
-					files: ["Cabe\u00e7as 40,44.jpg"],
+				"CX nº 5 CABEÇAS 40,44": {
+					title: "CX nº 5 CABEÇAS 40,44",
+					files: {
+						"Cabeças 40,44.jpg": "Cabeças 40,44",
+					},
 				},
-				"CX n\u00ba 6 AFASTADORES": {
-					files: ["Afastadores.jpg"],
+				"CX nº 6 AFASTADORES": {
+					title: "CX nº 6 AFASTADORES",
+					files: {
+						"Afastadores.jpg": "Afastadores",
+					},
 				},
 			},
 			"Protese total Joelho (MULTIGEN)": {
-				files: [
-					"CX 1 Femur.jpg",
-					"CX 2 Femur.jpg",
-					"CX 3 Tibia.jpg",
-					"CX 4 Tibia.jpg",
-					"CX 5 Instrumental.jpg",
-					"CX 6 Instrumental.jpg",
-					"CX 7 Rotula.jpg",
-				],
+				title: "Protese total Joelho (MULTIGEN)",
+				files: {
+					"CX 1 Femur.jpg": "Cx 1 Femur",
+					"CX 2 Femur.jpg": "Cx 2 Femur",
+					"CX 3 Tibia.jpg": "Cx 3 Tibia",
+					"CX 4 Tibia.jpg": "Cx 4 Tibia",
+					"CX 5 Instrumental.jpg": "Cx 5 Instrumental",
+					"CX 6 Instrumental.jpg": "Cx 6 Instrumental",
+					"CX 7 Rotula.jpg": "Cx 7 Rotula",
+				},
 			},
 			"REVISAO ANCA LIMA": {
-				files: [
-					"Cesto Rev. anca Lima.jpg",
-					"Cx  Rev. anca Lima.jpg",
-					"Cx Acetabular grandes dimens\u00f5es.jpg",
-					"Cx Anel-aumento Acetabular....jpg",
-					"Cx Fresas femural.jpg",
-					"Cx Instrumental Femur.jpg",
-					"Cx Instrumental parafusos.jpg",
-					"Cx n\u00ba1 Instrumental Acetabular.jpg",
-					"Cx n\u00ba2 Instrumental Acetabular.jpg",
-					"Cx Provas cabe\u00e7a femural.jpg",
-					"Cx Revisao Colo.jpg",
-					"Cx. n\u00ba1 Provas acetabulares.jpg",
-					"Cx. n\u00ba2 Provas acetabulares.jpg",
-					"Extrator haste Femural.jpg",
-					"Tab. Extrator acetabular.jpg",
-					"Tab. Extrator Femural.jpg",
-				],
+				title: "REVISAO ANCA LIMA",
+				files: {
+					"Cesto Rev. anca Lima.jpg": "Cesto Rev. Anca Lima",
+					"Cx  Rev. anca Lima.jpg": "Cx  Rev. Anca Lima",
+					"Cx Acetabular grandes dimensões.jpg":
+						"Cx Acetabular Grandes Dimensões",
+					"Cx Anel-aumento Acetabular....jpg": "Cx Anel-Aumento Acetabular...",
+					"Cx Fresas femural.jpg": "Cx Fresas Femural",
+					"Cx Instrumental Femur.jpg": "Cx Instrumental Femur",
+					"Cx Instrumental parafusos.jpg": "Cx Instrumental Parafusos",
+					"Cx nº1 Instrumental Acetabular.jpg":
+						"Cx Nº1 Instrumental Acetabular",
+					"Cx nº2 Instrumental Acetabular.jpg":
+						"Cx Nº2 Instrumental Acetabular",
+					"Cx Provas cabeça femural.jpg": "Cx Provas Cabeça Femural",
+					"Cx Revisao Colo.jpg": "Cx Revisao Colo",
+					"Cx. nº1 Provas acetabulares.jpg": "Cx. Nº1 Provas Acetabulares",
+					"Cx. nº2 Provas acetabulares.jpg": "Cx. Nº2 Provas Acetabulares",
+					"Extrator haste Femural.jpg": "Extrator Haste Femural",
+					"Tab. Extrator acetabular.jpg": "Tab. Extrator Acetabular",
+					"Tab. Extrator Femural.jpg": "Tab. Extrator Femural",
+				},
 			},
 		},
 		"LUSOPALEX-EXACTECH": {
+			title: "LUSOPALEX-EXACTECH",
 			"Protese ombro invertida": {
-				files: [
-					"CX 1.jpg",
-					"CX 2.jpg",
-					"CX 3.jpg",
-					"CX 4.jpg",
-					"CX 5.jpg",
-					"CX 6.jpg",
-					"CX 7.jpg",
-					"CX 8.jpg",
-					"CX 9.jpg",
-				],
+				title: "Protese ombro invertida",
+				files: {
+					"CX 1.jpg": "Cx 1",
+					"CX 2.jpg": "Cx 2",
+					"CX 3.jpg": "Cx 3",
+					"CX 4.jpg": "Cx 4",
+					"CX 5.jpg": "Cx 5",
+					"CX 6.jpg": "Cx 6",
+					"CX 7.jpg": "Cx 7",
+					"CX 8.jpg": "Cx 8",
+					"CX 9.jpg": "Cx 9",
+				},
 			},
 		},
 		MBA: {
-			files: [
-				"CX REAMERS MBA.jpg",
-				"MBA extra\u00e7ao.jpg",
-				"Parafusos tipo Herbert 2.5 e 3.0.jpg",
-				"SERINGA CIMENTO MBA.jpg",
-			],
+			title: "MBA",
+			files: {
+				"CX REAMERS MBA.jpg": "Cx Reamers Mba",
+				"MBA extraçao.jpg": "Mba Extraçao",
+				"Parafusos tipo Herbert 2.5 e 3.0.jpg":
+					"Parafusos Tipo Herbert 2.5 E 3.0",
+				"SERINGA CIMENTO MBA.jpg": "Seringa Cimento Mba",
+			},
 			"BIOBALL MBA": {
-				files: ["BioBall.jpg"],
+				title: "BIOBALL MBA",
+				files: {
+					"BioBall.jpg": "Bioball",
+				},
 			},
 			"CX CERCLAGE": {
-				files: ["Cx Cerclage MBA.jpg"],
+				title: "CX CERCLAGE",
+				files: {
+					"Cx Cerclage MBA.jpg": "Cx Cerclage Mba",
+				},
 			},
 			"MBA - PLACAS DMS": {
-				files: ["EADI1670.JPG"],
+				title: "MBA - PLACAS DMS",
+				files: {
+					"EADI1670.JPG": "Eadi1670",
+				},
 			},
 			"MBA COLUNA LOMBAR +TLIF": {
-				files: [
-					"Cx n\u00ba1.jpg",
-					"Cx n\u00ba2.jpg",
-					"Cx n\u00ba3.jpg",
-					"Cx n\u00ba4.jpg",
-					"Cx n\u00ba5.jpg",
-					"Cx n\u00ba6 TLIF.jpg",
-					"Cx n\u00ba7 TLIF.jpg",
-					"Cx n\u00ba8 TLIF.jpg",
-				],
+				title: "MBA COLUNA LOMBAR +TLIF",
+				files: {
+					"Cx nº1.jpg": "Cx Nº1",
+					"Cx nº2.jpg": "Cx Nº2",
+					"Cx nº3.jpg": "Cx Nº3",
+					"Cx nº4.jpg": "Cx Nº4",
+					"Cx nº5.jpg": "Cx Nº5",
+					"Cx nº6 TLIF.jpg": "Cx Nº6 Tlif",
+					"Cx nº7 TLIF.jpg": "Cx Nº7 Tlif",
+					"Cx nº8 TLIF.jpg": "Cx Nº8 Tlif",
+				},
 			},
 			"ORTHOFIX Truelok": {
-				files: [
-					"Corta barra.jpg",
-					"MBA 1.jpg",
-					"MBA 2.jpg",
-					"MBA 3.jpg",
-					"MBA 4.jpg",
-					"MBA 5.jpg",
-					"MBA 6.jpg",
-				],
+				title: "ORTHOFIX Truelok",
+				files: {
+					"Corta barra.jpg": "Corta Barra",
+					"MBA 1.jpg": "Mba 1",
+					"MBA 2.jpg": "Mba 2",
+					"MBA 3.jpg": "Mba 3",
+					"MBA 4.jpg": "Mba 4",
+					"MBA 5.jpg": "Mba 5",
+					"MBA 6.jpg": "Mba 6",
+				},
 			},
 			"Protese Total Ombro": {
-				files: [
-					"CX n\u00ba 1.jpg",
-					"CX n\u00ba 10.jpg",
-					"CX n\u00ba 11.jpg",
-					"CX n\u00ba 12.jpg",
-					"CX n\u00ba 13.jpg",
-					"CX n\u00ba 14.jpg",
-					"CX n\u00ba 2.jpg",
-					"CX n\u00ba 3.jpg",
-					"CX n\u00ba 4.jpg",
-					"CX n\u00ba 5.jpg",
-					"CX n\u00ba 6.jpg",
-					"CX n\u00ba 7.jpg",
-					"CX n\u00ba 8.jpg",
-					"CX n\u00ba 9.jpg",
-				],
+				title: "Protese Total Ombro",
+				files: {
+					"CX nº 1.jpg": "Cx Nº 1",
+					"CX nº 10.jpg": "Cx Nº 10",
+					"CX nº 11.jpg": "Cx Nº 11",
+					"CX nº 12.jpg": "Cx Nº 12",
+					"CX nº 13.jpg": "Cx Nº 13",
+					"CX nº 14.jpg": "Cx Nº 14",
+					"CX nº 2.jpg": "Cx Nº 2",
+					"CX nº 3.jpg": "Cx Nº 3",
+					"CX nº 4.jpg": "Cx Nº 4",
+					"CX nº 5.jpg": "Cx Nº 5",
+					"CX nº 6.jpg": "Cx Nº 6",
+					"CX nº 7.jpg": "Cx Nº 7",
+					"CX nº 8.jpg": "Cx Nº 8",
+					"CX nº 9.jpg": "Cx Nº 9",
+				},
 			},
 			"REVISAO ANCA MBA 12 CX (28-4)": {
-				files: [
-					"A 1.jpg",
-					"A 10.jpg",
-					"A 11.jpg",
-					"A 12.jpg",
-					"A 2.jpg",
-					"A 3.jpg",
-					"A 4.jpg",
-					"A 5.jpg",
-					"A 6.jpg",
-					"A 8.jpg",
-					"A 9.jpg",
-				],
+				title: "REVISAO ANCA MBA 12 CX (28-4)",
+				files: {
+					"A 1.jpg": "A 1",
+					"A 10.jpg": "A 10",
+					"A 11.jpg": "A 11",
+					"A 12.jpg": "A 12",
+					"A 2.jpg": "A 2",
+					"A 3.jpg": "A 3",
+					"A 4.jpg": "A 4",
+					"A 5.jpg": "A 5",
+					"A 6.jpg": "A 6",
+					"A 8.jpg": "A 8",
+					"A 9.jpg": "A 9",
+				},
 			},
 			"REVISAO PTA MBA 9 CX": {
-				files: [
-					"FRESAS FEMUR.jpg",
-					"INST. ACETABULO 1.jpg",
-					"INST. ACETABULO 2.jpg",
-					"INST. FEMUR 1.jpg",
-					"INST. FEMUR 2.jpg",
-					"INST. GERAL 1.jpg",
-					"PROVAS ACETABULO.jpg",
-					"PROVAS FEMUR 2.jpg",
-					"PROVAS FEMUR.jpg",
-				],
+				title: "REVISAO PTA MBA 9 CX",
+				files: {
+					"FRESAS FEMUR.jpg": "Fresas Femur",
+					"INST. ACETABULO 1.jpg": "Inst. Acetabulo 1",
+					"INST. ACETABULO 2.jpg": "Inst. Acetabulo 2",
+					"INST. FEMUR 1.jpg": "Inst. Femur 1",
+					"INST. FEMUR 2.jpg": "Inst. Femur 2",
+					"INST. GERAL 1.jpg": "Inst. Geral 1",
+					"PROVAS ACETABULO.jpg": "Provas Acetabulo",
+					"PROVAS FEMUR 2.jpg": "Provas Femur 2",
+					"PROVAS FEMUR.jpg": "Provas Femur",
+				},
 			},
-			"TAC\u00cdCULA RADIAL (ICARA)": {
-				files: ["Tac\u00edcula Radial (ICARA).jpg"],
+			"TACÍCULA RADIAL (ICARA)": {
+				title: "TACÍCULA RADIAL (ICARA)",
+				files: {
+					"Tacícula Radial (ICARA).jpg": "Tacícula Radial (Icara)",
+				},
 			},
 		},
 		MEDTRONIC: {
-			files: [
-				"Afastador cervical Caspar.jpg",
-				"Afastadores rectrator Cervical.jpg",
-			],
+			title: "MEDTRONIC",
+			files: {
+				"Afastador cervical Caspar.jpg": "Afastador Cervical Caspar",
+				"Afastadores rectrator Cervical.jpg": "Afastadores Rectrator Cervical",
+			},
 			"Instrumental coluna cervical DIVERGENCE (1 cx)": {
-				files: ["Tab. n\u00ba1.jpg", "Tab. n\u00ba2.jpg"],
+				title: "Instrumental coluna cervical DIVERGENCE (1 cx)",
+				files: {
+					"Tab. nº1.jpg": "Tab. Nº1",
+					"Tab. nº2.jpg": "Tab. Nº2",
+				},
 			},
 			ORL: {
-				files: ["ORL Cabo Medtronic.jpg", "ORL Medtronic.jpg"],
+				title: "ORL",
+				files: {
+					"ORL Cabo Medtronic.jpg": "Orl Cabo Medtronic",
+					"ORL Medtronic.jpg": "Orl Medtronic",
+				},
 			},
 		},
 		"Motor Conmed (Emprestado)": {
-			files: ["Cx Motor Conmed.jpg", "Motor Conmed.jpg"],
+			title: "Motor Conmed (Emprestado)",
+			files: {
+				"Cx Motor Conmed.jpg": "Cx Motor Conmed",
+				"Motor Conmed.jpg": "Motor Conmed",
+			},
 		},
 		NEUROWAVE: {
+			title: "NEUROWAVE",
 			COLUNA: {
-				files: ["Cx 1.JPG", "Cx2.JPG", "Tab cx2.JPG", "Tab. cx1.JPG"],
+				title: "COLUNA",
+				files: {
+					"Cx 1.JPG": "Cx 1",
+					"Cx2.JPG": "Cx2",
+					"Tab cx2.JPG": "Tab Cx2",
+					"Tab. cx1.JPG": "Tab. Cx1",
+				},
 			},
 		},
 		"OFTALMOLOGIA AMB": {
-			files: ["oftalmologia (Ferrara).JPG", "OHRM8012.JPG"],
+			title: "OFTALMOLOGIA AMB",
+			files: {
+				"oftalmologia (Ferrara).JPG": "Oftalmologia (Ferrara)",
+				"OHRM8012.JPG": "Ohrm8012",
+			},
 		},
 		Paragon: {
-			files: ["Material Paragon.jpg"],
+			title: "Paragon",
+			files: {
+				"Material Paragon.jpg": "Material Paragon",
+			},
 		},
 		SMITH_NEPHEW: {
+			title: "SMITH_NEPHEW",
 			"INST. PROTESE TOTAL JOELHO": {
-				files: [
-					"Cx PS.jpg",
-					"Cx ROTULA.JPG",
-					"Tabuleiro femur 1.JPG",
-					"Tabuleiro femur 2.JPG",
-					"Tabuleiro Tibia 1.JPG",
-					"Tabuleiro Tibia 2.JPG",
-				],
+				title: "INST. PROTESE TOTAL JOELHO",
+				files: {
+					"Cx PS.jpg": "Cx Ps",
+					"Cx ROTULA.JPG": "Cx Rotula",
+					"Tabuleiro femur 1.JPG": "Tabuleiro Femur 1",
+					"Tabuleiro femur 2.JPG": "Tabuleiro Femur 2",
+					"Tabuleiro Tibia 1.JPG": "Tabuleiro Tibia 1",
+					"Tabuleiro Tibia 2.JPG": "Tabuleiro Tibia 2",
+				},
 			},
 			"INST. PTJ CHARNEIRA": {
-				files: [
-					"CX 1 de 6 Sup..jpg",
-					"CX 1 de 6.jpg",
-					"CX 2 de 6.jpg",
-					"CX 3 de 6.jpg",
-					"CX 4 de 6.jpg",
-					"CX 5 de 6.jpg",
-					"CX 6 de 6.jpg",
-					"CX Rotula n\u00ba7.jpg",
-				],
+				title: "INST. PTJ CHARNEIRA",
+				files: {
+					"CX 1 de 6 Sup..jpg": "Cx 1 De 6 Sup.",
+					"CX 1 de 6.jpg": "Cx 1 De 6",
+					"CX 2 de 6.jpg": "Cx 2 De 6",
+					"CX 3 de 6.jpg": "Cx 3 De 6",
+					"CX 4 de 6.jpg": "Cx 4 De 6",
+					"CX 5 de 6.jpg": "Cx 5 De 6",
+					"CX 6 de 6.jpg": "Cx 6 De 6",
+					"CX Rotula nº7.jpg": "Cx Rotula Nº7",
+				},
 			},
 			"LCA JOELHO": {
-				files: [
-					"CX 1 COMPONENTES.jpg",
-					"CX 1.jpg",
-					"CX 2 COMPONENTES.jpg",
-					"CX 2.jpg",
-					"CX 3.jpg",
-					"CX2 LATERAL (1).jpg",
-					"CX2 LATERAL (2).jpg",
-				],
+				title: "LCA JOELHO",
+				files: {
+					"CX 1 COMPONENTES.jpg": "Cx 1 Componentes",
+					"CX 1.jpg": "Cx 1",
+					"CX 2 COMPONENTES.jpg": "Cx 2 Componentes",
+					"CX 2.jpg": "Cx 2",
+					"CX 3.jpg": "Cx 3",
+					"CX2 LATERAL (1).jpg": "Cx2 Lateral (1)",
+					"CX2 LATERAL (2).jpg": "Cx2 Lateral (2)",
+				},
 			},
 			"REVISAO PTA SMITH _ NEPHEW (21cx)": {
-				files: [
-					"AIAD0021.JPG",
-					"AVTM3901.JPG",
-					"CSSJ1056.JPG",
-					"CZYR3603.JPG",
-					"LUDS7831.JPG",
-					"NHKU2392.JPG",
-					"NIBE2562.JPG",
-					"QVQE1161.JPG",
-					"RSRQ1957.JPG",
-					"SXHY4822.JPG",
-					"UWIC5949.JPG",
-				],
+				title: "REVISAO PTA SMITH _ NEPHEW (21cx)",
+				files: {
+					"AIAD0021.JPG": "Aiad0021",
+					"AVTM3901.JPG": "Avtm3901",
+					"CSSJ1056.JPG": "Cssj1056",
+					"CZYR3603.JPG": "Czyr3603",
+					"LUDS7831.JPG": "Luds7831",
+					"NHKU2392.JPG": "Nhku2392",
+					"NIBE2562.JPG": "Nibe2562",
+					"QVQE1161.JPG": "Qvqe1161",
+					"RSRQ1957.JPG": "Rsrq1957",
+					"SXHY4822.JPG": "Sxhy4822",
+					"UWIC5949.JPG": "Uwic5949",
+				},
 			},
-			"REVIS\u00c3O PTJ LEGION (18 Tab.)": {
-				files: [
-					"Extra no Cesto 13.jpg",
-					"Tab. 1-2.jpg",
-					"Tab. 11-12.jpg",
-					"Tab. 13-14.jpg",
-					"Tab. 15-16-17.jpg",
-					"Tab. 3-4.jpg",
-					"Tab. 5-6.jpg",
-					"Tab. 7-8.jpg",
-					"Tab. 9-10.jpg",
-				],
+			"REVISÃO PTJ LEGION (18 Tab.)": {
+				title: "REVISÃO PTJ LEGION (18 Tab.)",
+				files: {
+					"Extra no Cesto 13.jpg": "Extra No Cesto 13",
+					"Tab. 1-2.jpg": "Tab. 1-2",
+					"Tab. 11-12.jpg": "Tab. 11-12",
+					"Tab. 13-14.jpg": "Tab. 13-14",
+					"Tab. 15-16-17.jpg": "Tab. 15-16-17",
+					"Tab. 3-4.jpg": "Tab. 3-4",
+					"Tab. 5-6.jpg": "Tab. 5-6",
+					"Tab. 7-8.jpg": "Tab. 7-8",
+					"Tab. 9-10.jpg": "Tab. 9-10",
+				},
 			},
 		},
 		STRYKER: {
-			files: ["MOPYC (Extra\u00e7\u00e3o material).jpg"],
-			"ANCHORAGE P\u00c9": {
-				files: ["Stryker P\u00e9 1.jpg", "Stryker p\u00e9 2.jpg"],
+			title: "STRYKER",
+			files: {
+				"MOPYC (Extração material).jpg": "Mopyc (Extração Material)",
+			},
+			"ANCHORAGE PÉ": {
+				title: "ANCHORAGE PÉ",
+				files: {
+					"Stryker Pé 1.jpg": "Stryker Pé 1",
+					"Stryker pé 2.jpg": "Stryker Pé 2",
+				},
 			},
 			"ARTROSCOPIA DO OMBRO": {
-				files: [
-					"Cx Artroscopia ombro Stryker.jpg",
-					"Cx Ombro Stryker.jpg",
-					"Tab. artroscopia ombro Stryker.jpg",
-				],
+				title: "ARTROSCOPIA DO OMBRO",
+				files: {
+					"Cx Artroscopia ombro Stryker.jpg": "Cx Artroscopia Ombro Stryker",
+					"Cx Ombro Stryker.jpg": "Cx Ombro Stryker",
+					"Tab. artroscopia ombro Stryker.jpg":
+						"Tab. Artroscopia Ombro Stryker",
+				},
 			},
 			"AXSOS 3 TIBIA-UMERO": {
-				files: [
-					"CX INSTRUMENTAL.jpg",
-					"CX PLACAS PROXIMAL LATERAL TIBIA.jpg",
-					"CX PLACAS PROXIMAL MEDIAL TIBIA.jpg",
-					"PARAFUSOS AXOS TIBIA-UMERO.jpg",
-					"TAB INSTRUMENTAL.jpg",
-				],
+				title: "AXSOS 3 TIBIA-UMERO",
+				files: {
+					"CX INSTRUMENTAL.jpg": "Cx Instrumental",
+					"CX PLACAS PROXIMAL LATERAL TIBIA.jpg":
+						"Cx Placas Proximal Lateral Tibia",
+					"CX PLACAS PROXIMAL MEDIAL TIBIA.jpg":
+						"Cx Placas Proximal Medial Tibia",
+					"PARAFUSOS AXOS TIBIA-UMERO.jpg": "Parafusos Axos Tibia-Umero",
+					"TAB INSTRUMENTAL.jpg": "Tab Instrumental",
+				},
 			},
 			"Caixa Mini Hoffmann": {
-				files: ["Mini Hoffmann 1.jpg", "Mini Hoffmann 2.jpg"],
+				title: "Caixa Mini Hoffmann",
+				files: {
+					"Mini Hoffmann 1.jpg": "Mini Hoffmann 1",
+					"Mini Hoffmann 2.jpg": "Mini Hoffmann 2",
+				},
 			},
-			"GAMMA N\u00ba 3": {
-				files: ["Gamma 3 Cx1.jpg", "Gamma 3 Cx2.jpg", "Gamma 3 Tab. Cx1.jpg"],
+			"GAMMA Nº 3": {
+				title: "GAMMA Nº 3",
+				files: {
+					"Gamma 3 Cx1.jpg": "Gamma 3 Cx1",
+					"Gamma 3 Cx2.jpg": "Gamma 3 Cx2",
+					"Gamma 3 Tab. Cx1.jpg": "Gamma 3 Tab. Cx1",
+				},
 			},
 			"HOFFMAN 3": {
-				files: ["Tab. Inferior.jpg", "Tabs. Superiores.jpg"],
+				title: "HOFFMAN 3",
+				files: {
+					"Tab. Inferior.jpg": "Tab. Inferior",
+					"Tabs. Superiores.jpg": "Tabs. Superiores",
+				},
 			},
 			"INST. PLACAS BLOQUEADAS 5": {
-				files: [
-					"Inst. Placas Bloqueadas 5 Inf..jpg",
-					"Inst. Placas Bloqueadas 5 Sup..jpg",
-					"Parafusos Bloqueados 5.jpg",
-				],
+				title: "INST. PLACAS BLOQUEADAS 5",
+				files: {
+					"Inst. Placas Bloqueadas 5 Inf..jpg":
+						"Inst. Placas Bloqueadas 5 Inf.",
+					"Inst. Placas Bloqueadas 5 Sup..jpg":
+						"Inst. Placas Bloqueadas 5 Sup.",
+					"Parafusos Bloqueados 5.jpg": "Parafusos Bloqueados 5",
+				},
 			},
 			LIGAMENTOPLASTIA: {
-				files: [
-					"Ligamentoplastia 1.jpg",
-					"Ligamentoplastia 2.jpg",
-					"ligamentoplastia 6 BIOTEON.jpg",
-					"Ligamentoplastia VERSITOMIC 4.jpg",
-					"Ligamentoplastia VERSITOMIC tab medio e superior (1).jpg",
-					"Ligamentoplastia VERSITOMIC tab medio e superior (2).jpg",
-					"Ligamentoplastia VERSITOMIC.jpg",
-				],
+				title: "LIGAMENTOPLASTIA",
+				files: {
+					"Ligamentoplastia 1.jpg": "Ligamentoplastia 1",
+					"Ligamentoplastia 2.jpg": "Ligamentoplastia 2",
+					"ligamentoplastia 6 BIOTEON.jpg": "Ligamentoplastia 6 Bioteon",
+					"Ligamentoplastia VERSITOMIC 4.jpg": "Ligamentoplastia Versitomic 4",
+					"Ligamentoplastia VERSITOMIC tab medio e superior (1).jpg":
+						"Ligamentoplastia Versitomic Tab Medio E Superior (1)",
+					"Ligamentoplastia VERSITOMIC tab medio e superior (2).jpg":
+						"Ligamentoplastia Versitomic Tab Medio E Superior (2)",
+					"Ligamentoplastia VERSITOMIC.jpg": "Ligamentoplastia Versitomic",
+				},
 			},
 			"MATTA Pelvic": {
-				files: [
-					"CX 1.jpg",
-					"CX 2.jpg",
-					"CX 3.jpg",
-					"CX 4.jpg",
-					"CX 5.jpg",
-					"CX 6.jpg",
-				],
+				title: "MATTA Pelvic",
+				files: {
+					"CX 1.jpg": "Cx 1",
+					"CX 2.jpg": "Cx 2",
+					"CX 3.jpg": "Cx 3",
+					"CX 4.jpg": "Cx 4",
+					"CX 5.jpg": "Cx 5",
+					"CX 6.jpg": "Cx 6",
+				},
 			},
 			"PARAFUSOS CAN. 6.5mm 8.0mm": {
-				files: ["Parafusos Canulados 6.5 e 8.0.JPG"],
+				title: "PARAFUSOS CAN. 6.5mm 8.0mm",
+				files: {
+					"Parafusos Canulados 6.5 e 8.0.JPG": "Parafusos Canulados 6.5 E 8.0",
+				},
 			},
 			"PARAFUSOS CANULADOS 3.0": {
-				files: [
-					"Parafusos canulados 3.0 Stryker (1).jpg",
-					"Parafusos canulados 3.0 Stryker (2).jpg",
-				],
+				title: "PARAFUSOS CANULADOS 3.0",
+				files: {
+					"Parafusos canulados 3.0 Stryker (1).jpg":
+						"Parafusos Canulados 3.0 Stryker (1)",
+					"Parafusos canulados 3.0 Stryker (2).jpg":
+						"Parafusos Canulados 3.0 Stryker (2)",
+				},
 			},
 			"PEQ. FRAGMENTOS BLOQUEADOS": {
-				files: [
-					"Parafusos Peq. Fragmentos Bloqueados.jpg",
-					"Peq. Fragmentos Bloq. Superior.jpg",
-					"Peq. Fragmentos Bloq..jpg",
-					"Peq. Fragmentos Bloqueados Inf..jpg",
-				],
+				title: "PEQ. FRAGMENTOS BLOQUEADOS",
+				files: {
+					"Parafusos Peq. Fragmentos Bloqueados.jpg":
+						"Parafusos Peq. Fragmentos Bloqueados",
+					"Peq. Fragmentos Bloq. Superior.jpg":
+						"Peq. Fragmentos Bloq. Superior",
+					"Peq. Fragmentos Bloq..jpg": "Peq. Fragmentos Bloq.",
+					"Peq. Fragmentos Bloqueados Inf..jpg":
+						"Peq. Fragmentos Bloqueados Inf.",
+				},
 			},
 			"PROTESE OMBRO": {
-				files: [
-					"CX n\u00ba 5 BIO RSA exerto osseo.jpg",
-					"Cx n\u00ba 6 Afastadores Retractores.jpg",
-					"Cx n\u00ba 7 Protese Ombro.jpg",
-				],
+				title: "PROTESE OMBRO",
+				files: {
+					"CX nº 5 BIO RSA exerto osseo.jpg": "Cx Nº 5 Bio Rsa Exerto Osseo",
+					"Cx nº 6 Afastadores Retractores.jpg":
+						"Cx Nº 6 Afastadores Retractores",
+					"Cx nº 7 Protese Ombro.jpg": "Cx Nº 7 Protese Ombro",
+				},
 				"Glenoide Reverse II 2cx": {
-					files: [
-						"CX1 Tab. inferior.jpg",
-						"CX1 Tab. superior.jpg",
-						"CX2 Tab. inferior.jpg",
-						"CX2 Tab. superior.jpg",
-					],
+					title: "Glenoide Reverse II 2cx",
+					files: {
+						"CX1 Tab. inferior.jpg": "Cx1 Tab. Inferior",
+						"CX1 Tab. superior.jpg": "Cx1 Tab. Superior",
+						"CX2 Tab. inferior.jpg": "Cx2 Tab. Inferior",
+						"CX2 Tab. superior.jpg": "Cx2 Tab. Superior",
+					},
 				},
 				"Umero Ascendflex 2cx": {
-					files: [
-						"CX1 Tab. inferior.jpg",
-						"CX1 Tab. superior.jpg",
-						"CX2 Tab. inferior.jpg",
-						"CX2 Tab. superior.jpg",
-					],
+					title: "Umero Ascendflex 2cx",
+					files: {
+						"CX1 Tab. inferior.jpg": "Cx1 Tab. Inferior",
+						"CX1 Tab. superior.jpg": "Cx1 Tab. Superior",
+						"CX2 Tab. inferior.jpg": "Cx2 Tab. Inferior",
+						"CX2 Tab. superior.jpg": "Cx2 Tab. Superior",
+					},
 				},
 			},
 			"T2 TORNOZELO": {
-				files: [
-					"Reamers flexiveis.jpg",
-					"T2 Tornozelo (2).jpg",
-					"T2 Tornozelo.jpg",
-				],
+				title: "T2 TORNOZELO",
+				files: {
+					"Reamers flexiveis.jpg": "Reamers Flexiveis",
+					"T2 Tornozelo (2).jpg": "T2 Tornozelo (2)",
+					"T2 Tornozelo.jpg": "T2 Tornozelo",
+				},
 			},
 			"VARIAX II Clavicula": {
-				files: ["Variax II Clavicula (Placas).jpg", "Variax II Clavicula.jpg"],
+				title: "VARIAX II Clavicula",
+				files: {
+					"Variax II Clavicula (Placas).jpg": "Variax Ii Clavicula (Placas)",
+					"Variax II Clavicula.jpg": "Variax Ii Clavicula",
+				},
 			},
 			"VARIAX II PEQ. FRAGMENTOS": {
-				files: [
-					"Peq. fragmentos Variax II (placas bloqueadas).jpg",
-					"Peq. fragmentos Variax II.jpg",
-				],
+				title: "VARIAX II PEQ. FRAGMENTOS",
+				files: {
+					"Peq. fragmentos Variax II (placas bloqueadas).jpg":
+						"Peq. Fragmentos Variax Ii (Placas Bloqueadas)",
+					"Peq. fragmentos Variax II.jpg": "Peq. Fragmentos Variax Ii",
+				},
 			},
-			"VARIAX II P\u00c9": {
-				files: [
-					"Protese Cabe\u00e7a Radio Mopyc.jpg",
-					"Variax II P\u00e9 (1).jpg",
-					"Variax II P\u00e9 (2).jpg",
-				],
+			"VARIAX II PÉ": {
+				title: "VARIAX II PÉ",
+				files: {
+					"Protese Cabeça Radio Mopyc.jpg": "Protese Cabeça Radio Mopyc",
+					"Variax II Pé (1).jpg": "Variax Ii Pé (1)",
+					"Variax II Pé (2).jpg": "Variax Ii Pé (2)",
+				},
 			},
-			"VARIAX II R\u00e1dio Distal": {
-				files: [
-					"Variax II Radio Distal cx 1.jpg",
-					"Variax II R\u00e1dio Distal cx 2.jpg",
-					"Variax II R\u00e1dio Distal.jpg",
-					"VariaxII Radio Distal.jpg",
-				],
+			"VARIAX II Rádio Distal": {
+				title: "VARIAX II Rádio Distal",
+				files: {
+					"Variax II Radio Distal cx 1.jpg": "Variax Ii Radio Distal Cx 1",
+					"Variax II Rádio Distal cx 2.jpg": "Variax Ii Rádio Distal Cx 2",
+					"Variax II Rádio Distal.jpg": "Variax Ii Rádio Distal",
+					"VariaxII Radio Distal.jpg": "Variaxii Radio Distal",
+				},
 			},
 		},
 		SURGYLINE: {
+			title: "SURGYLINE",
 			"ASPEN Fixador inter espinhoso": {
-				files: ["Tab Intermedio.jpg", "Tab Superior.jpg", "Tab. Inferior.jpg"],
+				title: "ASPEN Fixador inter espinhoso",
+				files: {
+					"Tab Intermedio.jpg": "Tab Intermedio",
+					"Tab Superior.jpg": "Tab Superior",
+					"Tab. Inferior.jpg": "Tab. Inferior",
+				},
 			},
 			"INSTRUMENTAL COLUNA BIOMET": {
-				files: ["INSTRUMENTAL.JPG"],
+				title: "INSTRUMENTAL COLUNA BIOMET",
+				files: {
+					"INSTRUMENTAL.JPG": "Instrumental",
+				},
 			},
 			"INSTRUMENTAL COLUNA PATHFINDER": {
-				files: ["Tab. 1 e 2.JPG", "Tab. 3 e 5.JPG", "Tab. 4 e 6.JPG"],
+				title: "INSTRUMENTAL COLUNA PATHFINDER",
+				files: {
+					"Tab. 1 e 2.JPG": "Tab. 1 E 2",
+					"Tab. 3 e 5.JPG": "Tab. 3 E 5",
+					"Tab. 4 e 6.JPG": "Tab. 4 E 6",
+				},
 			},
 		},
 		"ZIMMER BIOMET": {
+			title: "ZIMMER BIOMET",
 			"CAGE COLUNA LOMBAR BIOMET": {
-				files: [
-					"CJRW6905.JPG",
-					"EMKU3639.JPG",
-					"HZCG9119.JPG",
-					"PAGM0670.JPG",
-					"VQNX5488.JPG",
-				],
+				title: "CAGE COLUNA LOMBAR BIOMET",
+				files: {
+					"CJRW6905.JPG": "Cjrw6905",
+					"EMKU3639.JPG": "Emku3639",
+					"HZCG9119.JPG": "Hzcg9119",
+					"PAGM0670.JPG": "Pagm0670",
+					"VQNX5488.JPG": "Vqnx5488",
+				},
 			},
 			"INST. PROTESE TOTAL JOELHO": {
-				files: [
-					"Cx n 1 Instrumental Geral.jpg",
-					"Cx n 2 Instrumental Tibia.jpg",
-					"Cx n 3 Instrumental Femur.jpg",
-					"Cx n 4 Femur CR.jpg",
-					"Cx n 5  Tibia.jpg",
-					"Cx n 6  Femur PS.jpg",
-					"Cx n 7 instrumental caixa PS.jpg",
-					"Cx n 8 Rotula.jpg",
-					"Encaixe Hudson.jpg",
-				],
+				title: "INST. PROTESE TOTAL JOELHO",
+				files: {
+					"Cx n 1 Instrumental Geral.jpg": "Cx N 1 Instrumental Geral",
+					"Cx n 2 Instrumental Tibia.jpg": "Cx N 2 Instrumental Tibia",
+					"Cx n 3 Instrumental Femur.jpg": "Cx N 3 Instrumental Femur",
+					"Cx n 4 Femur CR.jpg": "Cx N 4 Femur Cr",
+					"Cx n 5  Tibia.jpg": "Cx N 5  Tibia",
+					"Cx n 6  Femur PS.jpg": "Cx N 6  Femur Ps",
+					"Cx n 7 instrumental caixa PS.jpg": "Cx N 7 Instrumental Caixa Ps",
+					"Cx n 8 Rotula.jpg": "Cx N 8 Rotula",
+					"Encaixe Hudson.jpg": "Encaixe Hudson",
+				},
 			},
 			"JOELHO PUK (unicompartimental) OXFORD + MOTOR BIOMET": {
-				files: [
-					"CX 1 TABULEIRO INFERIOR.jpg",
-					"CX 1 TABULEIRO SUPERIOR.jpg",
-					"CX 2 TABULEIRO INFERIOR.jpg",
-					"CX 2 TABULEIRO SUPERIOR.jpg",
-					"CX SIZE L.jpg",
-					"CX SIZE M.jpg",
-					"CX SIZE S.jpg",
-					"MOTOR BIOMET.jpg",
-					"Motor PUK Biomet.jpg",
-				],
+				title: "JOELHO PUK (unicompartimental) OXFORD + MOTOR BIOMET",
+				files: {
+					"CX 1 TABULEIRO INFERIOR.jpg": "Cx 1 Tabuleiro Inferior",
+					"CX 1 TABULEIRO SUPERIOR.jpg": "Cx 1 Tabuleiro Superior",
+					"CX 2 TABULEIRO INFERIOR.jpg": "Cx 2 Tabuleiro Inferior",
+					"CX 2 TABULEIRO SUPERIOR.jpg": "Cx 2 Tabuleiro Superior",
+					"CX SIZE L.jpg": "Cx Size L",
+					"CX SIZE M.jpg": "Cx Size M",
+					"CX SIZE S.jpg": "Cx Size S",
+					"MOTOR BIOMET.jpg": "Motor Biomet",
+					"Motor PUK Biomet.jpg": "Motor Puk Biomet",
+				},
 			},
 			"PROTESE OMBRO COMPREHENSIVE BIOMET": {
-				files: [
-					"ADZI6226.JPG",
-					"GDOA4567.JPG",
-					"KVCF0592.JPG",
-					"KZEZ6743.JPG",
-					"NHJF6818.JPG",
-					"ODVE8461.JPG",
-					"SXCV4730.JPG",
-					"TZLL6013.JPG",
-					"VIAE7254.JPG",
-				],
+				title: "PROTESE OMBRO COMPREHENSIVE BIOMET",
+				files: {
+					"ADZI6226.JPG": "Adzi6226",
+					"GDOA4567.JPG": "Gdoa4567",
+					"KVCF0592.JPG": "Kvcf0592",
+					"KZEZ6743.JPG": "Kzez6743",
+					"NHJF6818.JPG": "Nhjf6818",
+					"ODVE8461.JPG": "Odve8461",
+					"SXCV4730.JPG": "Sxcv4730",
+					"TZLL6013.JPG": "Tzll6013",
+					"VIAE7254.JPG": "Viae7254",
+				},
 			},
 			"PTA Biomet (TAPERLOC)": {
-				files: [
-					"Biomet Acetabulo.jpg",
-					"Biomet Geral + pe\u00e7as.jpg",
-					"Biomet geral.jpg",
-					"Biomet Haste femural.jpg",
-					"Pe\u00e7as soltas Biomet.jpg",
-				],
+				title: "PTA Biomet (TAPERLOC)",
+				files: {
+					"Biomet Acetabulo.jpg": "Biomet Acetabulo",
+					"Biomet Geral + peças.jpg": "Biomet Geral + Peças",
+					"Biomet geral.jpg": "Biomet Geral",
+					"Biomet Haste femural.jpg": "Biomet Haste Femural",
+					"Peças soltas Biomet.jpg": "Peças Soltas Biomet",
+				},
 			},
 			"PTA DUPLA MOBILIDADE": {
-				files: [
-					"CX 1 INSTRUMENTAL.jpg",
-					"CX 2 ACETABULO.jpg",
-					"CX 3 PROVAS ACETABULAR.jpg",
-					"CX 4 PROVAS ACETABULAR.jpg",
-					"CX 5 PARAFUSOS.jpg",
-					"CX 6 FEMUR.jpg",
-					"CX 7 FEMUR.jpg",
-					"CX 8 PROVAS COLO.jpg",
-					"N\u00ba 9 CESTO APOIO.jpg",
-				],
+				title: "PTA DUPLA MOBILIDADE",
+				files: {
+					"CX 1 INSTRUMENTAL.jpg": "Cx 1 Instrumental",
+					"CX 2 ACETABULO.jpg": "Cx 2 Acetabulo",
+					"CX 3 PROVAS ACETABULAR.jpg": "Cx 3 Provas Acetabular",
+					"CX 4 PROVAS ACETABULAR.jpg": "Cx 4 Provas Acetabular",
+					"CX 5 PARAFUSOS.jpg": "Cx 5 Parafusos",
+					"CX 6 FEMUR.jpg": "Cx 6 Femur",
+					"CX 7 FEMUR.jpg": "Cx 7 Femur",
+					"CX 8 PROVAS COLO.jpg": "Cx 8 Provas Colo",
+					"Nº 9 CESTO APOIO.jpg": "Nº 9 Cesto Apoio",
+				},
 			},
 		},
 	},
 	MaterialServicos: {
-		title: "Material e Servi\u00e7os",
-		"CAMPO PEQ. CIR. ESTERILIZA\u00c7AO": {
-			files: ["Campo Peq. Cir. Sevi\u00e7os.jpg"],
+		title: "Material Servicos",
+		"CAMPO PEQ. CIR. ESTERILIZAÇAO": {
+			title: "CAMPO PEQ. CIR. ESTERILIZAÇAO",
+			files: {
+				"Campo Peq. Cir. Seviços.jpg": "Campo Peq. Cir. Seviços",
+			},
 		},
 		CARDIOLOGIA: {
-			files: [
-				"Cabo 4 deriva\u00e7\u00f5es.JPG",
-				"Caixa partes moles.JPG",
-				"Cardiologia.jpg",
-			],
+			title: "CARDIOLOGIA",
+			files: {
+				"Cabo 4 derivações.JPG": "Cabo 4 Derivações",
+				"Caixa partes moles.JPG": "Caixa Partes Moles",
+				"Cardiologia.jpg": "Cardiologia",
+			},
 		},
 		"CONSULTA EXTERNA": {
+			title: "CONSULTA EXTERNA",
 			"Campo penso Ginec": {
-				files: ["Campo Penso Ginec..jpg"],
+				title: "Campo penso Ginec",
+				files: {
+					"Campo Penso Ginec..jpg": "Campo Penso Ginec.",
+				},
 			},
 			"CAMPOS PEQ. CIRURGIA": {
-				files: [
-					"Campo Peq. Cirg..jpg",
-					"Mosquito com dente.jpg",
-					"Mosquito sem dente.jpg",
-					"Pin\u00e7a Anel.jpg",
-				],
+				title: "CAMPOS PEQ. CIRURGIA",
+				files: {
+					"Campo Peq. Cirg..jpg": "Campo Peq. Cirg.",
+					"Mosquito com dente.jpg": "Mosquito Com Dente",
+					"Mosquito sem dente.jpg": "Mosquito Sem Dente",
+					"Pinça Anel.jpg": "Pinça Anel",
+				},
 			},
 			"CONS. .EXT. UROLOGIA": {
-				"Cistosc\u00f3pios": {
-					files: [
-						"Cistosc\u00f3pio n\u00ba 2 (5 pe\u00e7as).jpg",
-						"Cistosc\u00f3pio n\u00ba 3 e 4 (5 pe\u00e7as).jpg",
-						"Cistosc\u00f3pio n\u00ba 6 (2 pe\u00e7as) ACMI Sem Lente.jpg",
-					],
-					"Cistosc\u00f3pio n\u00ba 1": {
-						files: [
-							"Cistosc\u00f3pio n\u00ba 1 (6 pe\u00e7as) Olympus.jpg",
-							"Comp. Cistosc\u00f3pio n\u00ba 1.jpg",
-						],
+				title: "CONS. .EXT. UROLOGIA",
+				Cistoscópios: {
+					title: "Cistoscópios",
+					files: {
+						"Cistoscópio nº 2 (5 peças).jpg": "Cistoscópio Nº 2 (5 Peças)",
+						"Cistoscópio nº 3 e 4 (5 peças).jpg":
+							"Cistoscópio Nº 3 E 4 (5 Peças)",
+						"Cistoscópio nº 6 (2 peças) ACMI Sem Lente.jpg":
+							"Cistoscópio Nº 6 (2 Peças) Acmi Sem Lente",
 					},
-					"Cistosc\u00f3pio n\u00ba 5": {
-						files: [
-							"Cistoscopio n\u00ba 5 ( 6 pe\u00e7as).jpg",
-							"Cx Cistosc\u00f3pio n\u00ba 5 ACMI.jpg",
-						],
+					"Cistoscópio nº 1": {
+						title: "Cistoscópio nº 1",
+						files: {
+							"Cistoscópio nº 1 (6 peças) Olympus.jpg":
+								"Cistoscópio Nº 1 (6 Peças) Olympus",
+							"Comp. Cistoscópio nº 1.jpg": "Comp. Cistoscópio Nº 1",
+						},
+					},
+					"Cistoscópio nº 5": {
+						title: "Cistoscópio nº 5",
+						files: {
+							"Cistoscopio nº 5 ( 6 peças).jpg": "Cistoscopio Nº 5 ( 6 Peças)",
+							"Cx Cistoscópio nº 5 ACMI.jpg": "Cx Cistoscópio Nº 5 Acmi",
+						},
 					},
 				},
 				"Material Solto": {
-					files: [
-						"Optica 0\u00ba Olympus.jpg",
-						"Otica 0\u00ba ACMI.jpg",
-						"Pin\u00e7a Biopsia.jpg",
-						"Pin\u00e7a Corpos Estranhos (3Un).jpg",
-						"Ponte Albarran Olympus.jpg",
-					],
+					title: "Material Solto",
+					files: {
+						"Optica 0º Olympus.jpg": "Optica 0º Olympus",
+						"Otica 0º ACMI.jpg": "Otica 0º Acmi",
+						"Pinça Biopsia.jpg": "Pinça Biopsia",
+						"Pinça Corpos Estranhos (3Un).jpg": "Pinça Corpos Estranhos (3Un)",
+						"Ponte Albarran Olympus.jpg": "Ponte Albarran Olympus",
+					},
 				},
 			},
 			"OTORRINO C.EXT": {
-				files: ["ILWW3528.JPG"],
+				title: "OTORRINO C.EXT",
+				files: {
+					"ILWW3528.JPG": "Ilww3528",
+				},
 			},
 		},
 		ESTOMATOLOGIA: {
-			files: [
-				"ALAVANCA WINTER.jpg",
-				"ALAVANCA.JPG",
-				"BOTIC\u00c3O.JPG",
-				"BROCA DE OSSO.jpg",
-				"CAMPO CIRURGICO.jpg",
-				"COLHER DENTINE.jpg",
-				"CURETA.jpg",
-				"DESCOLADOR.jpg",
-				"ESPATULA DUPLA ANGULADA.jpg",
-				"ESPATULA DUPLA.jpg",
-				"ESPELHO.JPG",
-				"FARABEUF.jpg",
-				"LANCETA.jpg",
-				"MATRIZ.jpg",
-				"PORTA-AGULHAS.JPG",
-				"REGUA.jpg",
-				"SERINGA.JPG",
-				"SINDESM\u00d3TEO CURVO OU RETO.JPG",
-				"SONDA.jpg",
-				"TABULEIRO ESTOMATOLOGIA.jpg",
-				"TESOURA DE PONTAS.JPG",
-			],
+			title: "ESTOMATOLOGIA",
+			files: {
+				"ALAVANCA WINTER.jpg": "Alavanca Winter",
+				"ALAVANCA.JPG": "Alavanca",
+				"BOTICÃO.JPG": "Boticão",
+				"BROCA DE OSSO.jpg": "Broca De Osso",
+				"CAMPO CIRURGICO.jpg": "Campo Cirurgico",
+				"COLHER DENTINE.jpg": "Colher Dentine",
+				"CURETA.jpg": "Cureta",
+				"DESCOLADOR.jpg": "Descolador",
+				"ESPATULA DUPLA ANGULADA.jpg": "Espatula Dupla Angulada",
+				"ESPATULA DUPLA.jpg": "Espatula Dupla",
+				"ESPELHO.JPG": "Espelho",
+				"FARABEUF.jpg": "Farabeuf",
+				"LANCETA.jpg": "Lanceta",
+				"MATRIZ.jpg": "Matriz",
+				"PORTA-AGULHAS.JPG": "Porta-Agulhas",
+				"REGUA.jpg": "Regua",
+				"SERINGA.JPG": "Seringa",
+				"SINDESMÓTEO CURVO OU RETO.JPG": "Sindesmóteo Curvo Ou Reto",
+				"SONDA.jpg": "Sonda",
+				"TABULEIRO ESTOMATOLOGIA.jpg": "Tabuleiro Estomatologia",
+				"TESOURA DE PONTAS.JPG": "Tesoura De Pontas",
+			},
 		},
 		"GIN- INTERNAMENTO": {
-			files: ["HISTEROSCOPIO.JPG"],
+			title: "GIN- INTERNAMENTO",
+			files: {
+				"HISTEROSCOPIO.JPG": "Histeroscopio",
+			},
 		},
 		NEO: {
-			files: ["Ambu Neo.jpg", "Cateterismo Umbilical.JPG"],
+			title: "NEO",
+			files: {
+				"Ambu Neo.jpg": "Ambu Neo",
+				"Cateterismo Umbilical.JPG": "Cateterismo Umbilical",
+			},
 		},
 		OBST: {
-			files: [
-				"Kit Allis.jpg",
-				"Kit Obstetricia.jpg",
-				"SUTURA.JPG",
-				"tabuleiro umbilical.JPG",
-				"TROUXA.JPG",
-			],
+			title: "OBST",
+			files: {
+				"Kit Allis.jpg": "Kit Allis",
+				"Kit Obstetricia.jpg": "Kit Obstetricia",
+				"SUTURA.JPG": "Sutura",
+				"tabuleiro umbilical.JPG": "Tabuleiro Umbilical",
+				"TROUXA.JPG": "Trouxa",
+			},
 		},
 		RADIOLOGIA: {
-			files: ["PB090007.JPG", "Rx (2).jpg", "RX (3).jpg", "RX.jpg"],
+			title: "RADIOLOGIA",
+			files: {
+				"PB090007.JPG": "Pb090007",
+				"Rx (2).jpg": "Rx (2)",
+				"RX (3).jpg": "Rx (3)",
+				"RX.jpg": "Rx",
+			},
 		},
 		SU: {
-			files: [
-				"3 laminas laringoscopia.jpg",
-				"4 laminas laringoscopia.jpg",
-				"Campo Peq. Cirurgia S.U. (15 un).jpg",
-				"Pe\u00e7as Ventilador.JPG",
-				"Pin\u00e7a disse\u00e7\u00e3o com dente S.U. (5 un).jpg",
-				"Pin\u00e7a Mosquito com dente S.U. (2 un).jpg",
-			],
+			title: "SU",
+			files: {
+				"3 laminas laringoscopia.jpg": "3 Laminas Laringoscopia",
+				"4 laminas laringoscopia.jpg": "4 Laminas Laringoscopia",
+				"Campo Peq. Cirurgia S.U. (15 un).jpg":
+					"Campo Peq. Cirurgia S.U. (15 Un)",
+				"Peças Ventilador.JPG": "Peças Ventilador",
+				"Pinça disseção com dente S.U. (5 un).jpg":
+					"Pinça Disseção Com Dente S.U. (5 Un)",
+				"Pinça Mosquito com dente S.U. (2 un).jpg":
+					"Pinça Mosquito Com Dente S.U. (2 Un)",
+			},
 		},
 		UCI: {
-			files: [
-				"Campo Peq. Cirg..jpg",
-				"Pin\u00e7a Faure.JPG",
-				"Sonda Temperatura Esofagica.jpg",
-				"Tubo Entuba\u00e7\u00e3o UCI.jpg",
-				"UCI Sensor CO2.jpg",
-			],
-			"Pe\u00e7as ventilador": {
-				files: ["Pe\u00e7a ventilador.JPG", "PURG7381.JPG", "TANN5458.JPG"],
+			title: "UCI",
+			files: {
+				"Campo Peq. Cirg..jpg": "Campo Peq. Cirg.",
+				"Pinça Faure.JPG": "Pinça Faure",
+				"Sonda Temperatura Esofagica.jpg": "Sonda Temperatura Esofagica",
+				"Tubo Entubação UCI.jpg": "Tubo Entubação Uci",
+				"UCI Sensor CO2.jpg": "Uci Sensor Co2",
+			},
+			"Peças ventilador": {
+				title: "Peças ventilador",
+				files: {
+					"Peça ventilador.JPG": "Peça Ventilador",
+					"PURG7381.JPG": "Purg7381",
+					"TANN5458.JPG": "Tann5458",
+				},
 			},
 		},
 		UCIP: {
-			files: ["Campo peq. cirg..jpg"],
+			title: "UCIP",
+			files: {
+				"Campo peq. cirg..jpg": "Campo Peq. Cirg.",
+			},
 		},
 		VMER: {
-			files: ["Peq. Cirurgia VMER ( 1 ).JPG", "Peq. Cirurgia VMER (2 ).jpg"],
+			title: "VMER",
+			files: {
+				"Peq. Cirurgia VMER ( 1 ).JPG": "Peq. Cirurgia Vmer ( 1 )",
+				"Peq. Cirurgia VMER (2 ).jpg": "Peq. Cirurgia Vmer (2 )",
+			},
 		},
 	},
-	"OrtopediaPartilhaInforma\u00e7\u00e3o": {
-		title: "Ortopedia",
+	OrtopediaPartilhaInformação: {
+		title: "Ortopedia Partilha Informação",
 		"NOVO INSTRUMENTAL COLUNA": {
+			title: "NOVO INSTRUMENTAL COLUNA",
 			"EXPEDIUM VITAL 4 CX": {
-				files: [
-					"Chaves Identicas.jpg",
-					"CX n\u00ba 1.jpg",
-					"CX n\u00ba 2.jpg",
-					"CX n\u00ba 3 Implantes.jpg",
-					"CX n\u00ba 3 Parafusos.jpg",
-					"CX n\u00ba 4 Cross Link.jpg",
-				],
+				title: "EXPEDIUM VITAL 4 CX",
+				files: {
+					"Chaves Identicas.jpg": "Chaves Identicas",
+					"CX nº 1.jpg": "Cx Nº 1",
+					"CX nº 2.jpg": "Cx Nº 2",
+					"CX nº 3 Implantes.jpg": "Cx Nº 3 Implantes",
+					"CX nº 3 Parafusos.jpg": "Cx Nº 3 Parafusos",
+					"CX nº 4 Cross Link.jpg": "Cx Nº 4 Cross Link",
+				},
 			},
 			"VIPER 2 (6CX)": {
-				files: [
-					"CX 1 INF..jpg",
-					"CX 1 SUP..jpg",
-					"CX 2 INF..jpg",
-					"CX 2 SUP..jpg",
-					"CX 3 INF..jpg",
-					"CX 3 SUP..jpg",
-					"CX 4 INF.jpg",
-					"CX 4 SUP..jpg",
-					"CX 5 Apoio Viper (EXTRA).jpg",
-					"CX 6 (EXTRA).jpg",
-				],
+				title: "VIPER 2 (6CX)",
+				files: {
+					"CX 1 INF..jpg": "Cx 1 Inf.",
+					"CX 1 SUP..jpg": "Cx 1 Sup.",
+					"CX 2 INF..jpg": "Cx 2 Inf.",
+					"CX 2 SUP..jpg": "Cx 2 Sup.",
+					"CX 3 INF..jpg": "Cx 3 Inf.",
+					"CX 3 SUP..jpg": "Cx 3 Sup.",
+					"CX 4 INF.jpg": "Cx 4 Inf",
+					"CX 4 SUP..jpg": "Cx 4 Sup.",
+					"CX 5 Apoio Viper (EXTRA).jpg": "Cx 5 Apoio Viper (Extra)",
+					"CX 6 (EXTRA).jpg": "Cx 6 (Extra)",
+				},
 			},
 		},
 	},
