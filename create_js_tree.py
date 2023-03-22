@@ -19,7 +19,7 @@ def file_title(filename):
 
 # Seperate folder name by capital letters
 def folder_title(folder_name):
-    return re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', folder_name)
+    return re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', folder_name).title()
 
 print("Scanning and processing files...")
 

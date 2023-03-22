@@ -2,7 +2,7 @@ const file_structure = {
 	Informacoes: {
 		title: "Informacoes",
 		DESCONTAMINAÇÃO: {
-			title: "DESCONTAMINAÇÃO",
+			title: "Descontaminação",
 			files: {
 				"Filtros Bomba Leite.jpg": "Filtros Bomba Leite",
 				"Kit Fisiatria.jpg": "Kit Fisiatria",
@@ -16,7 +16,7 @@ const file_structure = {
 			"MICRO MOTOR.JPG": "Micro Motor",
 		},
 		ANESTESIA: {
-			title: "ANESTESIA",
+			title: "Anestesia",
 			files: {
 				"Mascaras Faciais.JPG": "Mascaras Faciais",
 				"Sonda Temperatura Amb..jpg": "Sonda Temperatura Amb.",
@@ -26,7 +26,7 @@ const file_structure = {
 			},
 		},
 		CABOS: {
-			title: "CABOS",
+			title: "Cabos",
 			files: {
 				"Cabo Oftalmologia Amb..jpg": "Cabo Oftalmologia Amb.",
 				"Cabo Versapoint Amb..jpg": "Cabo Versapoint Amb.",
@@ -34,16 +34,16 @@ const file_structure = {
 			},
 		},
 		"CIRURGIA GERAL": {
-			title: "CIRURGIA GERAL",
+			title: "Cirurgia Geral",
 			"CAIXA CIR. VASCULAR": {
-				title: "CAIXA CIR. VASCULAR",
+				title: "Caixa Cir. Vascular",
 				files: {
 					"Cx Cirg. Vascular Amb. 25 pecas.jpg":
 						"Cx Cirg. Vascular Amb. 25 Pecas",
 				},
 			},
 			"CAIXA LAPAROTOMIA": {
-				title: "CAIXA LAPAROTOMIA",
+				title: "Caixa Laparotomia",
 				files: {
 					"Cx Laparotomia Amb..jpg": "Cx Laparotomia Amb.",
 					"Cx nova Amb..jpg": "Cx Nova Amb.",
@@ -51,13 +51,13 @@ const file_structure = {
 				},
 			},
 			"FININHO 7 CX": {
-				title: "FININHO 7 CX",
+				title: "Fininho 7 Cx",
 				files: {
 					"CX. FININHO  37 Pç.jpg": "Cx. Fininho  37 Pç",
 				},
 			},
 			LAPAROSCOPIA: {
-				title: "LAPAROSCOPIA",
+				title: "Laparoscopia",
 				files: {
 					"Tab. Laparoscopia 6pç.jpg": "Tab. Laparoscopia 6Pç",
 				},
@@ -69,20 +69,20 @@ const file_structure = {
 				},
 			},
 			"PARTES MOLES 8 CX": {
-				title: "PARTES MOLES 8 CX",
+				title: "Partes Moles 8 Cx",
 				files: {
 					"Cx Partes Moles.JPG": "Cx Partes Moles",
 				},
 			},
 			"PEQ. CIRURGIA 6 CX": {
-				title: "PEQ. CIRURGIA 6 CX",
+				title: "Peq. Cirurgia 6 Cx",
 				files: {
 					"Cx Peq. Cirg..JPG": "Cx Peq. Cirg.",
 				},
 			},
 		},
 		"CIRURGIA PLASTICA": {
-			title: "CIRURGIA PLASTICA",
+			title: "Cirurgia Plastica",
 			files: {
 				"BASE METALICA 3 UNIDADES.jpg": "Base Metalica 3 Unidades",
 				"DERMÁTOMO ANTIGO + LAMINAS.jpg": "Dermátomo Antigo + Laminas",
@@ -93,13 +93,13 @@ const file_structure = {
 			},
 		},
 		GINECOLOGIA: {
-			title: "GINECOLOGIA",
+			title: "Ginecologia",
 			files: {
 				"Cabo Versapoint Amb..jpg": "Cabo Versapoint Amb.",
 			},
 		},
 		OFTALMOLOGIA: {
-			title: "OFTALMOLOGIA",
+			title: "Oftalmologia",
 			files: {
 				"Peças Dr Gabriel.jpg": "Peças Dr Gabriel",
 			},
@@ -112,7 +112,7 @@ const file_structure = {
 				},
 			},
 			CATARATA: {
-				title: "CATARATA",
+				title: "Catarata",
 				files: {
 					"Catarata.JPG": "Catarata",
 					"Disposiçao na cx com agulha e chave.jpg":
@@ -120,7 +120,7 @@ const file_structure = {
 					"Disposiçao na cx.jpg": "Disposiçao Na Cx",
 				},
 				"FOTOS PEÇAS": {
-					title: "FOTOS PEÇAS",
+					title: "Fotos Peças",
 					files: {
 						"DIBX3314.JPG": "Dibx3314",
 						"NFQA0327.JPG": "Nfqa0327",
@@ -131,13 +131,13 @@ const file_structure = {
 				},
 			},
 			"CATARATA COMPLICADA": {
-				title: "CATARATA COMPLICADA",
+				title: "Catarata Complicada",
 				files: {
 					"Catarata complicada.JPG": "Catarata Complicada",
 				},
 			},
 			"CHALAZIO E PEQ. CIRURGIA": {
-				title: "CHALAZIO E PEQ. CIRURGIA",
+				title: "Chalazio E Peq. Cirurgia",
 				files: {
 					"Chalazio nº4 (Laranja-branco quadrados).jpg":
 						"Chalazio Nº4 (Laranja-Branco Quadrados)",
@@ -152,13 +152,13 @@ const file_structure = {
 				},
 			},
 			ENUCLEAÇÃO: {
-				title: "ENUCLEAÇÃO",
+				title: "Enucleação",
 				files: {
 					"Cx. Enucleaçao.jpg": "Cx. Enucleaçao",
 				},
 			},
 			GLAUCOMA: {
-				title: "GLAUCOMA",
+				title: "Glaucoma",
 				files: {
 					"Glaucoma nº1 (Preto e branco Riscas).jpg":
 						"Glaucoma Nº1 (Preto E Branco Riscas)",
@@ -169,7 +169,7 @@ const file_structure = {
 				},
 			},
 			"Material solto": {
-				title: "Material solto",
+				title: "Material Solto",
 				files: {
 					"Afastador palpebral.jpg": "Afastador Palpebral",
 					"Aplicador Lente (2 un).jpg": "Aplicador Lente (2 Un)",
@@ -189,7 +189,7 @@ const file_structure = {
 				},
 			},
 			"OFT vermelho-amarelo-verde": {
-				title: "OFT vermelho-amarelo-verde",
+				title: "Oft Vermelho-Amarelo-Verde",
 				files: {
 					"CX OFT vermelho-amarelo-verde.jpg": "Cx Oft Vermelho-Amarelo-Verde",
 					"OFT vermelho-amarelo-verde.jpg": "Oft Vermelho-Amarelo-Verde",
@@ -208,7 +208,7 @@ const file_structure = {
 				},
 			},
 			VITRECTOMIA: {
-				title: "VITRECTOMIA",
+				title: "Vitrectomia",
 				files: {
 					"Cabo vitrectomia com chave e agulhas.jpg":
 						"Cabo Vitrectomia Com Chave E Agulhas",
@@ -219,50 +219,50 @@ const file_structure = {
 			},
 		},
 		ORL: {
-			title: "ORL",
+			title: "Orl",
 			"AVA 4cx": {
-				title: "AVA 4cx",
+				title: "Ava 4Cx",
 				files: {
 					"AVA nº1.JPG": "Ava Nº1",
 					"AVA nº4.jpg": "Ava Nº4",
 				},
 			},
 			DACRIO: {
-				title: "DACRIO",
+				title: "Dacrio",
 				files: {
 					"723f9df7-9910-4970-9e95-da2ee374f8d9.jpg":
 						"723F9Df7-9910-4970-9E95-Da2Ee374F8D9",
 				},
 			},
 			MIRINGOTOMIA: {
-				title: "MIRINGOTOMIA",
+				title: "Miringotomia",
 				files: {
 					"Meringotomia 1.JPG": "Meringotomia 1",
 				},
 			},
 		},
 		ORTOPEDIA: {
-			title: "ORTOPEDIA",
+			title: "Ortopedia",
 			files: {
 				"Motor Ambulatório.jpg": "Motor Ambulatório",
 			},
 			"ARTROSCOPIA 4 cx": {
-				title: "ARTROSCOPIA 4 cx",
+				title: "Artroscopia 4 Cx",
 				"ARTROSCOPIA 1": {
-					title: "ARTROSCOPIA 1",
+					title: "Artroscopia 1",
 					files: {
 						"Artroscopia 1.JPG": "Artroscopia 1",
 					},
 				},
 				"ARTROSCOPIA 2": {
-					title: "ARTROSCOPIA 2",
+					title: "Artroscopia 2",
 					files: {
 						"Artroscopia nº2 (sem capsula).jpg":
 							"Artroscopia Nº2 (Sem Capsula)",
 					},
 				},
 				"ARTROSCOPIA 3 E 4": {
-					title: "ARTROSCOPIA 3 E 4",
+					title: "Artroscopia 3 E 4",
 					files: {
 						"ARTROSCOPIA AMBULATORIO 3 E 4.jpg":
 							"Artroscopia Ambulatorio 3 E 4",
@@ -270,7 +270,7 @@ const file_structure = {
 				},
 			},
 			JOANETES: {
-				title: "JOANETES",
+				title: "Joanetes",
 				files: {
 					"Cx Joanetes mini invasiva.JPG": "Cx Joanetes Mini Invasiva",
 				},
@@ -287,7 +287,7 @@ const file_structure = {
 				},
 			},
 			"PARAFUSOS HERBET": {
-				title: "PARAFUSOS HERBET",
+				title: "Parafusos Herbet",
 				files: {
 					"Cx 1.JPG": "Cx 1",
 					"Cx 2.JPG": "Cx 2",
@@ -298,7 +298,7 @@ const file_structure = {
 	MaterialBlocoCentral: {
 		title: "Material Bloco Central",
 		ANESTESIA: {
-			title: "ANESTESIA",
+			title: "Anestesia",
 			files: {
 				"Cabo Temperatura Anestesia.jpg": "Cabo Temperatura Anestesia",
 				"Cabo Temperatura.jpg": "Cabo Temperatura",
@@ -308,7 +308,7 @@ const file_structure = {
 			},
 		},
 		CABOS: {
-			title: "CABOS",
+			title: "Cabos",
 			files: {
 				"CABO BIPOLAR UROLOGIA.JPG": "Cabo Bipolar Urologia",
 				"Cabo bisturi B.O..jpg": "Cabo Bisturi B.O.",
@@ -321,24 +321,24 @@ const file_structure = {
 			},
 		},
 		"CIRURGIA GERAL": {
-			title: "CIRURGIA GERAL",
+			title: "Cirurgia Geral",
 			files: {
 				"Kit Amputação.jpg": "Kit Amputação",
 			},
 			AFASTADORES: {
-				title: "AFASTADORES",
+				title: "Afastadores",
 				files: {
 					"Afastador Goldfinger.jpg": "Afastador Goldfinger",
 				},
 				"AFASTADOR BOOK WALTER": {
-					title: "AFASTADOR BOOK WALTER",
+					title: "Afastador Book Walter",
 					files: {
 						"Afastador Peças.jpg": "Afastador Peças",
 						"CX AFASTADOR BOOK WALTER.jpg": "Cx Afastador Book Walter",
 					},
 				},
 				"Afastador valva em coraçao": {
-					title: "Afastador valva em coraçao",
+					title: "Afastador Valva Em Coraçao",
 					files: {
 						"Afastador cesto.jpg": "Afastador Cesto",
 						"Afastador valva em coraçao (Bexiga).jpg":
@@ -347,44 +347,44 @@ const file_structure = {
 				},
 			},
 			"CIRURGIA ABDOMINAL 6cx": {
-				title: "CIRURGIA ABDOMINAL 6cx",
+				title: "Cirurgia Abdominal 6Cx",
 				files: {
 					"Cx Abdominal 66 pç.jpg": "Cx Abdominal 66 Pç",
 				},
 			},
 			"CIRURGIA VASCULAR 1cx": {
-				title: "CIRURGIA VASCULAR 1cx",
+				title: "Cirurgia Vascular 1Cx",
 				files: {
 					"Cx Vascular.png": "Cx Vascular",
 				},
 			},
 			COLEDOSCOPIO: {
-				title: "COLEDOSCOPIO",
+				title: "Coledoscopio",
 				files: {
 					"TOLF5233.JPG": "Tolf5233",
 				},
 			},
 			"CX.MAMA 4cx": {
-				title: "CX.MAMA 4cx",
+				title: "Cx.Mama 4Cx",
 				files: {
 					"Cx Mama nº 1,2 e 3.png": "Cx Mama Nº 1,2 E 3",
 					"CX MAMA Nº 4 cesto de rede.jpg": "Cx Mama Nº 4 Cesto De Rede",
 				},
 			},
 			"FIMOSE 2cx": {
-				title: "FIMOSE 2cx",
+				title: "Fimose 2Cx",
 				files: {
 					"Cx Fimose.JPG": "Cx Fimose",
 				},
 			},
 			"FININHO 3cx": {
-				title: "FININHO 3cx",
+				title: "Fininho 3Cx",
 				files: {
 					"Cx Fininho 39 pç.JPG": "Cx Fininho 39 Pç",
 				},
 			},
 			"MAT. SOLTO CIR": {
-				title: "MAT. SOLTO CIR",
+				title: "Mat. Solto Cir",
 				files: {
 					"Afastador Goldfinger.jpg": "Afastador Goldfinger",
 					"Agulha Veress Obesos.jpg": "Agulha Veress Obesos",
@@ -407,13 +407,13 @@ const file_structure = {
 				},
 			},
 			"PARTES MOLES CIR 12cx   (cx.nº13 tem 2 allis grandes)": {
-				title: "PARTES MOLES CIR 12cx   (cx.nº13 tem 2 allis grandes)",
+				title: "Partes Moles Cir 12Cx   (Cx.Nº13 Tem 2 Allis Grandes)",
 				files: {
 					"Cx Partes Moles Cir 30p.JPG": "Cx Partes Moles Cir 30P",
 				},
 			},
 			"TAB. VESICULA LAPAROSCOPICA  5cx": {
-				title: "TAB. VESICULA LAPAROSCOPICA  5cx",
+				title: "Tab. Vesicula Laparoscopica  5Cx",
 				files: {
 					"cx 1.jpg": "Cx 1",
 					"Material vesicula lap. 8 pç.JPG": "Material Vesicula Lap. 8 Pç",
@@ -421,20 +421,20 @@ const file_structure = {
 				},
 			},
 			"TABULEIRO LONGO": {
-				title: "TABULEIRO LONGO",
+				title: "Tabuleiro Longo",
 				files: {
 					"Tabuleiro Mat. Longo 11pç.jpg": "Tabuleiro Mat. Longo 11Pç",
 				},
 			},
 			"TIROIDE 4cx": {
-				title: "TIROIDE 4cx",
+				title: "Tiroide 4Cx",
 				files: {
 					"Cx Tiroide  nº 1,2,3 (37 pç).JPG": "Cx Tiroide  Nº 1,2,3 (37 Pç)",
 					"Cx Tiroide nº4 (37 pç).JPG": "Cx Tiroide Nº4 (37 Pç)",
 				},
 			},
 			"TORAX 1cx": {
-				title: "TORAX 1cx",
+				title: "Torax 1Cx",
 				files: {
 					"Cx Torax 12 pc retirada uma rugina de costelas.JPG":
 						"Cx Torax 12 Pc Retirada Uma Rugina De Costelas",
@@ -442,7 +442,7 @@ const file_structure = {
 			},
 		},
 		"CIRURGIA PLASTICA": {
-			title: "CIRURGIA PLASTICA",
+			title: "Cirurgia Plastica",
 			files: {
 				"BASE METALICA 3 UNIDADES.jpg": "Base Metalica 3 Unidades",
 				"DERMATOMO ELECTRICO.jpg": "Dermatomo Electrico",
@@ -450,7 +450,7 @@ const file_structure = {
 				"PLACA ALUMINIO (Solta).jpg": "Placa Aluminio (Solta)",
 			},
 			"Expansor de pele": {
-				title: "Expansor de pele",
+				title: "Expansor De Pele",
 				files: {
 					"EXPANSOR DE PELE montado.jpg": "Expansor De Pele Montado",
 					"Expansor de pele.jpg": "Expansor De Pele",
@@ -458,38 +458,38 @@ const file_structure = {
 			},
 		},
 		GINECOLOGIA: {
-			title: "GINECOLOGIA",
+			title: "Ginecologia",
 			files: {
 				"Mat. Histerectomia Laparoscopia.jpg":
 					"Mat. Histerectomia Laparoscopia",
 			},
 			"COVAC 1cx": {
-				title: "COVAC 1cx",
+				title: "Covac 1Cx",
 				files: {
 					"UQZU8101.JPG": "Uqzu8101",
 				},
 			},
 			"CURETAGEM 2cx": {
-				title: "CURETAGEM 2cx",
+				title: "Curetagem 2Cx",
 				files: {
 					"Curetagem 39 e 40.JPG": "Curetagem 39 E 40",
 				},
 			},
 			"HISTERECTOMIA  4 cx": {
-				title: "HISTERECTOMIA  4 cx",
+				title: "Histerectomia  4 Cx",
 				files: {
 					"CX HISTERECTOMIA.JPG": "Cx Histerectomia",
 					"MAT.SOLTO.JPG": "Mat.Solto",
 				},
 			},
 			"HISTEROSCOPIO 3cx": {
-				title: "HISTEROSCOPIO 3cx",
+				title: "Histeroscopio 3Cx",
 				files: {
 					"Histeroscopia 4 pç.jpg": "Histeroscopia 4 Pç",
 				},
 			},
 			"LAQUEAÇÃO LAPAROSPCOPIA. 3cx": {
-				title: "LAQUEAÇÃO LAPAROSPCOPIA. 3cx",
+				title: "Laqueação Laparospcopia. 3Cx",
 				files: {
 					"LAQUEAÇÃO 1.JPG": "Laqueação 1",
 					"LAQUEAÇÃO 2.JPG": "Laqueação 2",
@@ -497,14 +497,14 @@ const file_structure = {
 				},
 			},
 			"MANIPULADOR UTERINO 2cx": {
-				title: "MANIPULADOR UTERINO 2cx",
+				title: "Manipulador Uterino 2Cx",
 				files: {
 					"VUOO1515.JPG": "Vuoo1515",
 					"WASP6597.JPG": "Wasp6597",
 				},
 			},
 			"MAT. SOLTO": {
-				title: "MAT. SOLTO",
+				title: "Mat. Solto",
 				files: {
 					"Corpo estranho-biopsia.JPG": "Corpo Estranho-Biopsia",
 					"Especulo ginecologia.jpg": "Especulo Ginecologia",
@@ -517,7 +517,7 @@ const file_structure = {
 				},
 			},
 			"RESSETOSCOPIA 2cx": {
-				title: "RESSETOSCOPIA 2cx",
+				title: "Ressetoscopia 2Cx",
 				files: {
 					"Cx ressetoscopio.jpg": "Cx Ressetoscopio",
 					"Peças ressetoscopio 7un.jpg": "Peças Ressetoscopio 7Un",
@@ -525,15 +525,15 @@ const file_structure = {
 			},
 		},
 		OBSTETRICIA: {
-			title: "OBSTETRICIA",
+			title: "Obstetricia",
 			"CESARIANA 6 cx": {
-				title: "CESARIANA 6 cx",
+				title: "Cesariana 6 Cx",
 				files: {
 					"CESARIANA.JPG": "Cesariana",
 				},
 			},
 			"CURETAGEM 2cx": {
-				title: "CURETAGEM 2cx",
+				title: "Curetagem 2Cx",
 				files: {
 					"CX N 37.JPG": "Cx N 37",
 					"CX N 38.JPG": "Cx N 38",
@@ -541,18 +541,18 @@ const file_structure = {
 			},
 		},
 		OFTALMOLOGIA: {
-			title: "OFTALMOLOGIA",
+			title: "Oftalmologia",
 			files: {
 				"CATARATA.JPG": "Catarata",
 			},
 		},
 		ORTOPEDIA: {
-			title: "ORTOPEDIA",
+			title: "Ortopedia",
 			files: {
 				"Fixador Pelvico C-Clamp.jpg": "Fixador Pelvico C-Clamp",
 			},
 			"A--REPOSICAO DE MATERIAL-INFORMACOES": {
-				title: "A--REPOSICAO DE MATERIAL-INFORMACOES",
+				title: "A--Reposicao De Material-Informacoes",
 				files: {
 					"Peq Frag. nº2.jpg": "Peq Frag. Nº2",
 				},
@@ -591,7 +591,7 @@ const file_structure = {
 					},
 				},
 				"Radio distal Variax II": {
-					title: "Radio distal Variax II",
+					title: "Radio Distal Variax Ii",
 					files: {
 						"2.4.jpg": "2.4",
 						"2.7.jpg": "2.7",
@@ -600,20 +600,20 @@ const file_structure = {
 				},
 			},
 			AFASTADORES: {
-				title: "AFASTADORES",
+				title: "Afastadores",
 				files: {
 					"Afastadores Trident.jpg": "Afastadores Trident",
 					"Afastadores.jpg": "Afastadores",
 				},
 			},
 			ARTROSCOPIA: {
-				title: "ARTROSCOPIA",
+				title: "Artroscopia",
 				files: {
 					"Artroscopia Pequenas Articulaçoes.jpg":
 						"Artroscopia Pequenas Articulaçoes",
 				},
 				"ARTROSCOPIA 2 CX": {
-					title: "ARTROSCOPIA 2 CX",
+					title: "Artroscopia 2 Cx",
 					files: {
 						"Cx nº 1 Artroscopia.jpg": "Cx Nº 1 Artroscopia",
 						"Cx nº 2 Artroscopia.jpg": "Cx Nº 2 Artroscopia",
@@ -621,7 +621,7 @@ const file_structure = {
 					},
 				},
 				"ARTROSCOPIA OMBRO": {
-					title: "ARTROSCOPIA OMBRO",
+					title: "Artroscopia Ombro",
 					files: {
 						"Artroscopia Omb. (2).JPG": "Artroscopia Omb. (2)",
 						"Artroscopia Omb..JPG": "Artroscopia Omb.",
@@ -629,9 +629,9 @@ const file_structure = {
 				},
 			},
 			"BASES ORTOPEDIA": {
-				title: "BASES ORTOPEDIA",
+				title: "Bases Ortopedia",
 				"BASE A.O": {
-					title: "BASE A.O",
+					title: "Base A.O",
 					files: {
 						"Base A.O..jpg": "Base A.O.",
 						"Tab. Inferior.jpg": "Tab. Inferior",
@@ -639,72 +639,72 @@ const file_structure = {
 					},
 				},
 				"BASE DO JOELHO": {
-					title: "BASE DO JOELHO",
+					title: "Base Do Joelho",
 					files: {
 						"Base do Joelho.JPG": "Base Do Joelho",
 					},
 				},
 				"BASE ENCAVILHAMENTO AZUL": {
-					title: "BASE ENCAVILHAMENTO AZUL",
+					title: "Base Encavilhamento Azul",
 					files: {
 						"MOIX2246.JPG": "Moix2246",
 						"NVDA8920.JPG": "Nvda8920",
 					},
 				},
 				"BASE IQL": {
-					title: "BASE IQL",
+					title: "Base Iql",
 					files: {
 						"BASE IQL.JPG": "Base Iql",
 						"MEDIDOR IQL.JPG": "Medidor Iql",
 					},
 				},
 				"BASE OMBRO": {
-					title: "BASE OMBRO",
+					title: "Base Ombro",
 					files: {
 						"Base Ombro.jpg": "Base Ombro",
 						"Cx Base Ombro.jpg": "Cx Base Ombro",
 					},
 				},
 				"BASE OSTEOSSINTESE 2cx": {
-					title: "BASE OSTEOSSINTESE 2cx",
+					title: "Base Osteossintese 2Cx",
 					files: {
 						"AMARELA.JPG": "Amarela",
 						"LARANJA.JPG": "Laranja",
 					},
 				},
 				"BASE RECURSO": {
-					title: "BASE RECURSO",
+					title: "Base Recurso",
 					files: {
 						"d5fa1ab3-9b54-4ba2-87f6-2cf465e2dd60.jpg":
 							"D5Fa1Ab3-9B54-4Ba2-87F6-2Cf465E2Dd60",
 					},
 				},
 				"BASES DA ANCA": {
-					title: "BASES DA ANCA",
+					title: "Bases Da Anca",
 					files: {
 						"Base Anca nº 1,2 e 3.jpg": "Base Anca Nº 1,2 E 3",
 					},
 				},
 			},
 			"CAIXA ENCAVILHAMENTO A.O": {
-				title: "CAIXA ENCAVILHAMENTO A.O",
+				title: "Caixa Encavilhamento A.O",
 				files: {
 					"Encavilhamento A.O..JPG": "Encavilhamento A.O.",
 				},
 			},
 			COLUNA: {
-				title: "COLUNA",
+				title: "Coluna",
 				files: {
 					"Cortador Barras Depuey.jpg": "Cortador Barras Depuey",
 				},
 				"CESTO KERRISON´S": {
-					title: "CESTO KERRISON´S",
+					title: "Cesto Kerrison´S",
 					files: {
 						"Kerrinson´s.jpg": "Kerrinson´S",
 					},
 				},
 				"COLUNA CERVICAL": {
-					title: "COLUNA CERVICAL",
+					title: "Coluna Cervical",
 					files: {
 						"Afastador Cervical (casper).jpg": "Afastador Cervical (Casper)",
 						"AFASTADORES RETRATORES CERVICAL.jpg":
@@ -713,7 +713,7 @@ const file_structure = {
 						"CAGE CERVICAL CERVIOS.jpg": "Cage Cervical Cervios",
 					},
 					"INSTRUMENTAL  SKYLINE": {
-						title: "INSTRUMENTAL  SKYLINE",
+						title: "Instrumental  Skyline",
 						files: {
 							"Skyline Tab. Inferior.jpg": "Skyline Tab. Inferior",
 							"Skyline Tab. intermédio.jpg": "Skyline Tab. Intermédio",
@@ -722,7 +722,7 @@ const file_structure = {
 					},
 				},
 				"COLUNA LOMBAR": {
-					title: "COLUNA LOMBAR",
+					title: "Coluna Lombar",
 					files: {
 						"Afastador Coluna Lombar (Cesto).JPG":
 							"Afastador Coluna Lombar (Cesto)",
@@ -732,7 +732,7 @@ const file_structure = {
 							"Partes Moles Coluna Lombar 24 Peças",
 					},
 					"COLUNA LOMBAR (Discectomia ANTIGA)": {
-						title: "COLUNA LOMBAR (Discectomia ANTIGA)",
+						title: "Coluna Lombar (Discectomia Antiga)",
 						files: {
 							"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg":
 								"Coluna Lombar Antiga (Discectomia)",
@@ -741,13 +741,13 @@ const file_structure = {
 						},
 					},
 					"COLUNA LOMBAR (Discectomia NOVA) 33pç": {
-						title: "COLUNA LOMBAR (Discectomia NOVA) 33pç",
+						title: "Coluna Lombar (Discectomia Nova) 33Pç",
 						files: {
 							"DISCECTOMIA NOVA.jpg": "Discectomia Nova",
 						},
 					},
 					"INST. JOHNSON EXPEDIUM VITAL 4 CX": {
-						title: "INST. JOHNSON EXPEDIUM VITAL 4 CX",
+						title: "Inst. Johnson Expedium Vital 4 Cx",
 						files: {
 							"Chaves Identicas.jpg": "Chaves Identicas",
 							"Cross link  (á entrada).jpg": "Cross Link  (Á Entrada)",
@@ -761,7 +761,7 @@ const file_structure = {
 							"Expedium Colocar Cx 2.jpg": "Expedium Colocar Cx 2",
 						},
 						"COLUNA LOMBAR": {
-							title: "COLUNA LOMBAR",
+							title: "Coluna Lombar",
 							files: {
 								"Afastador Coluna Lombar (Cesto).JPG":
 									"Afastador Coluna Lombar (Cesto)",
@@ -769,14 +769,14 @@ const file_structure = {
 								"PINÇAS DE DISCO (3 Un).jpg": "Pinças De Disco (3 Un)",
 							},
 							"BASE DE APOIO COLUNA INSTRUMENTADA": {
-								title: "BASE DE APOIO COLUNA INSTRUMENTADA",
+								title: "Base De Apoio Coluna Instrumentada",
 								files: {
 									"Base apoio coluna instrumentada.JPG":
 										"Base Apoio Coluna Instrumentada",
 								},
 							},
 							"COLUNA ANTIGA": {
-								title: "COLUNA ANTIGA",
+								title: "Coluna Antiga",
 								files: {
 									"CX COLUNA ANTIGA FITA VER. E AMARELA (ACTUAL).jpg":
 										"Cx Coluna Antiga Fita Ver. E Amarela (Actual)",
@@ -784,7 +784,7 @@ const file_structure = {
 								},
 							},
 							"COLUNA LOMBAR (Discectomia ANTIGA)": {
-								title: "COLUNA LOMBAR (Discectomia ANTIGA)",
+								title: "Coluna Lombar (Discectomia Antiga)",
 								files: {
 									"COLUNA LOMBAR ANTIGA (DISCECTOMIA).jpg":
 										"Coluna Lombar Antiga (Discectomia)",
@@ -793,7 +793,7 @@ const file_structure = {
 								},
 							},
 							"COLUNA LOMBAR (Discectomia NOVA) 33pç": {
-								title: "COLUNA LOMBAR (Discectomia NOVA) 33pç",
+								title: "Coluna Lombar (Discectomia Nova) 33Pç",
 								files: {
 									"DISCECTOMIA NOVA.jpg": "Discectomia Nova",
 								},
@@ -801,7 +801,7 @@ const file_structure = {
 						},
 					},
 					"INST. JOHNSON VIPER 2 (6CX)": {
-						title: "INST. JOHNSON VIPER 2 (6CX)",
+						title: "Inst. Johnson Viper 2 (6Cx)",
 						files: {
 							"CX 1 INF..jpg": "Cx 1 Inf.",
 							"CX 1 SUP..jpg": "Cx 1 Sup.",
@@ -816,7 +816,7 @@ const file_structure = {
 						},
 					},
 					"INST. MBA FIREBIRD (8 CX)": {
-						title: "INST. MBA FIREBIRD (8 CX)",
+						title: "Inst. Mba Firebird (8 Cx)",
 						files: {
 							"CX 1.jpg": "Cx 1",
 							"CX 2.jpg": "Cx 2",
@@ -831,26 +831,26 @@ const file_structure = {
 				},
 			},
 			"CX. CIRURGIA DA MÃO": {
-				title: "CX. CIRURGIA DA MÃO",
+				title: "Cx. Cirurgia Da Mão",
 				files: {
 					"Cirurgia da mão 20 pç.jpg": "Cirurgia Da Mão 20 Pç",
 				},
 			},
 			"CX. PEQ CIR ORTOPEDIA (amarela laranja)": {
-				title: "CX. PEQ CIR ORTOPEDIA (amarela laranja)",
+				title: "Cx. Peq Cir Ortopedia (Amarela Laranja)",
 				files: {
 					"CX. PEQ. CIRURGIA ORT.(amarela-laranja).JPG":
 						"Cx. Peq. Cirurgia Ort.(Amarela-Laranja)",
 				},
 			},
 			"DALL MILES (Cerclage)": {
-				title: "DALL MILES (Cerclage)",
+				title: "Dall Miles (Cerclage)",
 				files: {
 					"CERCLAGE.JPG": "Cerclage",
 				},
 			},
 			HOFFMMANNS: {
-				title: "HOFFMMANNS",
+				title: "Hoffmmanns",
 				files: {
 					"Cesto Barras Hoffmann.jpg": "Cesto Barras Hoffmann",
 					"Cesto CHAVES HOFFMANN.JPG": "Cesto Chaves Hoffmann",
@@ -859,7 +859,7 @@ const file_structure = {
 					"Mini Orthofix.jpg": "Mini Orthofix",
 				},
 				"CAIXA HOFFMANN COMPLETA": {
-					title: "CAIXA HOFFMANN COMPLETA",
+					title: "Caixa Hoffmann Completa",
 					files: {
 						"Broca 3.5 Colocar no tab. intermédio.jpg":
 							"Broca 3.5 Colocar No Tab. Intermédio",
@@ -873,9 +873,9 @@ const file_structure = {
 				},
 			},
 			"INSTRUMENTAIS ORTOPEDIA": {
-				title: "INSTRUMENTAIS ORTOPEDIA",
+				title: "Instrumentais Ortopedia",
 				BIARTICULAR: {
-					title: "BIARTICULAR",
+					title: "Biarticular",
 					files: {
 						"Bi-articular (nova).jpg": "Bi-Articular (Nova)",
 						"Tab. Inferior (antiga).JPG": "Tab. Inferior (Antiga)",
@@ -883,9 +883,9 @@ const file_structure = {
 					},
 				},
 				GAMMA: {
-					title: "GAMMA",
+					title: "Gamma",
 					"GAMMA 2CX": {
-						title: "GAMMA 2CX",
+						title: "Gamma 2Cx",
 						files: {
 							"Cx Alta.JPG": "Cx Alta",
 							"Cx Baixa.JPG": "Cx Baixa",
@@ -893,7 +893,7 @@ const file_structure = {
 						},
 					},
 					"GAMMA ORIENTADOR DISTAL": {
-						title: "GAMMA ORIENTADOR DISTAL",
+						title: "Gamma Orientador Distal",
 						files: {
 							"Cx Orientador Distal Gamma.JPG": "Cx Orientador Distal Gamma",
 							"Gamma Longo.jpg": "Gamma Longo",
@@ -901,9 +901,9 @@ const file_structure = {
 					},
 				},
 				"INST. PT ANCA 3 un": {
-					title: "INST. PT ANCA 3 un",
+					title: "Inst. Pt Anca 3 Un",
 					ACETÁBULO: {
-						title: "ACETÁBULO",
+						title: "Acetábulo",
 						files: {
 							"Tabuleiro acetabulo nº 1 e 2.jpg":
 								"Tabuleiro Acetabulo Nº 1 E 2",
@@ -911,14 +911,14 @@ const file_structure = {
 						},
 					},
 					"HASTE FEMORAL": {
-						title: "HASTE FEMORAL",
+						title: "Haste Femoral",
 						files: {
 							"Haste femoral.jpg": "Haste Femoral",
 						},
 					},
 				},
 				"INST. PT JOELHO Jonhson SYGMA 3 un": {
-					title: "INST. PT JOELHO Jonhson SYGMA 3 un",
+					title: "Inst. Pt Joelho Jonhson Sygma 3 Un",
 					files: {
 						"CX 1.jpg": "Cx 1",
 						"CX 2 a).jpg": "Cx 2 A)",
@@ -934,7 +934,7 @@ const file_structure = {
 					},
 				},
 				"INSTRUMENTAL AXSOS FEMUR": {
-					title: "INSTRUMENTAL AXSOS FEMUR",
+					title: "Instrumental Axsos Femur",
 					files: {
 						"Parafusos Axsos Femur.jpg": "Parafusos Axsos Femur",
 						"Tabuleiro inferior.JPG": "Tabuleiro Inferior",
@@ -943,7 +943,7 @@ const file_structure = {
 					},
 				},
 				"INSTRUMENTAL AXSOS TIBIA E HUMERO": {
-					title: "INSTRUMENTAL AXSOS TIBIA E HUMERO",
+					title: "Instrumental Axsos Tibia E Humero",
 					files: {
 						"Tabuleiro 1.JPG": "Tabuleiro 1",
 						"Tabuleiro 2.JPG": "Tabuleiro 2",
@@ -951,19 +951,19 @@ const file_structure = {
 					},
 				},
 				"OMEGA 3": {
-					title: "OMEGA 3",
+					title: "Omega 3",
 					files: {
 						"OMEGA CX 1.jpg": "Omega Cx 1",
 						"OMEGA CX 2.jpg": "Omega Cx 2",
 					},
 				},
 				"PARAFUSOS CANULADOS": {
-					title: "PARAFUSOS CANULADOS",
+					title: "Parafusos Canulados",
 					files: {
 						"Parafusos Canulados 5.0.jpg": "Parafusos Canulados 5.0",
 					},
 					"PARAFUSOS CANULADOS 3.5": {
-						title: "PARAFUSOS CANULADOS 3.5",
+						title: "Parafusos Canulados 3.5",
 						files: {
 							"PARAFUSOS CANULADOS 3.5.jpg": "Parafusos Canulados 3.5",
 							"TAB. 1.jpg": "Tab. 1",
@@ -972,14 +972,14 @@ const file_structure = {
 						},
 					},
 					"PARAFUSOS CANULADOS 4.0": {
-						title: "PARAFUSOS CANULADOS 4.0",
+						title: "Parafusos Canulados 4.0",
 						files: {
 							"CX Parafusos Canulados 4.0.jpg": "Cx Parafusos Canulados 4.0",
 							"Parafusos Canulados 4.0.jpg": "Parafusos Canulados 4.0",
 						},
 					},
 					"PARAFUSOS CANULADOS 6.5-8": {
-						title: "PARAFUSOS CANULADOS 6.5-8",
+						title: "Parafusos Canulados 6.5-8",
 						files: {
 							"INSTRUMENTOS TABULEIRO INFERIOR.jpg":
 								"Instrumentos Tabuleiro Inferior",
@@ -991,7 +991,7 @@ const file_structure = {
 						},
 					},
 					"PARAFUSOS CANULADOS 7.3": {
-						title: "PARAFUSOS CANULADOS 7.3",
+						title: "Parafusos Canulados 7.3",
 						files: {
 							"CAIXA COMPLETA.jpg": "Caixa Completa",
 							"TABULEIRO INFERIOR 1.jpg": "Tabuleiro Inferior 1",
@@ -1001,7 +1001,7 @@ const file_structure = {
 					},
 				},
 				"PARAFUSOS HERBERT BONECARE": {
-					title: "PARAFUSOS HERBERT BONECARE",
+					title: "Parafusos Herbert Bonecare",
 					files: {
 						"Tab 1.jpg": "Tab 1",
 						"Tab 2.jpg": "Tab 2",
@@ -1009,18 +1009,18 @@ const file_structure = {
 					},
 				},
 				"PEQ. FRAGMENTOS A.O": {
-					title: "PEQ. FRAGMENTOS A.O",
+					title: "Peq. Fragmentos A.O",
 					files: {
 						"Peq. Fragmentos A.O..JPG": "Peq. Fragmentos A.O.",
 					},
 				},
 				"PEQUENOS FRAGMENTOS STRYKER": {
-					title: "PEQUENOS FRAGMENTOS STRYKER",
+					title: "Pequenos Fragmentos Stryker",
 					files: {
 						"Reposicao Parafusos.jpg": "Reposicao Parafusos",
 					},
 					"Pequenos fragmentos nº1": {
-						title: "Pequenos fragmentos nº1",
+						title: "Pequenos Fragmentos Nº1",
 						files: {
 							"Cx Peq. Fragmentos Stryker a).JPG":
 								"Cx Peq. Fragmentos Stryker A)",
@@ -1028,7 +1028,7 @@ const file_structure = {
 						},
 					},
 					"Pequenos fragmentos nº2": {
-						title: "Pequenos fragmentos nº2",
+						title: "Pequenos Fragmentos Nº2",
 						files: {
 							"Cx Peq. Fragmentos nº 2.jpg": "Cx Peq. Fragmentos Nº 2",
 							"Peças Peq. Fragmentos nº2.jpg": "Peças Peq. Fragmentos Nº2",
@@ -1036,7 +1036,7 @@ const file_structure = {
 					},
 				},
 				"REVISAO PROTESE ANCA (Artur Salgado)": {
-					title: "REVISAO PROTESE ANCA (Artur Salgado)",
+					title: "Revisao Protese Anca (Artur Salgado)",
 					files: {
 						"Reamers Flexiveis Artur Salgado.jpg":
 							"Reamers Flexiveis Artur Salgado",
@@ -1047,7 +1047,7 @@ const file_structure = {
 					},
 				},
 				"T2 FEMUR": {
-					title: "T2 FEMUR",
+					title: "T2 Femur",
 					files: {
 						"Tabuleiro 1.JPG": "Tabuleiro 1",
 						"Tabuleiro 2.JPG": "Tabuleiro 2",
@@ -1055,7 +1055,7 @@ const file_structure = {
 					},
 				},
 				"T2 HUMERAL": {
-					title: "T2 HUMERAL",
+					title: "T2 Humeral",
 					files: {
 						"Tab. 1.jpg": "Tab. 1",
 						"Tab. 2.jpg": "Tab. 2",
@@ -1063,7 +1063,7 @@ const file_structure = {
 					},
 				},
 				"T2 HUMERAL Proximal": {
-					title: "T2 HUMERAL Proximal",
+					title: "T2 Humeral Proximal",
 					files: {
 						"T2 Humeral Proximal.jpg": "T2 Humeral Proximal",
 					},
@@ -1075,13 +1075,13 @@ const file_structure = {
 					},
 				},
 				"T2 SCN": {
-					title: "T2 SCN",
+					title: "T2 Scn",
 					files: {
 						"SCN.jpg": "Scn",
 					},
 				},
 				"T2 TIBIA": {
-					title: "T2 TIBIA",
+					title: "T2 Tibia",
 					files: {
 						"Tabuleiro 1.jpg": "Tabuleiro 1",
 						"Tabuleiro 2.JPG": "Tabuleiro 2",
@@ -1089,12 +1089,12 @@ const file_structure = {
 					},
 				},
 				"VARIAX II COTOVELO": {
-					title: "VARIAX II COTOVELO",
+					title: "Variax Ii Cotovelo",
 					files: {
 						"Variax I Cotovelo.jpg": "Variax I Cotovelo",
 					},
 					"Variax II Core": {
-						title: "Variax II Core",
+						title: "Variax Ii Core",
 						files: {
 							"Variax II Cotovelo Core Sup..jpg":
 								"Variax Ii Cotovelo Core Sup.",
@@ -1106,7 +1106,7 @@ const file_structure = {
 						},
 					},
 					"Variax II ELBOW": {
-						title: "Variax II ELBOW",
+						title: "Variax Ii Elbow",
 						files: {
 							"Variax II Cotovelo Placas Inf.jpg":
 								"Variax Ii Cotovelo Placas Inf",
@@ -1117,7 +1117,7 @@ const file_structure = {
 					},
 				},
 				"VARIAX II PÉ": {
-					title: "VARIAX II PÉ",
+					title: "Variax Ii Pé",
 					files: {
 						"Tab Inferior Instrumental Pé.jpg": "Tab Inferior Instrumental Pé",
 						"Tab. Inst Pé Inferior.jpg": "Tab. Inst Pé Inferior",
@@ -1129,7 +1129,7 @@ const file_structure = {
 					},
 				},
 				"VARIAX II Rádio Distal": {
-					title: "VARIAX II Rádio Distal",
+					title: "Variax Ii Rádio Distal",
 					files: {
 						"Peças novas variax II (recente).jpg":
 							"Peças Novas Variax Ii (Recente)",
@@ -1143,7 +1143,7 @@ const file_structure = {
 					},
 				},
 				"VARIAX MÃO": {
-					title: "VARIAX MÃO",
+					title: "Variax Mão",
 					files: {
 						"Variax Mao Base.jpg": "Variax Mao Base",
 						"Variax Mao instrumentos.jpg": "Variax Mao Instrumentos",
@@ -1153,7 +1153,7 @@ const file_structure = {
 				},
 			},
 			"KIT PROTESE PARCIAL ANCA": {
-				title: "KIT PROTESE PARCIAL ANCA",
+				title: "Kit Protese Parcial Anca",
 				files: {
 					"Cesto Kit nº2.jpg": "Cesto Kit Nº2",
 					"Kit Protese Parcial Anca 1.JPG": "Kit Protese Parcial Anca 1",
@@ -1161,13 +1161,13 @@ const file_structure = {
 				},
 			},
 			"KIT_s JOELHO 4cx": {
-				title: "KIT_s JOELHO 4cx",
+				title: "Kit_S Joelho 4Cx",
 				files: {
 					"Kit Joelho 9 pç.jpg": "Kit Joelho 9 Pç",
 				},
 			},
 			"MATERIAL SOLTO (VARIOS ORT)": {
-				title: "MATERIAL SOLTO (VARIOS ORT)",
+				title: "Material Solto (Varios Ort)",
 				files: {
 					"Afastadores.jpg": "Afastadores",
 					"Alicate corte.jpg": "Alicate Corte",
@@ -1227,7 +1227,7 @@ const file_structure = {
 					},
 				},
 				"Varios motor": {
-					title: "Varios motor",
+					title: "Varios Motor",
 					files: {
 						"Encaixe Hudson.jpg": "Encaixe Hudson",
 						"Porta fios.jpg": "Porta Fios",
@@ -1235,7 +1235,7 @@ const file_structure = {
 				},
 			},
 			"MOTORES ORT": {
-				title: "MOTORES ORT",
+				title: "Motores Ort",
 				files: {
 					"Micro Motor Ort (1un) stryker.JPG": "Micro Motor Ort (1Un) Stryker",
 					"Motor DeSoutter (1un).jpg": "Motor Desoutter (1Un)",
@@ -1245,7 +1245,7 @@ const file_structure = {
 					"Porta fios.jpg": "Porta Fios",
 				},
 				"Motor Stryker Sistem 6 (2un)": {
-					title: "Motor Stryker Sistem 6 (2un)",
+					title: "Motor Stryker Sistem 6 (2Un)",
 					files: {
 						"Motor stryker System6 n 2 passou a caixa.jpg":
 							"Motor Stryker System6 N 2 Passou A Caixa",
@@ -1261,7 +1261,7 @@ const file_structure = {
 					},
 				},
 				"MOTORES SYNTHES (8un)": {
-					title: "MOTORES SYNTHES (8un)",
+					title: "Motores Synthes (8Un)",
 					files: {
 						"JACOB.JPG": "Jacob",
 						"Motor TRS Completo (6un).jpg": "Motor Trs Completo (6Un)",
@@ -1272,20 +1272,20 @@ const file_structure = {
 				},
 			},
 			"PARTES MOLES ORT 7cx": {
-				title: "PARTES MOLES ORT 7cx",
+				title: "Partes Moles Ort 7Cx",
 				files: {
 					"CX PARTES MOLES.JPG": "Cx Partes Moles",
 				},
 			},
 			"PINOS FIXADOR CRANIANO": {
-				title: "PINOS FIXADOR CRANIANO",
+				title: "Pinos Fixador Craniano",
 				files: {
 					"3 PINOS FIXADOR CRANEANO.jpg": "3 Pinos Fixador Craneano",
 					"PINOS FIXADOR CRANIANO.jpg": "Pinos Fixador Craniano",
 				},
 			},
 			RIMMERS: {
-				title: "RIMMERS",
+				title: "Rimmers",
 				files: {
 					"Reamers Flexiveis (fita riscas verde).jpg":
 						"Reamers Flexiveis (Fita Riscas Verde)",
@@ -1296,20 +1296,20 @@ const file_structure = {
 				},
 			},
 			"TUNEL CARPICO": {
-				title: "TUNEL CARPICO",
+				title: "Tunel Carpico",
 				files: {
 					"Cx Tunel carpico.jpg": "Cx Tunel Carpico",
 				},
 			},
 		},
 		OTORRINO: {
-			title: "OTORRINO",
+			title: "Otorrino",
 			files: {
 				"Suporte ORL ouvido.jpg": "Suporte Orl Ouvido",
 				"Suporte ORL.jpg": "Suporte Orl",
 			},
 			AVA: {
-				title: "AVA",
+				title: "Ava",
 				files: {
 					"Cx nº 50.jpg": "Cx Nº 50",
 					"nº 48.jpg": "Nº 48",
@@ -1326,26 +1326,26 @@ const file_structure = {
 				},
 			},
 			"CALDWELL LUC": {
-				title: "CALDWELL LUC",
+				title: "Caldwell Luc",
 				files: {
 					"CALDWELL LUC.jpg": "Caldwell Luc",
 				},
 			},
 			"CORTADOR CARTILAGEM": {
-				title: "CORTADOR CARTILAGEM",
+				title: "Cortador Cartilagem",
 				files: {
 					"Cortador cartilagem ORL.JPG": "Cortador Cartilagem Orl",
 				},
 			},
 			"DCR (DÁCRIO)": {
-				title: "DCR (DÁCRIO)",
+				title: "Dcr (Dácrio)",
 				files: {
 					"Dacrio Antiga.jpg": "Dacrio Antiga",
 					"DCR ( DACRIO).jpg": "Dcr ( Dacrio)",
 				},
 			},
 			ENDONASAL: {
-				title: "ENDONASAL",
+				title: "Endonasal",
 				files: {
 					"ENDONASAL + SEPTO.JPG": "Endonasal + Septo",
 					"ENDONASAL ANTIGA.jpg": "Endonasal Antiga",
@@ -1354,20 +1354,20 @@ const file_structure = {
 				},
 			},
 			"ESFENOIDE E FRONTAL": {
-				title: "ESFENOIDE E FRONTAL",
+				title: "Esfenoide E Frontal",
 				files: {
 					"ESFENOIDE E FRONTAL.jpg": "Esfenoide E Frontal",
 				},
 			},
 			"ESTAPEDECTOMIA ( risca lilas)": {
-				title: "ESTAPEDECTOMIA ( risca lilas)",
+				title: "Estapedectomia ( Risca Lilas)",
 				files: {
 					"89A.JPG": "89A",
 					"89B.JPG": "89B",
 				},
 			},
 			"LARINGOSCOPIA NOVA (LES)": {
-				title: "LARINGOSCOPIA NOVA (LES)",
+				title: "Laringoscopia Nova (Les)",
 				files: {
 					"LES Nova.jpg": "Les Nova",
 					"Pinças LES.jpg": "Pinças Les",
@@ -1375,31 +1375,31 @@ const file_structure = {
 				},
 			},
 			"LARINGOSCOPIA VELHA (LES)": {
-				title: "LARINGOSCOPIA VELHA (LES)",
+				title: "Laringoscopia Velha (Les)",
 				files: {
 					"LES Antiga.jpg": "Les Antiga",
 				},
 			},
 			MASTOIDE: {
-				title: "MASTOIDE",
+				title: "Mastoide",
 				files: {
 					"91A.JPG": "91A",
 				},
 			},
 			MIRINGOTOMIA: {
-				title: "MIRINGOTOMIA",
+				title: "Miringotomia",
 				files: {
 					"Miringotomia.jpg": "Miringotomia",
 				},
 			},
 			"RINOPLASTIA ANTIGA": {
-				title: "RINOPLASTIA ANTIGA",
+				title: "Rinoplastia Antiga",
 				files: {
 					"Rinoplastia.JPG": "Rinoplastia",
 				},
 			},
 			"SEPTO 4 Cx": {
-				title: "SEPTO 4 Cx",
+				title: "Septo 4 Cx",
 				files: {
 					"Septo 1.jpg": "Septo 1",
 					"Septo 2.jpg": "Septo 2",
@@ -1416,19 +1416,19 @@ const file_structure = {
 				},
 			},
 			SINUSITE: {
-				title: "SINUSITE",
+				title: "Sinusite",
 				files: {
 					"Sinusite.jpg": "Sinusite",
 				},
 			},
 			TIMPANOPLASTIA: {
-				title: "TIMPANOPLASTIA",
+				title: "Timpanoplastia",
 				files: {
 					"Timpanoplastia 90 A (risca amarela).jpg":
 						"Timpanoplastia 90 A (Risca Amarela)",
 				},
 				"Timpanoplastia 90-B (risca verde)": {
-					title: "Timpanoplastia 90-B (risca verde)",
+					title: "Timpanoplastia 90-B (Risca Verde)",
 					files: {
 						"Micro pinças 90-B.jpg": "Micro Pinças 90-B",
 						"Timpanoplastia 90-B(risca verde).jpg":
@@ -1437,13 +1437,13 @@ const file_structure = {
 				},
 			},
 			TRAQUEOSTOMIA: {
-				title: "TRAQUEOSTOMIA",
+				title: "Traqueostomia",
 				files: {
 					"Traqueostomia.JPG": "Traqueostomia",
 				},
 			},
 			ÓTICAS: {
-				title: "ÓTICAS",
+				title: "Óticas",
 				files: {
 					"Cx oticas.JPG": "Cx Oticas",
 					"Oticas 0 e 30.JPG": "Oticas 0 E 30",
@@ -1451,7 +1451,7 @@ const file_structure = {
 			},
 		},
 		UROLOGIA: {
-			title: "UROLOGIA",
+			title: "Urologia",
 			Beniques: {
 				title: "Beniques",
 				files: {
@@ -1460,20 +1460,20 @@ const file_structure = {
 				},
 			},
 			BIPOLAR: {
-				title: "BIPOLAR",
+				title: "Bipolar",
 				files: {
 					"HFSP0758.JPG": "Hfsp0758",
 				},
 			},
 			CABOS: {
-				title: "CABOS",
+				title: "Cabos",
 				files: {
 					"CABO BIPOLAR UROLOGIA.JPG": "Cabo Bipolar Urologia",
 					"CABO MONOPOLAR UROLOGIA.jpg": "Cabo Monopolar Urologia",
 				},
 			},
 			"CISTOSCOPIOS 5un": {
-				title: "CISTOSCOPIOS 5un",
+				title: "Cistoscopios 5Un",
 				files: {
 					"CISTOSCOPIO nº5 (antigo).jpg": "Cistoscopio Nº5 (Antigo)",
 					"CISTOSCOPIO SOLTO.JPG": "Cistoscopio Solto",
@@ -1484,26 +1484,26 @@ const file_structure = {
 				},
 			},
 			"KIT INCONT. URINARIA 5 un": {
-				title: "KIT INCONT. URINARIA 5 un",
+				title: "Kit Incont. Urinaria 5 Un",
 				files: {
 					"HJPA1899.JPG": "Hjpa1899",
 				},
 			},
 			"KIT PINÇA Mc DOUGLAS 2un": {
-				title: "KIT PINÇA Mc DOUGLAS 2un",
+				title: "Kit Pinça Mc Douglas 2Un",
 				files: {
 					"Kit Mc Douglas 1.jpg": "Kit Mc Douglas 1",
 					"Kit Mc Douglas 2.jpg": "Kit Mc Douglas 2",
 				},
 			},
 			LAPAROTOMIA: {
-				title: "LAPAROTOMIA",
+				title: "Laparotomia",
 				files: {
 					"CX Laparotomia.JPG": "Cx Laparotomia",
 				},
 			},
 			LITOTRITOR: {
-				title: "LITOTRITOR",
+				title: "Litotritor",
 				files: {
 					"litotritor 1.jpg": "Litotritor 1",
 					"litotritor 2.jpg": "Litotritor 2",
@@ -1511,7 +1511,7 @@ const file_structure = {
 				},
 			},
 			"MATERIAL SOLTO": {
-				title: "MATERIAL SOLTO",
+				title: "Material Solto",
 				files: {
 					"KIT URULOGIA 3 un.jpg": "Kit Urulogia 3 Un",
 					"OTICA Acmi.JPG": "Otica Acmi",
@@ -1522,20 +1522,20 @@ const file_structure = {
 				},
 			},
 			"MONOPOLAR 2cx": {
-				title: "MONOPOLAR 2cx",
+				title: "Monopolar 2Cx",
 				files: {
 					"FUED2853.JPG": "Fued2853",
 					"HDEO2924.JPG": "Hdeo2924",
 				},
 			},
 			"NEFROSCOPIO 1 un": {
-				title: "NEFROSCOPIO 1 un",
+				title: "Nefroscopio 1 Un",
 				files: {
 					"NEFROSCOPIO.JPG": "Nefroscopio",
 				},
 			},
 			"RESSETOSCOPIA´s 5 un": {
-				title: "RESSETOSCOPIA´s 5 un",
+				title: "Ressetoscopia´S 5 Un",
 				files: {
 					"Ressetoscópio nº 1 ( 8 peças+ansa).jpg":
 						"Ressetoscópio Nº 1 ( 8 Peças+Ansa)",
@@ -1546,7 +1546,7 @@ const file_structure = {
 				},
 			},
 			"URETERORRENOSCOPIO 3 un": {
-				title: "URETERORRENOSCOPIO 3 un",
+				title: "Ureterorrenoscopio 3 Un",
 				files: {
 					"Cx Ureterorenoscopio novo.jpg": "Cx Ureterorenoscopio Novo",
 					"Ureterorenoscopio novo (7 peças).jpg":
@@ -1556,16 +1556,16 @@ const file_structure = {
 				},
 			},
 			"URETROTOMO 7 un": {
-				title: "URETROTOMO 7 un",
+				title: "Uretrotomo 7 Un",
 				"Uretrotomo novo nº1 a nº4 (8 peças) (4 un)": {
-					title: "Uretrotomo novo nº1 a nº4 (8 peças) (4 un)",
+					title: "Uretrotomo Novo Nº1 A Nº4 (8 Peças) (4 Un)",
 					files: {
 						"Cx Uretrotomo novo.jpg": "Cx Uretrotomo Novo",
 						"Uretrotomo novo.jpg": "Uretrotomo Novo",
 					},
 				},
 				"Uretrotomo solto 3 un": {
-					title: "Uretrotomo solto 3 un",
+					title: "Uretrotomo Solto 3 Un",
 					files: {
 						"URETROTOMO.JPG": "Uretrotomo",
 					},
@@ -1576,7 +1576,7 @@ const file_structure = {
 	MaterialExterno: {
 		title: "Material Externo",
 		ARTHREX: {
-			title: "ARTHREX",
+			title: "Arthrex",
 			files: {
 				"Arthrex Biceps.jpg": "Arthrex Biceps",
 				"ARTHREX ENXERTO.jpg": "Arthrex Enxerto",
@@ -1584,7 +1584,7 @@ const file_structure = {
 				"Sutura Menisco.jpg": "Sutura Menisco",
 			},
 			LIGAMENTOPLASTIA: {
-				title: "LIGAMENTOPLASTIA",
+				title: "Ligamentoplastia",
 				files: {
 					"CX 1 Ligamentoplastia LCA.jpg": "Cx 1 Ligamentoplastia Lca",
 					"CX 2 COMPLETO.jpg": "Cx 2 Completo",
@@ -1594,7 +1594,7 @@ const file_structure = {
 				},
 			},
 			"OMBRO LATARJET": {
-				title: "OMBRO LATARJET",
+				title: "Ombro Latarjet",
 				files: {
 					"CX LATARJET.jpg": "Cx Latarjet",
 					"Tab. Inferior.jpg": "Tab. Inferior",
@@ -1602,14 +1602,14 @@ const file_structure = {
 				},
 			},
 			"PARAFUSOS COMPRESSAO 3.0": {
-				title: "PARAFUSOS COMPRESSAO 3.0",
+				title: "Parafusos Compressao 3.0",
 				files: {
 					"CX PARAF. COMP. 3.0.jpg": "Cx Paraf. Comp. 3.0",
 					"PARAFUSOS COMPRESSAO 3.0.jpg": "Parafusos Compressao 3.0",
 				},
 			},
 			"PLACAS ADIÇAO": {
-				title: "PLACAS ADIÇAO",
+				title: "Placas Adiçao",
 				files: {
 					"CX nº 1.jpg": "Cx Nº 1",
 					"CX nº 2.jpg": "Cx Nº 2",
@@ -1617,7 +1617,7 @@ const file_structure = {
 			},
 		},
 		"ARTUR SALGADO": {
-			title: "ARTUR SALGADO",
+			title: "Artur Salgado",
 			"Artrodese Joelho": {
 				title: "Artrodese Joelho",
 				files: {
@@ -1632,7 +1632,7 @@ const file_structure = {
 				},
 			},
 			"Revisao PTA Biarticular": {
-				title: "Revisao PTA Biarticular",
+				title: "Revisao Pta Biarticular",
 				files: {
 					"Cx Dupla Mobilidade.jpg": "Cx Dupla Mobilidade",
 					"Cx n3 extrator haste (1).jpg": "Cx N3 Extrator Haste (1)",
@@ -1644,12 +1644,12 @@ const file_structure = {
 			},
 		},
 		"BONE CARE": {
-			title: "BONE CARE",
+			title: "Bone Care",
 			files: {
 				"MEDARTIS-BONECARE.jpg": "Medartis-Bonecare",
 			},
 			"ROTULA JOELHO BONE CARE": {
-				title: "ROTULA JOELHO BONE CARE",
+				title: "Rotula Joelho Bone Care",
 				files: {
 					"SXEV4382.JPG": "Sxev4382",
 					"XOHK6451.JPG": "Xohk6451",
@@ -1657,9 +1657,9 @@ const file_structure = {
 			},
 		},
 		"FH ORTHO (bone care)": {
-			title: "FH ORTHO (bone care)",
+			title: "Fh Ortho (Bone Care)",
 			"OMBRO ARROW": {
-				title: "OMBRO ARROW",
+				title: "Ombro Arrow",
 				files: {
 					"EHFC4996.JPG": "Ehfc4996",
 					"IEGN4412.JPG": "Iegn4412",
@@ -1670,9 +1670,9 @@ const file_structure = {
 			},
 		},
 		"FOTOS DAS CX  Á ENTRADA": {
-			title: "FOTOS DAS CX  Á ENTRADA",
+			title: "Fotos Das Cx  Á Entrada",
 			"LIMA Acetabular 4 CX": {
-				title: "LIMA Acetabular 4 CX",
+				title: "Lima Acetabular 4 Cx",
 				files: {
 					"EXTRAÇAO ACETABULAR.jpg": "Extraçao Acetabular",
 					"TAB. 9055.33.000.jpg": "Tab. 9055.33.000",
@@ -1682,7 +1682,7 @@ const file_structure = {
 				},
 			},
 			"MEDCOMTECH PUNHO": {
-				title: "MEDCOMTECH PUNHO",
+				title: "Medcomtech Punho",
 				files: {
 					"CX ARTROSCOPIA PUNHO.jpg": "Cx Artroscopia Punho",
 					"IMG_20211122_143524.jpg": "Img_20211122_143524",
@@ -1691,7 +1691,7 @@ const file_structure = {
 				},
 			},
 			SMITH_NEPEW: {
-				title: "SMITH_NEPEW",
+				title: "Smith_Nepew",
 				files: {
 					"COMPONENTES CX1 (1).jpg": "Componentes Cx1 (1)",
 					"CX 2 COMPONENTES.jpg": "Cx 2 Componentes",
@@ -1703,9 +1703,9 @@ const file_structure = {
 				},
 			},
 			STRYKER: {
-				title: "STRYKER",
+				title: "Stryker",
 				"AXOS 3 TIBIA": {
-					title: "AXOS 3 TIBIA",
+					title: "Axos 3 Tibia",
 					files: {
 						"IMG_20211124_191144.jpg": "Img_20211124_191144",
 						"IMG_20211124_191203.jpg": "Img_20211124_191203",
@@ -1715,9 +1715,9 @@ const file_structure = {
 				},
 			},
 			"ZIMMER BIOMET": {
-				title: "ZIMMER BIOMET",
+				title: "Zimmer Biomet",
 				"PUK OXFORD 24-11": {
-					title: "PUK OXFORD 24-11",
+					title: "Puk Oxford 24-11",
 					files: {
 						"IMG_20211124_184250.jpg": "Img_20211124_184250",
 						"IMG_20211124_184345.jpg": "Img_20211124_184345",
@@ -1732,7 +1732,7 @@ const file_structure = {
 			},
 		},
 		"JONHSON-SYNTHES-DEPUY": {
-			title: "JONHSON-SYNTHES-DEPUY",
+			title: "Jonhson-Synthes-Depuy",
 			files: {
 				"AFASTADOR CERVICAL.JPG": "Afastador Cervical",
 			},
@@ -1745,7 +1745,7 @@ const file_structure = {
 				},
 			},
 			"COLUNA EXPEDIUM (3 CX)": {
-				title: "COLUNA EXPEDIUM (3 CX)",
+				title: "Coluna Expedium (3 Cx)",
 				files: {
 					"Chave da cx 2.jpg": "Chave Da Cx 2",
 					"CX 1 com 2 Tab..jpg": "Cx 1 Com 2 Tab.",
@@ -1754,7 +1754,7 @@ const file_structure = {
 				},
 			},
 			"COLUNA JONHSON": {
-				title: "COLUNA JONHSON",
+				title: "Coluna Jonhson",
 				files: {
 					"Afastador retractor.jpg": "Afastador Retractor",
 					"Chave da cx 2.jpg": "Chave Da Cx 2",
@@ -1780,7 +1780,7 @@ const file_structure = {
 				},
 			},
 			"COLUNA SYNTHES 3CX": {
-				title: "COLUNA SYNTHES 3CX",
+				title: "Coluna Synthes 3Cx",
 				files: {
 					"CFCL8005.JPG": "Cfcl8005",
 					"FWJI8691.JPG": "Fwji8691",
@@ -1789,7 +1789,7 @@ const file_structure = {
 				},
 			},
 			"COLUNA VIPER  2 (6CX)": {
-				title: "COLUNA VIPER  2 (6CX)",
+				title: "Coluna Viper  2 (6Cx)",
 				files: {
 					"CX 3 INF..jpg": "Cx 3 Inf.",
 					"CX 3 SUP..jpg": "Cx 3 Sup.",
@@ -1802,20 +1802,20 @@ const file_structure = {
 				},
 			},
 			"EXTRACÃO MONARCH": {
-				title: "EXTRACÃO MONARCH",
+				title: "Extracão Monarch",
 				files: {
 					"EXTRAÇAO MONARCH 2.jpg": "Extraçao Monarch 2",
 					"EXTRAÇAO MONARCH.jpg": "Extraçao Monarch",
 				},
 			},
 			"FIXADOR SYNTHES (STENOFIX)": {
-				title: "FIXADOR SYNTHES (STENOFIX)",
+				title: "Fixador Synthes (Stenofix)",
 				files: {
 					"Stenofix.jpg": "Stenofix",
 				},
 			},
 			"REVISAO PTA": {
-				title: "REVISAO PTA",
+				title: "Revisao Pta",
 				files: {
 					"AFASTADOR CHARNLEY.jpg": "Afastador Charnley",
 					"CESTO AFASTADORES VARIOS.jpg": "Cesto Afastadores Varios",
@@ -1840,9 +1840,9 @@ const file_structure = {
 				},
 			},
 			"REVISAO PTJ": {
-				title: "REVISAO PTJ",
+				title: "Revisao Ptj",
 				"PTJ Revisao  ATTUNE Depuy 23 cx": {
-					title: "PTJ Revisao  ATTUNE Depuy 23 cx",
+					title: "Ptj Revisao  Attune Depuy 23 Cx",
 					files: {
 						"Cx 1 Inst. Geral Femur.jpg": "Cx 1 Inst. Geral Femur",
 						"Cx 10 Montagem.jpg": "Cx 10 Montagem",
@@ -1871,7 +1871,7 @@ const file_structure = {
 					},
 				},
 				"PTJ Revisao SIGMA TC3": {
-					title: "PTJ Revisao SIGMA TC3",
+					title: "Ptj Revisao Sigma Tc3",
 					files: {
 						"Cx 1 Femur.jpg": "Cx 1 Femur",
 						"Cx 2 Femur.jpg": "Cx 2 Femur",
@@ -1914,12 +1914,12 @@ const file_structure = {
 			},
 		},
 		LIMA: {
-			title: "LIMA",
+			title: "Lima",
 			files: {
 				"Motor Conmed Lima.jpg": "Motor Conmed Lima",
 			},
 			"Protese Joelho (PUK) Physica ZUC": {
-				title: "Protese Joelho (PUK) Physica ZUC",
+				title: "Protese Joelho (Puk) Physica Zuc",
 				files: {
 					"Cx 4 Motor.jpg": "Cx 4 Motor",
 					"Puk Physica ZUC 1.jpg": "Puk Physica Zuc 1",
@@ -1928,7 +1928,7 @@ const file_structure = {
 				},
 			},
 			"Protese Joelho (PUK) Zimmer-Lima": {
-				title: "Protese Joelho (PUK) Zimmer-Lima",
+				title: "Protese Joelho (Puk) Zimmer-Lima",
 				files: {
 					"Cx 1.jpg": "Cx 1",
 					"Cx 2.jpg": "Cx 2",
@@ -1937,7 +1937,7 @@ const file_structure = {
 				},
 			},
 			"PROTESE OMBRO": {
-				title: "PROTESE OMBRO",
+				title: "Protese Ombro",
 				files: {
 					"Cx nº 1 Set Geral.jpg": "Cx Nº 1 Set Geral",
 					"Cx nº 2 Hemi Protese.jpg": "Cx Nº 2 Hemi Protese",
@@ -1953,49 +1953,49 @@ const file_structure = {
 				},
 			},
 			"PROTESE OMBRO SMR (NOVA)": {
-				title: "PROTESE OMBRO SMR (NOVA)",
+				title: "Protese Ombro Smr (Nova)",
 				"CX nº 1 ANATOMICA": {
-					title: "CX nº 1 ANATOMICA",
+					title: "Cx Nº 1 Anatomica",
 					files: {
 						"Anatomica inf.jpg": "Anatomica Inf",
 						"Anatomica sup nº1.jpg": "Anatomica Sup Nº1",
 					},
 				},
 				"CX nº 2 INVERTIDA": {
-					title: "CX nº 2 INVERTIDA",
+					title: "Cx Nº 2 Invertida",
 					files: {
 						"Invertida Inf.jpg": "Invertida Inf",
 						"Invertida nº2.jpg": "Invertida Nº2",
 					},
 				},
 				"CX nº 3 GLENOIDE": {
-					title: "CX nº 3 GLENOIDE",
+					title: "Cx Nº 3 Glenoide",
 					files: {
 						"Glenoide inferior.jpg": "Glenoide Inferior",
 						"Glenoide Sup nº3.jpg": "Glenoide Sup Nº3",
 					},
 				},
 				"CX nº 4 HASTE": {
-					title: "CX nº 4 HASTE",
+					title: "Cx Nº 4 Haste",
 					files: {
 						"Haste cx  nº4.jpg": "Haste Cx  Nº4",
 					},
 				},
 				"CX nº 5 CABEÇAS 40,44": {
-					title: "CX nº 5 CABEÇAS 40,44",
+					title: "Cx Nº 5 Cabeças 40,44",
 					files: {
 						"Cabeças 40,44.jpg": "Cabeças 40,44",
 					},
 				},
 				"CX nº 6 AFASTADORES": {
-					title: "CX nº 6 AFASTADORES",
+					title: "Cx Nº 6 Afastadores",
 					files: {
 						"Afastadores.jpg": "Afastadores",
 					},
 				},
 			},
 			"Protese total Joelho (MULTIGEN)": {
-				title: "Protese total Joelho (MULTIGEN)",
+				title: "Protese Total Joelho (Multigen)",
 				files: {
 					"CX 1 Femur.jpg": "Cx 1 Femur",
 					"CX 2 Femur.jpg": "Cx 2 Femur",
@@ -2007,7 +2007,7 @@ const file_structure = {
 				},
 			},
 			"REVISAO ANCA LIMA": {
-				title: "REVISAO ANCA LIMA",
+				title: "Revisao Anca Lima",
 				files: {
 					"Cesto Rev. anca Lima.jpg": "Cesto Rev. Anca Lima",
 					"Cx  Rev. anca Lima.jpg": "Cx  Rev. Anca Lima",
@@ -2032,9 +2032,9 @@ const file_structure = {
 			},
 		},
 		"LUSOPALEX-EXACTECH": {
-			title: "LUSOPALEX-EXACTECH",
+			title: "Lusopalex-Exactech",
 			"Protese ombro invertida": {
-				title: "Protese ombro invertida",
+				title: "Protese Ombro Invertida",
 				files: {
 					"CX 1.jpg": "Cx 1",
 					"CX 2.jpg": "Cx 2",
@@ -2049,7 +2049,7 @@ const file_structure = {
 			},
 		},
 		MBA: {
-			title: "MBA",
+			title: "Mba",
 			files: {
 				"CX REAMERS MBA.jpg": "Cx Reamers Mba",
 				"MBA extraçao.jpg": "Mba Extraçao",
@@ -2058,25 +2058,25 @@ const file_structure = {
 				"SERINGA CIMENTO MBA.jpg": "Seringa Cimento Mba",
 			},
 			"BIOBALL MBA": {
-				title: "BIOBALL MBA",
+				title: "Bioball Mba",
 				files: {
 					"BioBall.jpg": "Bioball",
 				},
 			},
 			"CX CERCLAGE": {
-				title: "CX CERCLAGE",
+				title: "Cx Cerclage",
 				files: {
 					"Cx Cerclage MBA.jpg": "Cx Cerclage Mba",
 				},
 			},
 			"MBA - PLACAS DMS": {
-				title: "MBA - PLACAS DMS",
+				title: "Mba - Placas Dms",
 				files: {
 					"EADI1670.JPG": "Eadi1670",
 				},
 			},
 			"MBA COLUNA LOMBAR +TLIF": {
-				title: "MBA COLUNA LOMBAR +TLIF",
+				title: "Mba Coluna Lombar +Tlif",
 				files: {
 					"Cx nº1.jpg": "Cx Nº1",
 					"Cx nº2.jpg": "Cx Nº2",
@@ -2089,7 +2089,7 @@ const file_structure = {
 				},
 			},
 			"ORTHOFIX Truelok": {
-				title: "ORTHOFIX Truelok",
+				title: "Orthofix Truelok",
 				files: {
 					"Corta barra.jpg": "Corta Barra",
 					"MBA 1.jpg": "Mba 1",
@@ -2120,7 +2120,7 @@ const file_structure = {
 				},
 			},
 			"REVISAO ANCA MBA 12 CX (28-4)": {
-				title: "REVISAO ANCA MBA 12 CX (28-4)",
+				title: "Revisao Anca Mba 12 Cx (28-4)",
 				files: {
 					"A 1.jpg": "A 1",
 					"A 10.jpg": "A 10",
@@ -2136,7 +2136,7 @@ const file_structure = {
 				},
 			},
 			"REVISAO PTA MBA 9 CX": {
-				title: "REVISAO PTA MBA 9 CX",
+				title: "Revisao Pta Mba 9 Cx",
 				files: {
 					"FRESAS FEMUR.jpg": "Fresas Femur",
 					"INST. ACETABULO 1.jpg": "Inst. Acetabulo 1",
@@ -2150,27 +2150,27 @@ const file_structure = {
 				},
 			},
 			"TACÍCULA RADIAL (ICARA)": {
-				title: "TACÍCULA RADIAL (ICARA)",
+				title: "Tacícula Radial (Icara)",
 				files: {
 					"Tacícula Radial (ICARA).jpg": "Tacícula Radial (Icara)",
 				},
 			},
 		},
 		MEDTRONIC: {
-			title: "MEDTRONIC",
+			title: "Medtronic",
 			files: {
 				"Afastador cervical Caspar.jpg": "Afastador Cervical Caspar",
 				"Afastadores rectrator Cervical.jpg": "Afastadores Rectrator Cervical",
 			},
 			"Instrumental coluna cervical DIVERGENCE (1 cx)": {
-				title: "Instrumental coluna cervical DIVERGENCE (1 cx)",
+				title: "Instrumental Coluna Cervical Divergence (1 Cx)",
 				files: {
 					"Tab. nº1.jpg": "Tab. Nº1",
 					"Tab. nº2.jpg": "Tab. Nº2",
 				},
 			},
 			ORL: {
-				title: "ORL",
+				title: "Orl",
 				files: {
 					"ORL Cabo Medtronic.jpg": "Orl Cabo Medtronic",
 					"ORL Medtronic.jpg": "Orl Medtronic",
@@ -2185,9 +2185,9 @@ const file_structure = {
 			},
 		},
 		NEUROWAVE: {
-			title: "NEUROWAVE",
+			title: "Neurowave",
 			COLUNA: {
-				title: "COLUNA",
+				title: "Coluna",
 				files: {
 					"Cx 1.JPG": "Cx 1",
 					"Cx2.JPG": "Cx2",
@@ -2197,7 +2197,7 @@ const file_structure = {
 			},
 		},
 		"OFTALMOLOGIA AMB": {
-			title: "OFTALMOLOGIA AMB",
+			title: "Oftalmologia Amb",
 			files: {
 				"oftalmologia (Ferrara).JPG": "Oftalmologia (Ferrara)",
 				"OHRM8012.JPG": "Ohrm8012",
@@ -2210,9 +2210,9 @@ const file_structure = {
 			},
 		},
 		SMITH_NEPHEW: {
-			title: "SMITH_NEPHEW",
+			title: "Smith_Nephew",
 			"INST. PROTESE TOTAL JOELHO": {
-				title: "INST. PROTESE TOTAL JOELHO",
+				title: "Inst. Protese Total Joelho",
 				files: {
 					"Cx PS.jpg": "Cx Ps",
 					"Cx ROTULA.JPG": "Cx Rotula",
@@ -2223,7 +2223,7 @@ const file_structure = {
 				},
 			},
 			"INST. PTJ CHARNEIRA": {
-				title: "INST. PTJ CHARNEIRA",
+				title: "Inst. Ptj Charneira",
 				files: {
 					"CX 1 de 6 Sup..jpg": "Cx 1 De 6 Sup.",
 					"CX 1 de 6.jpg": "Cx 1 De 6",
@@ -2236,7 +2236,7 @@ const file_structure = {
 				},
 			},
 			"LCA JOELHO": {
-				title: "LCA JOELHO",
+				title: "Lca Joelho",
 				files: {
 					"CX 1 COMPONENTES.jpg": "Cx 1 Componentes",
 					"CX 1.jpg": "Cx 1",
@@ -2248,7 +2248,7 @@ const file_structure = {
 				},
 			},
 			"REVISAO PTA SMITH _ NEPHEW (21cx)": {
-				title: "REVISAO PTA SMITH _ NEPHEW (21cx)",
+				title: "Revisao Pta Smith _ Nephew (21Cx)",
 				files: {
 					"AIAD0021.JPG": "Aiad0021",
 					"AVTM3901.JPG": "Avtm3901",
@@ -2264,7 +2264,7 @@ const file_structure = {
 				},
 			},
 			"REVISÃO PTJ LEGION (18 Tab.)": {
-				title: "REVISÃO PTJ LEGION (18 Tab.)",
+				title: "Revisão Ptj Legion (18 Tab.)",
 				files: {
 					"Extra no Cesto 13.jpg": "Extra No Cesto 13",
 					"Tab. 1-2.jpg": "Tab. 1-2",
@@ -2279,19 +2279,19 @@ const file_structure = {
 			},
 		},
 		STRYKER: {
-			title: "STRYKER",
+			title: "Stryker",
 			files: {
 				"MOPYC (Extração material).jpg": "Mopyc (Extração Material)",
 			},
 			"ANCHORAGE PÉ": {
-				title: "ANCHORAGE PÉ",
+				title: "Anchorage Pé",
 				files: {
 					"Stryker Pé 1.jpg": "Stryker Pé 1",
 					"Stryker pé 2.jpg": "Stryker Pé 2",
 				},
 			},
 			"ARTROSCOPIA DO OMBRO": {
-				title: "ARTROSCOPIA DO OMBRO",
+				title: "Artroscopia Do Ombro",
 				files: {
 					"Cx Artroscopia ombro Stryker.jpg": "Cx Artroscopia Ombro Stryker",
 					"Cx Ombro Stryker.jpg": "Cx Ombro Stryker",
@@ -2300,7 +2300,7 @@ const file_structure = {
 				},
 			},
 			"AXSOS 3 TIBIA-UMERO": {
-				title: "AXSOS 3 TIBIA-UMERO",
+				title: "Axsos 3 Tibia-Umero",
 				files: {
 					"CX INSTRUMENTAL.jpg": "Cx Instrumental",
 					"CX PLACAS PROXIMAL LATERAL TIBIA.jpg":
@@ -2319,7 +2319,7 @@ const file_structure = {
 				},
 			},
 			"GAMMA Nº 3": {
-				title: "GAMMA Nº 3",
+				title: "Gamma Nº 3",
 				files: {
 					"Gamma 3 Cx1.jpg": "Gamma 3 Cx1",
 					"Gamma 3 Cx2.jpg": "Gamma 3 Cx2",
@@ -2327,14 +2327,14 @@ const file_structure = {
 				},
 			},
 			"HOFFMAN 3": {
-				title: "HOFFMAN 3",
+				title: "Hoffman 3",
 				files: {
 					"Tab. Inferior.jpg": "Tab. Inferior",
 					"Tabs. Superiores.jpg": "Tabs. Superiores",
 				},
 			},
 			"INST. PLACAS BLOQUEADAS 5": {
-				title: "INST. PLACAS BLOQUEADAS 5",
+				title: "Inst. Placas Bloqueadas 5",
 				files: {
 					"Inst. Placas Bloqueadas 5 Inf..jpg":
 						"Inst. Placas Bloqueadas 5 Inf.",
@@ -2344,7 +2344,7 @@ const file_structure = {
 				},
 			},
 			LIGAMENTOPLASTIA: {
-				title: "LIGAMENTOPLASTIA",
+				title: "Ligamentoplastia",
 				files: {
 					"Ligamentoplastia 1.jpg": "Ligamentoplastia 1",
 					"Ligamentoplastia 2.jpg": "Ligamentoplastia 2",
@@ -2358,7 +2358,7 @@ const file_structure = {
 				},
 			},
 			"MATTA Pelvic": {
-				title: "MATTA Pelvic",
+				title: "Matta Pelvic",
 				files: {
 					"CX 1.jpg": "Cx 1",
 					"CX 2.jpg": "Cx 2",
@@ -2369,13 +2369,13 @@ const file_structure = {
 				},
 			},
 			"PARAFUSOS CAN. 6.5mm 8.0mm": {
-				title: "PARAFUSOS CAN. 6.5mm 8.0mm",
+				title: "Parafusos Can. 6.5Mm 8.0Mm",
 				files: {
 					"Parafusos Canulados 6.5 e 8.0.JPG": "Parafusos Canulados 6.5 E 8.0",
 				},
 			},
 			"PARAFUSOS CANULADOS 3.0": {
-				title: "PARAFUSOS CANULADOS 3.0",
+				title: "Parafusos Canulados 3.0",
 				files: {
 					"Parafusos canulados 3.0 Stryker (1).jpg":
 						"Parafusos Canulados 3.0 Stryker (1)",
@@ -2384,7 +2384,7 @@ const file_structure = {
 				},
 			},
 			"PEQ. FRAGMENTOS BLOQUEADOS": {
-				title: "PEQ. FRAGMENTOS BLOQUEADOS",
+				title: "Peq. Fragmentos Bloqueados",
 				files: {
 					"Parafusos Peq. Fragmentos Bloqueados.jpg":
 						"Parafusos Peq. Fragmentos Bloqueados",
@@ -2396,7 +2396,7 @@ const file_structure = {
 				},
 			},
 			"PROTESE OMBRO": {
-				title: "PROTESE OMBRO",
+				title: "Protese Ombro",
 				files: {
 					"CX nº 5 BIO RSA exerto osseo.jpg": "Cx Nº 5 Bio Rsa Exerto Osseo",
 					"Cx nº 6 Afastadores Retractores.jpg":
@@ -2404,7 +2404,7 @@ const file_structure = {
 					"Cx nº 7 Protese Ombro.jpg": "Cx Nº 7 Protese Ombro",
 				},
 				"Glenoide Reverse II 2cx": {
-					title: "Glenoide Reverse II 2cx",
+					title: "Glenoide Reverse Ii 2Cx",
 					files: {
 						"CX1 Tab. inferior.jpg": "Cx1 Tab. Inferior",
 						"CX1 Tab. superior.jpg": "Cx1 Tab. Superior",
@@ -2413,7 +2413,7 @@ const file_structure = {
 					},
 				},
 				"Umero Ascendflex 2cx": {
-					title: "Umero Ascendflex 2cx",
+					title: "Umero Ascendflex 2Cx",
 					files: {
 						"CX1 Tab. inferior.jpg": "Cx1 Tab. Inferior",
 						"CX1 Tab. superior.jpg": "Cx1 Tab. Superior",
@@ -2423,7 +2423,7 @@ const file_structure = {
 				},
 			},
 			"T2 TORNOZELO": {
-				title: "T2 TORNOZELO",
+				title: "T2 Tornozelo",
 				files: {
 					"Reamers flexiveis.jpg": "Reamers Flexiveis",
 					"T2 Tornozelo (2).jpg": "T2 Tornozelo (2)",
@@ -2431,14 +2431,14 @@ const file_structure = {
 				},
 			},
 			"VARIAX II Clavicula": {
-				title: "VARIAX II Clavicula",
+				title: "Variax Ii Clavicula",
 				files: {
 					"Variax II Clavicula (Placas).jpg": "Variax Ii Clavicula (Placas)",
 					"Variax II Clavicula.jpg": "Variax Ii Clavicula",
 				},
 			},
 			"VARIAX II PEQ. FRAGMENTOS": {
-				title: "VARIAX II PEQ. FRAGMENTOS",
+				title: "Variax Ii Peq. Fragmentos",
 				files: {
 					"Peq. fragmentos Variax II (placas bloqueadas).jpg":
 						"Peq. Fragmentos Variax Ii (Placas Bloqueadas)",
@@ -2446,7 +2446,7 @@ const file_structure = {
 				},
 			},
 			"VARIAX II PÉ": {
-				title: "VARIAX II PÉ",
+				title: "Variax Ii Pé",
 				files: {
 					"Protese Cabeça Radio Mopyc.jpg": "Protese Cabeça Radio Mopyc",
 					"Variax II Pé (1).jpg": "Variax Ii Pé (1)",
@@ -2454,7 +2454,7 @@ const file_structure = {
 				},
 			},
 			"VARIAX II Rádio Distal": {
-				title: "VARIAX II Rádio Distal",
+				title: "Variax Ii Rádio Distal",
 				files: {
 					"Variax II Radio Distal cx 1.jpg": "Variax Ii Radio Distal Cx 1",
 					"Variax II Rádio Distal cx 2.jpg": "Variax Ii Rádio Distal Cx 2",
@@ -2464,9 +2464,9 @@ const file_structure = {
 			},
 		},
 		SURGYLINE: {
-			title: "SURGYLINE",
+			title: "Surgyline",
 			"ASPEN Fixador inter espinhoso": {
-				title: "ASPEN Fixador inter espinhoso",
+				title: "Aspen Fixador Inter Espinhoso",
 				files: {
 					"Tab Intermedio.jpg": "Tab Intermedio",
 					"Tab Superior.jpg": "Tab Superior",
@@ -2474,13 +2474,13 @@ const file_structure = {
 				},
 			},
 			"INSTRUMENTAL COLUNA BIOMET": {
-				title: "INSTRUMENTAL COLUNA BIOMET",
+				title: "Instrumental Coluna Biomet",
 				files: {
 					"INSTRUMENTAL.JPG": "Instrumental",
 				},
 			},
 			"INSTRUMENTAL COLUNA PATHFINDER": {
-				title: "INSTRUMENTAL COLUNA PATHFINDER",
+				title: "Instrumental Coluna Pathfinder",
 				files: {
 					"Tab. 1 e 2.JPG": "Tab. 1 E 2",
 					"Tab. 3 e 5.JPG": "Tab. 3 E 5",
@@ -2489,9 +2489,9 @@ const file_structure = {
 			},
 		},
 		"ZIMMER BIOMET": {
-			title: "ZIMMER BIOMET",
+			title: "Zimmer Biomet",
 			"CAGE COLUNA LOMBAR BIOMET": {
-				title: "CAGE COLUNA LOMBAR BIOMET",
+				title: "Cage Coluna Lombar Biomet",
 				files: {
 					"CJRW6905.JPG": "Cjrw6905",
 					"EMKU3639.JPG": "Emku3639",
@@ -2501,7 +2501,7 @@ const file_structure = {
 				},
 			},
 			"INST. PROTESE TOTAL JOELHO": {
-				title: "INST. PROTESE TOTAL JOELHO",
+				title: "Inst. Protese Total Joelho",
 				files: {
 					"Cx n 1 Instrumental Geral.jpg": "Cx N 1 Instrumental Geral",
 					"Cx n 2 Instrumental Tibia.jpg": "Cx N 2 Instrumental Tibia",
@@ -2515,7 +2515,7 @@ const file_structure = {
 				},
 			},
 			"JOELHO PUK (unicompartimental) OXFORD + MOTOR BIOMET": {
-				title: "JOELHO PUK (unicompartimental) OXFORD + MOTOR BIOMET",
+				title: "Joelho Puk (Unicompartimental) Oxford + Motor Biomet",
 				files: {
 					"CX 1 TABULEIRO INFERIOR.jpg": "Cx 1 Tabuleiro Inferior",
 					"CX 1 TABULEIRO SUPERIOR.jpg": "Cx 1 Tabuleiro Superior",
@@ -2529,7 +2529,7 @@ const file_structure = {
 				},
 			},
 			"PROTESE OMBRO COMPREHENSIVE BIOMET": {
-				title: "PROTESE OMBRO COMPREHENSIVE BIOMET",
+				title: "Protese Ombro Comprehensive Biomet",
 				files: {
 					"ADZI6226.JPG": "Adzi6226",
 					"GDOA4567.JPG": "Gdoa4567",
@@ -2543,7 +2543,7 @@ const file_structure = {
 				},
 			},
 			"PTA Biomet (TAPERLOC)": {
-				title: "PTA Biomet (TAPERLOC)",
+				title: "Pta Biomet (Taperloc)",
 				files: {
 					"Biomet Acetabulo.jpg": "Biomet Acetabulo",
 					"Biomet Geral + peças.jpg": "Biomet Geral + Peças",
@@ -2553,7 +2553,7 @@ const file_structure = {
 				},
 			},
 			"PTA DUPLA MOBILIDADE": {
-				title: "PTA DUPLA MOBILIDADE",
+				title: "Pta Dupla Mobilidade",
 				files: {
 					"CX 1 INSTRUMENTAL.jpg": "Cx 1 Instrumental",
 					"CX 2 ACETABULO.jpg": "Cx 2 Acetabulo",
@@ -2571,13 +2571,13 @@ const file_structure = {
 	MaterialServicos: {
 		title: "Material Servicos",
 		"CAMPO PEQ. CIR. ESTERILIZAÇAO": {
-			title: "CAMPO PEQ. CIR. ESTERILIZAÇAO",
+			title: "Campo Peq. Cir. Esterilizaçao",
 			files: {
 				"Campo Peq. Cir. Seviços.jpg": "Campo Peq. Cir. Seviços",
 			},
 		},
 		CARDIOLOGIA: {
-			title: "CARDIOLOGIA",
+			title: "Cardiologia",
 			files: {
 				"Cabo 4 derivações.JPG": "Cabo 4 Derivações",
 				"Caixa partes moles.JPG": "Caixa Partes Moles",
@@ -2585,15 +2585,15 @@ const file_structure = {
 			},
 		},
 		"CONSULTA EXTERNA": {
-			title: "CONSULTA EXTERNA",
+			title: "Consulta Externa",
 			"Campo penso Ginec": {
-				title: "Campo penso Ginec",
+				title: "Campo Penso Ginec",
 				files: {
 					"Campo Penso Ginec..jpg": "Campo Penso Ginec.",
 				},
 			},
 			"CAMPOS PEQ. CIRURGIA": {
-				title: "CAMPOS PEQ. CIRURGIA",
+				title: "Campos Peq. Cirurgia",
 				files: {
 					"Campo Peq. Cirg..jpg": "Campo Peq. Cirg.",
 					"Mosquito com dente.jpg": "Mosquito Com Dente",
@@ -2602,7 +2602,7 @@ const file_structure = {
 				},
 			},
 			"CONS. .EXT. UROLOGIA": {
-				title: "CONS. .EXT. UROLOGIA",
+				title: "Cons. .Ext. Urologia",
 				Cistoscópios: {
 					title: "Cistoscópios",
 					files: {
@@ -2613,7 +2613,7 @@ const file_structure = {
 							"Cistoscópio Nº 6 (2 Peças) Acmi Sem Lente",
 					},
 					"Cistoscópio nº 1": {
-						title: "Cistoscópio nº 1",
+						title: "Cistoscópio Nº 1",
 						files: {
 							"Cistoscópio nº 1 (6 peças) Olympus.jpg":
 								"Cistoscópio Nº 1 (6 Peças) Olympus",
@@ -2621,7 +2621,7 @@ const file_structure = {
 						},
 					},
 					"Cistoscópio nº 5": {
-						title: "Cistoscópio nº 5",
+						title: "Cistoscópio Nº 5",
 						files: {
 							"Cistoscopio nº 5 ( 6 peças).jpg": "Cistoscopio Nº 5 ( 6 Peças)",
 							"Cx Cistoscópio nº 5 ACMI.jpg": "Cx Cistoscópio Nº 5 Acmi",
@@ -2640,14 +2640,14 @@ const file_structure = {
 				},
 			},
 			"OTORRINO C.EXT": {
-				title: "OTORRINO C.EXT",
+				title: "Otorrino C.Ext",
 				files: {
 					"ILWW3528.JPG": "Ilww3528",
 				},
 			},
 		},
 		ESTOMATOLOGIA: {
-			title: "ESTOMATOLOGIA",
+			title: "Estomatologia",
 			files: {
 				"ALAVANCA WINTER.jpg": "Alavanca Winter",
 				"ALAVANCA.JPG": "Alavanca",
@@ -2673,20 +2673,20 @@ const file_structure = {
 			},
 		},
 		"GIN- INTERNAMENTO": {
-			title: "GIN- INTERNAMENTO",
+			title: "Gin- Internamento",
 			files: {
 				"HISTEROSCOPIO.JPG": "Histeroscopio",
 			},
 		},
 		NEO: {
-			title: "NEO",
+			title: "Neo",
 			files: {
 				"Ambu Neo.jpg": "Ambu Neo",
 				"Cateterismo Umbilical.JPG": "Cateterismo Umbilical",
 			},
 		},
 		OBST: {
-			title: "OBST",
+			title: "Obst",
 			files: {
 				"Kit Allis.jpg": "Kit Allis",
 				"Kit Obstetricia.jpg": "Kit Obstetricia",
@@ -2696,7 +2696,7 @@ const file_structure = {
 			},
 		},
 		RADIOLOGIA: {
-			title: "RADIOLOGIA",
+			title: "Radiologia",
 			files: {
 				"PB090007.JPG": "Pb090007",
 				"Rx (2).jpg": "Rx (2)",
@@ -2705,7 +2705,7 @@ const file_structure = {
 			},
 		},
 		SU: {
-			title: "SU",
+			title: "Su",
 			files: {
 				"3 laminas laringoscopia.jpg": "3 Laminas Laringoscopia",
 				"4 laminas laringoscopia.jpg": "4 Laminas Laringoscopia",
@@ -2719,7 +2719,7 @@ const file_structure = {
 			},
 		},
 		UCI: {
-			title: "UCI",
+			title: "Uci",
 			files: {
 				"Campo Peq. Cirg..jpg": "Campo Peq. Cirg.",
 				"Pinça Faure.JPG": "Pinça Faure",
@@ -2728,7 +2728,7 @@ const file_structure = {
 				"UCI Sensor CO2.jpg": "Uci Sensor Co2",
 			},
 			"Peças ventilador": {
-				title: "Peças ventilador",
+				title: "Peças Ventilador",
 				files: {
 					"Peça ventilador.JPG": "Peça Ventilador",
 					"PURG7381.JPG": "Purg7381",
@@ -2737,13 +2737,13 @@ const file_structure = {
 			},
 		},
 		UCIP: {
-			title: "UCIP",
+			title: "Ucip",
 			files: {
 				"Campo peq. cirg..jpg": "Campo Peq. Cirg.",
 			},
 		},
 		VMER: {
-			title: "VMER",
+			title: "Vmer",
 			files: {
 				"Peq. Cirurgia VMER ( 1 ).JPG": "Peq. Cirurgia Vmer ( 1 )",
 				"Peq. Cirurgia VMER (2 ).jpg": "Peq. Cirurgia Vmer (2 )",
@@ -2753,9 +2753,9 @@ const file_structure = {
 	OrtopediaPartilhaInformação: {
 		title: "Ortopedia Partilha Informação",
 		"NOVO INSTRUMENTAL COLUNA": {
-			title: "NOVO INSTRUMENTAL COLUNA",
+			title: "Novo Instrumental Coluna",
 			"EXPEDIUM VITAL 4 CX": {
-				title: "EXPEDIUM VITAL 4 CX",
+				title: "Expedium Vital 4 Cx",
 				files: {
 					"Chaves Identicas.jpg": "Chaves Identicas",
 					"CX nº 1.jpg": "Cx Nº 1",
@@ -2766,7 +2766,7 @@ const file_structure = {
 				},
 			},
 			"VIPER 2 (6CX)": {
-				title: "VIPER 2 (6CX)",
+				title: "Viper 2 (6Cx)",
 				files: {
 					"CX 1 INF..jpg": "Cx 1 Inf.",
 					"CX 1 SUP..jpg": "Cx 1 Sup.",
