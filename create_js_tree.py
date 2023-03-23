@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import random
 
 cwd             = os.getcwd()
 files_object    = {}
@@ -22,6 +23,8 @@ def folder_title(folder_name):
     return re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', folder_name).title()
 
 print("Scanning and processing files...")
+
+tools = ["serra", "martelo", "alicate", "chaves", "trena", "broca", "serrote", "nivel", "alicateCorte", "serraMarmore"]
 
 for root, dirs, files in os.walk(cwd): # Walk through the directory tree in search of image files
     if first_iteration:
@@ -46,7 +49,20 @@ for root, dirs, files in os.walk(cwd): # Walk through the directory tree in sear
     if image_files:
         current_node["files"] = {}
         for image in image_files:
-            current_node["files"][image] = file_title(image) # This is mostly a placeholder, until the end user can give the image a custom title
+            current_node["files"][image] = {
+                "title": file_title(image),
+                "tools": []
+            }
+            for i in range(random.randint(0, 5)):
+                tool_name = tools[random.randint(0, len(tools)-1)]
+                current_node["files"][image]["tools"].append({
+                    "name": tool_name,
+                    "location": {
+                        "x": random.randint(0, 100),
+                        "y": random.randint(0, 100),
+                        "radius": random.randint(20, 50)
+                    }
+                })
 
     if dirs:
         for folder in dirs:
