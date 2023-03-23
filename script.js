@@ -28,9 +28,10 @@ if (!rootPath) {
 
 function getFileStructureFromPath(folderPath) {
 	let folder = file_structure; // In case folderPath is empty, return the whole file structure, so that we can display the root folder
-	for (const pathPart of folderPath)
+	for (const pathPart of folderPath) {
 		folder = folder?.[pathPart];
-
+	}
+	
 	return folder;
 }
 
@@ -165,11 +166,11 @@ function openImageModal(imageSrc, displayName, tools) {
 					tooltip.style.left    = `${event.clientX + 10}px`;
 					tooltip.style.top     = `${event.clientY + 10}px`;
 					
-					tooltip.innerHTML     = `<b>${tool.info.titulo}</b>: ${tool.info.descricao}<br><b>Localização</b>: ${tool.info.localizacao}`;
+					tooltip.innerHTML = `<span>${tool.info.titulo}</span>:&nbsp;${tool.info.descricao}<br><b>Localização</b>:&nbsp;${tool.info.localizacao}`;
 				});
 				
 				circle.addEventListener('mouseout', () => {
-						tooltip.style.display = 'none';
+					tooltip.style.display = 'none';
 				});
 
 				modalTools.appendChild(circleMap);

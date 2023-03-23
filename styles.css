@@ -213,3 +213,7 @@ body {
 	z-index: 10000;
 	display: none;
 }
+
+#tooltip span {
+	font-weight: bold;
+}
