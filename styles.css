@@ -217,3 +217,18 @@ body {
 #tooltip span {
 	font-weight: bold;
 }
+
+#warning {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	background-color: yellow;
+	color: black;
+	padding: 10px 0;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.4;
+	display: none;
+}
